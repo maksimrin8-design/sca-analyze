@@ -149,7 +149,9 @@ jobs:
           pattern: scan-*
           path: all-results
           merge-multiple: false
-      - name: Build four comparison tables
+      - name: Run comparison tests
+        run: python -m unittest discover -s tests -v
+      - name: Build one SCA comparison table
         run: |
           python scripts/build_sca_table.py \
             --results-dir all-results \
@@ -162,7 +164,7 @@ jobs:
             --results-dir all-results \
             --manifest projects/manifest.json \
             --output comparison/ground-truth-candidates.csv
-      - name: Upload four tables, evidence index and candidate list
+      - name: Upload SCA comparison, evidence index and candidate leads
         uses: actions/upload-artifact@v4
         with:
           name: sca-benchmark-comparison
