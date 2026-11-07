@@ -1,0 +1,3712 @@
+{
+  "project_id": "P023",
+  "project": "rails",
+  "repository": "rails/rails",
+  "source_commit": "f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "both": 183,
+    "only_grype": 12,
+    "total": 195,
+    "osv": 183,
+    "grype": 195
+  },
+  "vulnerabilities": [
+    {
+      "package": "@humanfs/node",
+      "installed_version": "0.16.7",
+      "ecosystem": "npm",
+      "vulnerability_id": "GHSA-P498-V437-472G",
+      "all_identifiers": "GHSA-P498-V437-472G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P498-V437-472G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ajv",
+      "installed_version": "6.12.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-69873",
+      "all_identifiers": "CVE-2025-69873;GHSA-2G4F-4PWH-QVX6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2G4F-4PWH-QVX6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "basic-ftp",
+      "installed_version": "5.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102990",
+      "all_identifiers": "CVE-2026-102990;GHSA-C475-QRG2-PJ4R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C475-QRG2-PJ4R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-5889",
+      "all_identifiers": "CVE-2025-5889;GHSA-V6H2-P8H4-QCJW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V6H2-P8H4-QCJW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102276",
+      "all_identifiers": "CVE-2026-102276;GHSA-6J4F-FJ2G-MC7P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6J4F-FJ2G-MC7P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102277",
+      "all_identifiers": "CVE-2026-102277;GHSA-Q2HR-2G5M-VWHR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2HR-2G5M-VWHR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102278",
+      "all_identifiers": "CVE-2026-102278;GHSA-QHR7-859C-M2P7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QHR7-859C-M2P7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-13149",
+      "all_identifiers": "CVE-2026-13149;GHSA-3JXR-9VMJ-R5CP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3JXR-9VMJ-R5CP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-14257",
+      "all_identifiers": "CVE-2026-14257;GHSA-MH99-V99M-4GVG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MH99-V99M-4GVG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-33750",
+      "all_identifiers": "CVE-2026-33750;GHSA-F886-M6HF-6M8V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F886-M6HF-6M8V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-69152",
+      "all_identifiers": "CVE-2026-69152;GHSA-RGW5-RVV9-X895",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RGW5-RVV9-X895",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102276",
+      "all_identifiers": "CVE-2026-102276;GHSA-6J4F-FJ2G-MC7P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6J4F-FJ2G-MC7P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102277",
+      "all_identifiers": "CVE-2026-102277;GHSA-Q2HR-2G5M-VWHR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2HR-2G5M-VWHR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102278",
+      "all_identifiers": "CVE-2026-102278;GHSA-QHR7-859C-M2P7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QHR7-859C-M2P7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-13149",
+      "all_identifiers": "CVE-2026-13149;GHSA-3JXR-9VMJ-R5CP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3JXR-9VMJ-R5CP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-14257",
+      "all_identifiers": "CVE-2026-14257;GHSA-MH99-V99M-4GVG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MH99-V99M-4GVG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "2.1.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-69152",
+      "all_identifiers": "CVE-2026-69152;GHSA-RGW5-RVV9-X895",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RGW5-RVV9-X895",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "decode-uri-component",
+      "installed_version": "0.2.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118664",
+      "all_identifiers": "CVE-2026-118664;GHSA-QR28-FPJM-WQ7F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QR28-FPJM-WQ7F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "decode-uri-component",
+      "installed_version": "0.2.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-45822",
+      "all_identifiers": "CVE-2026-45822;GHSA-VCC3-GHJQ-M6FR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VCC3-GHJQ-M6FR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "deepmerge",
+      "installed_version": "4.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-93753",
+      "all_identifiers": "CVE-2026-93753;GHSA-GCQX-W48M-W2H4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCQX-W48M-W2H4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "deepmerge-ts",
+      "installed_version": "7.1.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-40345",
+      "all_identifiers": "CVE-2026-40345;GHSA-GGR8-5VV4-36MX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GGR8-5VV4-36MX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "extract-zip",
+      "installed_version": "2.0.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-19693",
+      "all_identifiers": "CVE-2026-19693;GHSA-7PQW-9J4J-H8Q3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7PQW-9J4J-H8Q3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "extract-zip",
+      "installed_version": "2.0.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-56876",
+      "all_identifiers": "CVE-2026-56876;GHSA-JMR9-QJV8-65GV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JMR9-QJV8-65GV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flatted",
+      "installed_version": "3.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-32141",
+      "all_identifiers": "CVE-2026-32141;GHSA-25H7-PFQ9-P65F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-25H7-PFQ9-P65F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flatted",
+      "installed_version": "3.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-33228",
+      "all_identifiers": "CVE-2026-33228;GHSA-RF6F-7FWH-WJGH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RF6F-7FWH-WJGH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "form-data",
+      "installed_version": "4.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-12143",
+      "all_identifiers": "CVE-2026-12143;GHSA-HMW2-7CC7-3QXX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HMW2-7CC7-3QXX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "glob",
+      "installed_version": "10.5.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118773",
+      "all_identifiers": "CVE-2026-118773;GHSA-3G3M-2FJR-6PW4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3G3M-2FJR-6PW4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-101910",
+      "all_identifiers": "CVE-2026-101910;GHSA-2VR4-CQ9G-PVRC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2VR4-CQ9G-PVRC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-101911",
+      "all_identifiers": "CVE-2026-101911;GHSA-H3MG-XC3C-68PW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3MG-XC3C-68PW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-101912",
+      "all_identifiers": "CVE-2026-101912;GHSA-J6R3-76F7-8JCV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J6R3-76F7-8JCV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-101913",
+      "all_identifiers": "CVE-2026-101913;GHSA-RPW4-54J3-4H4Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RPW4-54J3-4H4Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-111997",
+      "all_identifiers": "CVE-2026-111997;GHSA-RXP7-6HXX-X8Q5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RXP7-6HXX-X8Q5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-54272",
+      "all_identifiers": "CVE-2026-54272;GHSA-22JQ-VG5J-6VGG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-22JQ-VG5J-6VGG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-69192",
+      "all_identifiers": "CVE-2026-69192;GHSA-MWP4-54F8-5FHR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWP4-54F8-5FHR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ip-address",
+      "installed_version": "10.2.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-69198",
+      "all_identifiers": "CVE-2026-69198;GHSA-4XRF-JV44-H6HH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4XRF-JV44-H6HH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-64718",
+      "all_identifiers": "CVE-2025-64718;GHSA-MH29-5H37-FV8M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MH29-5H37-FV8M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-53550",
+      "all_identifiers": "CVE-2026-53550;GHSA-H67P-54HQ-RP68",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H67P-54HQ-RP68",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-59869",
+      "all_identifiers": "CVE-2026-59869;GHSA-52CP-R559-CP3M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-52CP-R559-CP3M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84375",
+      "all_identifiers": "CVE-2026-84375;GHSA-2883-XCG3-V3HH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2883-XCG3-V3HH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "GHSA-5P4M-2WFM-XMQJ",
+      "all_identifiers": "GHSA-5P4M-2WFM-XMQJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5P4M-2WFM-XMQJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "lodash",
+      "installed_version": "4.17.21",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-13465",
+      "all_identifiers": "CVE-2025-13465;GHSA-XXJR-MMJV-4GPG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XXJR-MMJV-4GPG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "lodash",
+      "installed_version": "4.17.21",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-4800",
+      "all_identifiers": "CVE-2026-4800;GHSA-R5FR-RJXR-66JC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R5FR-RJXR-66JC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "3.1.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-26996",
+      "all_identifiers": "CVE-2026-26996;GHSA-3PPC-4F35-3M26",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3PPC-4F35-3M26",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "3.1.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-27903",
+      "all_identifiers": "CVE-2026-27903;GHSA-7R86-CG39-JMMJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7R86-CG39-JMMJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "3.1.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-27904",
+      "all_identifiers": "CVE-2026-27904;GHSA-23C5-XMQV-RM74",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-23C5-XMQV-RM74",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "9.0.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118764",
+      "all_identifiers": "CVE-2026-118764;GHSA-G3HV-75WG-M249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3HV-75WG-M249",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "nanoid",
+      "installed_version": "3.3.12",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-67213",
+      "all_identifiers": "CVE-2026-67213;GHSA-2V37-7H3G-55P8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2V37-7H3G-55P8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "nanoid",
+      "installed_version": "3.3.12",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-67214",
+      "all_identifiers": "CVE-2026-67214;GHSA-28WG-GHJ8-5HJV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28WG-GHJ8-5HJV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "picomatch",
+      "installed_version": "2.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-33671",
+      "all_identifiers": "CVE-2026-33671;GHSA-C2C7-RCM5-VVQJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C2C7-RCM5-VVQJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "picomatch",
+      "installed_version": "2.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-33672",
+      "all_identifiers": "CVE-2026-33672;GHSA-3V7F-55P6-F55P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3V7F-55P6-F55P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.11.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-15284",
+      "all_identifiers": "CVE-2025-15284;GHSA-6RW7-VPXM-498P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6RW7-VPXM-498P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.11.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110816",
+      "all_identifiers": "CVE-2026-110816;GHSA-6PQ8-JHM2-2VCW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6PQ8-JHM2-2VCW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.11.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-2391",
+      "all_identifiers": "CVE-2026-2391;GHSA-W7FW-MJWX-W883",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W7FW-MJWX-W883",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.11.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-82417",
+      "all_identifiers": "CVE-2026-82417;GHSA-4MJR-XMP4-GH2G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4MJR-XMP4-GH2G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rollup",
+      "installed_version": "2.79.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2024-47068",
+      "all_identifiers": "CVE-2024-47068;GHSA-GCX4-MW62-G8WM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCX4-MW62-G8WM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rollup",
+      "installed_version": "2.79.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-27606",
+      "all_identifiers": "CVE-2026-27606;GHSA-MW96-CPMX-2VGC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MW96-CPMX-2VGC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "serialize-javascript",
+      "installed_version": "4.0.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-115754",
+      "all_identifiers": "CVE-2026-115754;CVE-2026-115897;GHSA-M5MM-P8H7-M29V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M5MM-P8H7-M29V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "serialize-javascript",
+      "installed_version": "4.0.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "GHSA-5C6J-R48X-RMVQ",
+      "all_identifiers": "GHSA-5C6J-R48X-RMVQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5C6J-R48X-RMVQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2024-34341",
+      "all_identifiers": "CVE-2024-34341;GHSA-QJQP-XR96-CJ99",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QJQP-XR96-CJ99",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2024-43368",
+      "all_identifiers": "CVE-2024-43368;GHSA-QM2Q-9F3Q-2VCV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QM2Q-9F3Q-2VCV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2024-53847",
+      "all_identifiers": "CVE-2024-53847;GHSA-6VX4-V2JW-QWQH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6VX4-V2JW-QWQH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-21610",
+      "all_identifiers": "CVE-2025-21610;GHSA-J386-3444-QGWG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J386-3444-QGWG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2025-46812",
+      "all_identifiers": "CVE-2025-46812;GHSA-MCRW-746G-9Q8H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MCRW-746G-9Q8H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-73426",
+      "all_identifiers": "CVE-2026-73426;GHSA-QMPG-8XG6-PH5Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QMPG-8XG6-PH5Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-73427",
+      "all_identifiers": "CVE-2026-73427;GHSA-53P3-C7VP-4MCC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-53P3-C7VP-4MCC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-73428",
+      "all_identifiers": "CVE-2026-73428;GHSA-53G2-MVCC-Q9X3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-53G2-MVCC-Q9X3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "trix",
+      "installed_version": "2.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "GHSA-G9JG-W8VM-G96V",
+      "all_identifiers": "GHSA-G9JG-W8VM-G96V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G9JG-W8VM-G96V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109383",
+      "all_identifiers": "CVE-2026-109383;GHSA-2M5V-PCH6-74HX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2M5V-PCH6-74HX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109869",
+      "all_identifiers": "CVE-2026-109869;GHSA-XJJ6-F33Q-929C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJJ6-F33Q-929C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109924",
+      "all_identifiers": "CVE-2026-109924;GHSA-4QV8-2P9J-2685",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4QV8-2P9J-2685",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109932",
+      "all_identifiers": "CVE-2026-109932;GHSA-9FM3-97PX-RJF6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FM3-97PX-RJF6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-11525",
+      "all_identifiers": "CVE-2026-11525;GHSA-G8M3-5G58-FQ7M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8M3-5G58-FQ7M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-12151",
+      "all_identifiers": "CVE-2026-12151;GHSA-VXPW-J846-P89Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXPW-J846-P89Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-15157",
+      "all_identifiers": "CVE-2026-15157;GHSA-M8RV-5G2X-5CG5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M8RV-5G2X-5CG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-16728",
+      "all_identifiers": "CVE-2026-16728;GHSA-8XCM-R25X-G524",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8XCM-R25X-G524",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-16729",
+      "all_identifiers": "CVE-2026-16729;GHSA-V3R7-H72X-CJCM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V3R7-H72X-CJCM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-18540",
+      "all_identifiers": "CVE-2026-18540;GHSA-R53P-7PC4-XJ5R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R53P-7PC4-XJ5R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-19534",
+      "all_identifiers": "CVE-2026-19534;GHSA-RFGV-XXQX-MFG5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFGV-XXQX-MFG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-6733",
+      "all_identifiers": "CVE-2026-6733;GHSA-35P6-XMWP-9G52",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-35P6-XMWP-9G52",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85024",
+      "all_identifiers": "CVE-2026-85024;GHSA-3WWX-PV8P-Q78V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WWX-PV8P-Q78V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-87018",
+      "all_identifiers": "CVE-2026-87018;GHSA-QRXM-FQHP-JWVM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QRXM-FQHP-JWVM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "6.26.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-9679",
+      "all_identifiers": "CVE-2026-9679;GHSA-P88M-4JFJ-68FV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P88M-4JFJ-68FV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109383",
+      "all_identifiers": "CVE-2026-109383;GHSA-2M5V-PCH6-74HX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2M5V-PCH6-74HX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109829",
+      "all_identifiers": "CVE-2026-109829;GHSA-4W7W-5XRC-9H26",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4W7W-5XRC-9H26",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109841",
+      "all_identifiers": "CVE-2026-109841;GHSA-F72V-6W45-Q472",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F72V-6W45-Q472",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109869",
+      "all_identifiers": "CVE-2026-109869;GHSA-XJJ6-F33Q-929C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJJ6-F33Q-929C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109924",
+      "all_identifiers": "CVE-2026-109924;GHSA-4QV8-2P9J-2685",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4QV8-2P9J-2685",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109932",
+      "all_identifiers": "CVE-2026-109932;GHSA-9FM3-97PX-RJF6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FM3-97PX-RJF6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-11525",
+      "all_identifiers": "CVE-2026-11525;GHSA-G8M3-5G58-FQ7M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8M3-5G58-FQ7M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-12151",
+      "all_identifiers": "CVE-2026-12151;GHSA-VXPW-J846-P89Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXPW-J846-P89Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-13697",
+      "all_identifiers": "CVE-2026-13697;GHSA-4CWX-7WF7-3272",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4CWX-7WF7-3272",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-14643",
+      "all_identifiers": "CVE-2026-14643;GHSA-JR45-8VMC-QM54",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JR45-8VMC-QM54",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-15157",
+      "all_identifiers": "CVE-2026-15157;GHSA-M8RV-5G2X-5CG5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M8RV-5G2X-5CG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-16728",
+      "all_identifiers": "CVE-2026-16728;GHSA-8XCM-R25X-G524",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8XCM-R25X-G524",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-16729",
+      "all_identifiers": "CVE-2026-16729;GHSA-V3R7-H72X-CJCM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V3R7-H72X-CJCM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-18149",
+      "all_identifiers": "CVE-2026-18149;GHSA-PMJH-FQ2X-6V4X",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PMJH-FQ2X-6V4X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-18540",
+      "all_identifiers": "CVE-2026-18540;GHSA-R53P-7PC4-XJ5R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R53P-7PC4-XJ5R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-19534",
+      "all_identifiers": "CVE-2026-19534;GHSA-RFGV-XXQX-MFG5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFGV-XXQX-MFG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-6733",
+      "all_identifiers": "CVE-2026-6733;GHSA-35P6-XMWP-9G52",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-35P6-XMWP-9G52",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-6734",
+      "all_identifiers": "CVE-2026-6734;GHSA-HM92-R4W5-C3MJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HM92-R4W5-C3MJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84890",
+      "all_identifiers": "CVE-2026-84890;GHSA-3XPG-4RPP-HHHM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3XPG-4RPP-HHHM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84933",
+      "all_identifiers": "CVE-2026-84933;GHSA-2JFJ-6HJV-FM6J",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2JFJ-6HJV-FM6J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84947",
+      "all_identifiers": "CVE-2026-84947;GHSA-2GQQ-GQF2-X968",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2GQQ-GQF2-X968",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84961",
+      "all_identifiers": "CVE-2026-84961;GHSA-W293-VG96-WGC3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W293-VG96-WGC3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85008",
+      "all_identifiers": "CVE-2026-85008;GHSA-8436-99HF-9MMV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8436-99HF-9MMV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85014",
+      "all_identifiers": "CVE-2026-85014;GHSA-RX4F-C7P8-82VQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RX4F-C7P8-82VQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-87018",
+      "all_identifiers": "CVE-2026-87018;GHSA-QRXM-FQHP-JWVM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QRXM-FQHP-JWVM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-87029",
+      "all_identifiers": "CVE-2026-87029;GHSA-55WC-3PG8-JFW6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-55WC-3PG8-JFW6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-9678",
+      "all_identifiers": "CVE-2026-9678;GHSA-PR7R-676H-XCF6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PR7R-676H-XCF6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-9679",
+      "all_identifiers": "CVE-2026-9679;GHSA-P88M-4JFJ-68FV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P88M-4JFJ-68FV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.27.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-9697",
+      "all_identifiers": "CVE-2026-9697;GHSA-VMH5-MC38-953G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VMH5-MC38-953G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2020-26291",
+      "all_identifiers": "CVE-2020-26291;GHSA-3329-PJWV-FJPG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3329-PJWV-FJPG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2021-27516",
+      "all_identifiers": "CVE-2021-27516;GHSA-P6J9-7XHC-RHWP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P6J9-7XHC-RHWP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2021-3647",
+      "all_identifiers": "CVE-2021-3647;GHSA-89GV-H8WF-CG8R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-89GV-H8WF-CG8R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2022-0613",
+      "all_identifiers": "CVE-2022-0613;GHSA-GCV8-GH4R-25X6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCV8-GH4R-25X6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2022-0868",
+      "all_identifiers": "CVE-2022-0868;GHSA-8H2F-7JC4-7M3M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8H2F-7JC4-7M3M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2022-1233",
+      "all_identifiers": "CVE-2022-1233;GHSA-G694-M8VQ-GV9H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G694-M8VQ-GV9H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2022-1243",
+      "all_identifiers": "CVE-2022-1243;GHSA-3VJF-82FF-P4R3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3VJF-82FF-P4R3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urijs",
+      "installed_version": "1.17.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2022-24723",
+      "all_identifiers": "CVE-2022-24723;GHSA-GMV4-R438-P67F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GMV4-R438-P67F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "zod",
+      "installed_version": "3.25.76",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2023-54404",
+      "all_identifiers": "CVE-2023-54404;GHSA-MRHX-C7XC-M3W5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MRHX-C7XC-M3W5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/yarn.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "action-text-trix",
+      "installed_version": "2.1.16",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-73426",
+      "all_identifiers": "CVE-2026-73426;GHSA-QMPG-8XG6-PH5Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QMPG-8XG6-PH5Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "action-text-trix",
+      "installed_version": "2.1.16",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-73427",
+      "all_identifiers": "CVE-2026-73427;GHSA-53P3-C7VP-4MCC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-53P3-C7VP-4MCC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "action-text-trix",
+      "installed_version": "2.1.16",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-73428",
+      "all_identifiers": "CVE-2026-73428;GHSA-53G2-MVCC-Q9X3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-53G2-MVCC-Q9X3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "addressable",
+      "installed_version": "2.8.7",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-35611",
+      "all_identifiers": "CVE-2026-35611;GHSA-H27X-RFFW-24P4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H27X-RFFW-24P4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aws-sdk-s3",
+      "installed_version": "1.197.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-14762",
+      "all_identifiers": "CVE-2025-14762;GHSA-2XGQ-Q749-89FQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2XGQ-Q749-89FQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "bcrypt",
+      "installed_version": "3.1.20",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-33306",
+      "all_identifiers": "CVE-2026-33306;GHSA-F27W-VCWJ-C954",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F27W-VCWJ-C954",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "crass",
+      "installed_version": "1.0.6",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-116695",
+      "all_identifiers": "CVE-2026-116695;GHSA-PQ4G-8RXF-4G29",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQ4G-8RXF-4G29",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "crass",
+      "installed_version": "1.0.6",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-61845",
+      "all_identifiers": "CVE-2026-61845;GHSA-6WMF-3R64-VCWV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6WMF-3R64-VCWV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "crass",
+      "installed_version": "1.0.6",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-61846",
+      "all_identifiers": "CVE-2026-61846;GHSA-6JXJ-PX6V-747W",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6JXJ-PX6V-747W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "crass",
+      "installed_version": "1.0.6",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-61847",
+      "all_identifiers": "CVE-2026-61847;GHSA-WWPR-JFF3-395C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WWPR-JFF3-395C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "crass",
+      "installed_version": "1.0.6",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-61848",
+      "all_identifiers": "CVE-2026-61848;GHSA-8VFG-2R28-HVHJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8VFG-2R28-HVHJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "erb",
+      "installed_version": "5.1.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-41316",
+      "all_identifiers": "CVE-2026-41316;GHSA-Q339-8RMV-2MHV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q339-8RMV-2MHV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "faraday",
+      "installed_version": "2.14.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-25765",
+      "all_identifiers": "CVE-2026-25765;GHSA-33MH-2634-FWR2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-33MH-2634-FWR2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "faraday",
+      "installed_version": "2.14.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-33637",
+      "all_identifiers": "CVE-2026-33637;GHSA-5RV5-XJ5J-3484",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5RV5-XJ5J-3484",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "faraday",
+      "installed_version": "2.14.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54297",
+      "all_identifiers": "CVE-2026-54297;GHSA-98M9-HRRM-R99R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-98M9-HRRM-R99R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jwt",
+      "installed_version": "2.10.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-45363",
+      "all_identifiers": "CVE-2026-45363;GHSA-C32J-VQHX-RX3X",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C32J-VQHX-RX3X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mail",
+      "installed_version": "2.8.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-63435",
+      "all_identifiers": "CVE-2026-63435;GHSA-MVXR-6M87-MV2Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MVXR-6M87-MV2Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "msgpack",
+      "installed_version": "1.7.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54522",
+      "all_identifiers": "CVE-2026-54522;GHSA-4MRV-5P47-P938",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4MRV-5P47-P938",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-25186",
+      "all_identifiers": "CVE-2025-25186;GHSA-7FC5-F82F-CX69",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7FC5-F82F-CX69",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-43857",
+      "all_identifiers": "CVE-2025-43857;GHSA-J3G3-5QV5-52MJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J3G3-5QV5-52MJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-42245",
+      "all_identifiers": "CVE-2026-42245;GHSA-Q2MW-FVJ9-VVCW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2MW-FVJ9-VVCW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-42246",
+      "all_identifiers": "CVE-2026-42246;GHSA-VCGP-9326-PQCP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VCGP-9326-PQCP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-42256",
+      "all_identifiers": "CVE-2026-42256;GHSA-87PF-FPWV-P7M7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-87PF-FPWV-P7M7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-42257",
+      "all_identifiers": "CVE-2026-42257;GHSA-HM49-WCQC-G2XG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HM49-WCQC-G2XG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-42258",
+      "all_identifiers": "CVE-2026-42258;GHSA-75XQ-5H9V-W6PX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-75XQ-5H9V-W6PX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-47240",
+      "all_identifiers": "CVE-2026-47240;GHSA-8P34-64R3-MWG8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8P34-64R3-MWG8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-47241",
+      "all_identifiers": "CVE-2026-47241;GHSA-C4FP-CXRR-MJ66",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C4FP-CXRR-MJ66",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net-imap",
+      "installed_version": "0.5.5",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-47242",
+      "all_identifiers": "CVE-2026-47242;GHSA-46Q3-7GV7-QMGG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-46Q3-7GV7-QMGG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "puma",
+      "installed_version": "6.5.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-47736",
+      "all_identifiers": "CVE-2026-47736;GHSA-QPGP-93VX-G8V8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QPGP-93VX-G8V8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "puma",
+      "installed_version": "6.5.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-47737",
+      "all_identifiers": "CVE-2026-47737;GHSA-2VQW-3MP8-CGMX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2VQW-3MP8-CGMX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61770",
+      "all_identifiers": "CVE-2025-61770;GHSA-P543-XPFM-54CP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P543-XPFM-54CP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61771",
+      "all_identifiers": "CVE-2025-61771;GHSA-W9PC-FMGC-VXVW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W9PC-FMGC-VXVW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61772",
+      "all_identifiers": "CVE-2025-61772;GHSA-WPV5-97WM-HP9C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WPV5-97WM-HP9C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61780",
+      "all_identifiers": "CVE-2025-61780;GHSA-R657-RXJC-J557",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R657-RXJC-J557",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61919",
+      "all_identifiers": "CVE-2025-61919;GHSA-6XW4-3V39-52MM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6XW4-3V39-52MM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-22860",
+      "all_identifiers": "CVE-2026-22860;GHSA-MXW3-3HH2-X2MH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MXW3-3HH2-X2MH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-25500",
+      "all_identifiers": "CVE-2026-25500;GHSA-WHRJ-4476-WVMP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WHRJ-4476-WVMP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-26961",
+      "all_identifiers": "CVE-2026-26961;GHSA-VGPV-F759-9WX3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VGPV-F759-9WX3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-26962",
+      "all_identifiers": "CVE-2026-26962;GHSA-RX22-G9MX-QRHV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RX22-G9MX-QRHV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-32762",
+      "all_identifiers": "CVE-2026-32762;GHSA-QFGR-CRR9-7R49",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QFGR-CRR9-7R49",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34230",
+      "all_identifiers": "CVE-2026-34230;GHSA-V569-HP3G-36WR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V569-HP3G-36WR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34763",
+      "all_identifiers": "CVE-2026-34763;GHSA-7MQQ-6CF9-V2QP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7MQQ-6CF9-V2QP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34785",
+      "all_identifiers": "CVE-2026-34785;GHSA-H2JQ-G4CQ-5PPQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H2JQ-G4CQ-5PPQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34786",
+      "all_identifiers": "CVE-2026-34786;GHSA-Q4QF-9J86-F5MH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q4QF-9J86-F5MH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34826",
+      "all_identifiers": "CVE-2026-34826;GHSA-X8CG-FQ8G-MXFX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X8CG-FQ8G-MXFX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34827",
+      "all_identifiers": "CVE-2026-34827;GHSA-V6X5-CG8R-VV6X",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V6X5-CG8R-VV6X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34829",
+      "all_identifiers": "CVE-2026-34829;GHSA-8VQR-QJWX-82MW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8VQR-QJWX-82MW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34830",
+      "all_identifiers": "CVE-2026-34830;GHSA-QV7J-4883-HWH7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QV7J-4883-HWH7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34831",
+      "all_identifiers": "CVE-2026-34831;GHSA-Q2WW-5357-X388",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2WW-5357-X388",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack",
+      "installed_version": "3.2.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-34835",
+      "all_identifiers": "CVE-2026-34835;GHSA-G2PF-XV49-M2H5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G2PF-XV49-M2H5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rack-session",
+      "installed_version": "2.1.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-39324",
+      "all_identifiers": "CVE-2026-39324;GHSA-33QG-7WPP-89CQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-33QG-7WPP-89CQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rexml",
+      "installed_version": "3.4.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-58767",
+      "all_identifiers": "CVE-2025-58767;GHSA-C2F4-JGMC-Q2R5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C2F4-JGMC-Q2R5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "rubyzip",
+      "installed_version": "2.4.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-85396",
+      "all_identifiers": "CVE-2026-85396;GHSA-47M2-WP7J-P9VC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-47M2-WP7J-P9VC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sigstore",
+      "installed_version": "0.2.2",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-31830",
+      "all_identifiers": "CVE-2026-31830;GHSA-MHG6-2Q2V-9H2C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MHG6-2Q2V-9H2C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/tools/releaser/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/tools/releaser/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sinatra",
+      "installed_version": "4.1.1",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61921",
+      "all_identifiers": "CVE-2025-61921;GHSA-MR3Q-G2MV-MR4Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MR3Q-G2MV-MR4Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54619",
+      "all_identifiers": "CVE-2026-54619;GHSA-28HH-PR2H-2W89",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28HH-PR2H-2W89",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54620",
+      "all_identifiers": "CVE-2026-54620;GHSA-J7FR-3V8C-3QC3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7FR-3V8C-3QC3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "GHSA-MWM8-39RW-8826",
+      "all_identifiers": "GHSA-MWM8-39RW-8826",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWM8-39RW-8826",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-aarch64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54619",
+      "all_identifiers": "CVE-2026-54619;GHSA-28HH-PR2H-2W89",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28HH-PR2H-2W89",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-aarch64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54620",
+      "all_identifiers": "CVE-2026-54620;GHSA-J7FR-3V8C-3QC3",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7FR-3V8C-3QC3",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-aarch64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "GHSA-MWM8-39RW-8826",
+      "all_identifiers": "GHSA-MWM8-39RW-8826",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWM8-39RW-8826",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-arm64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54619",
+      "all_identifiers": "CVE-2026-54619;GHSA-28HH-PR2H-2W89",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28HH-PR2H-2W89",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-arm64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54620",
+      "all_identifiers": "CVE-2026-54620;GHSA-J7FR-3V8C-3QC3",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7FR-3V8C-3QC3",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-arm64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "GHSA-MWM8-39RW-8826",
+      "all_identifiers": "GHSA-MWM8-39RW-8826",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWM8-39RW-8826",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54619",
+      "all_identifiers": "CVE-2026-54619;GHSA-28HH-PR2H-2W89",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28HH-PR2H-2W89",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54620",
+      "all_identifiers": "CVE-2026-54620;GHSA-J7FR-3V8C-3QC3",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7FR-3V8C-3QC3",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-darwin",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "GHSA-MWM8-39RW-8826",
+      "all_identifiers": "GHSA-MWM8-39RW-8826",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWM8-39RW-8826",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54619",
+      "all_identifiers": "CVE-2026-54619;GHSA-28HH-PR2H-2W89",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-28HH-PR2H-2W89",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54620",
+      "all_identifiers": "CVE-2026-54620;GHSA-J7FR-3V8C-3QC3",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7FR-3V8C-3QC3",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "sqlite3",
+      "installed_version": "2.5.0-x86_64-linux-gnu",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "GHSA-MWM8-39RW-8826",
+      "all_identifiers": "GHSA-MWM8-39RW-8826",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWM8-39RW-8826",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "uri",
+      "installed_version": "1.0.3",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2025-61594",
+      "all_identifiers": "CVE-2025-61594;GHSA-J4PR-3WM6-XX2R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J4PR-3WM6-XX2R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "websocket-driver",
+      "installed_version": "0.7.7",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54463",
+      "all_identifiers": "CVE-2026-54463;GHSA-GHHP-3QVG-889P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GHHP-3QVG-889P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "websocket-driver",
+      "installed_version": "0.7.7",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54464",
+      "all_identifiers": "CVE-2026-54464;GHSA-33PH-FCCM-39PJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-33PH-FCCM-39PJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "websocket-driver",
+      "installed_version": "0.7.7",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-54465",
+      "all_identifiers": "CVE-2026-54465;GHSA-8J3G-F24P-4MPW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8J3G-F24P-4MPW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "websocket-driver",
+      "installed_version": "0.7.7",
+      "ecosystem": "rubygems",
+      "vulnerability_id": "CVE-2026-61666",
+      "all_identifiers": "CVE-2026-61666;GHSA-2X63-GW47-W4MM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2X63-GW47-W4MM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "grype_source": "https://github.com/rails/rails/blob/f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff/Gemfile.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ]
+}

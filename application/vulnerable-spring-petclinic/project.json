@@ -1,0 +1,19 @@
+{
+  "project_id": "P014",
+  "name": "vulnerable-spring-petclinic",
+  "repository": "Contrast-Security-OSS/vulnerable-spring-petclinic",
+  "commit": "cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 250,
+    "both": 44,
+    "total": 294,
+    "osv": 294,
+    "grype": 44
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

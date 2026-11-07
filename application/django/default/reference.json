@@ -1,0 +1,73 @@
+{
+  "project_id": "P024",
+  "project": "django",
+  "repository": "django/django",
+  "source_commit": "a1f2b45ce5a327f42437bdb620a817839d0bd067",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "only_grype": 1,
+    "only_osv": 2,
+    "total": 3,
+    "osv": 2,
+    "grype": 1
+  },
+  "vulnerabilities": [
+    {
+      "package": "psf/black",
+      "installed_version": "stable",
+      "ecosystem": "github-action",
+      "vulnerability_id": "CVE-2026-31900",
+      "all_identifiers": "CVE-2026-31900;GHSA-V53H-F6M7-XCGM",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V53H-F6M7-XCGM",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/django/django/blob/a1f2b45ce5a327f42437bdb620a817839d0bd067/.github/workflows/linters.yml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2026.7.22",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-6Q48-6C7W-9GW2",
+      "all_identifiers": "GHSA-6Q48-6C7W-9GW2;PYSEC-2026-4320",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6Q48-6C7W-9GW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/django/django/blob/a1f2b45ce5a327f42437bdb620a817839d0bd067/docs/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.9.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX;PYSEC-2026-215",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/django/django/blob/a1f2b45ce5a327f42437bdb620a817839d0bd067/docs/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ]
+}

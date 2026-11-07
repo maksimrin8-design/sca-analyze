@@ -1,0 +1,10 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/tests/admin_scripts/custom_templates/project_template/additional_dir/requirements.txt file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/docs/requirements.txt file and found 7 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/django/contrib/admin/static/admin/js/vendor/xregexp file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/django/contrib/admin/static/admin/js/vendor/jquery file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/django/contrib/admin/static/admin/js/vendor/select2 file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/django/contrib/admin/static/admin/css/vendor/select2 file and found 0 packages
+End status: 3286 dirs visited, 10409 inodes visited, 6 Extract calls, 531.928376ms elapsed, 531.928538ms wall time
+Filtered 6 local/unscannable package/s from the scan.

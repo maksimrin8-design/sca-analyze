@@ -1,0 +1,202 @@
+{
+  "project_id": "P019",
+  "project": "vulnerable-repo",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 10,
+  "normalized_findings": [
+    {
+      "package": "commons-collections:commons-collections",
+      "installed_version": "3.2.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2015-6420",
+      "all_identifiers": "CVE-2015-6420;GHSA-6HGM-866R-3CJV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6HGM-866R-3CJV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "commons-collections:commons-collections",
+      "installed_version": "3.2.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2015-7501",
+      "all_identifiers": "CVE-2015-7501;GHSA-FJQ5-5J5F-MVXH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FJQ5-5J5F-MVXH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-44228",
+      "all_identifiers": "CVE-2021-44228;GHSA-JFH8-C2JP-5V3Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JFH8-C2JP-5V3Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-44832",
+      "all_identifiers": "CVE-2021-44832;GHSA-8489-44MV-GGJ8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8489-44MV-GGJ8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-45046",
+      "all_identifiers": "CVE-2021-45046;GHSA-7RJR-3Q55-VV33",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7RJR-3Q55-VV33",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-45105",
+      "all_identifiers": "CVE-2021-45105;GHSA-P6XC-XR62-6R2G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P6XC-XR62-6R2G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-68161",
+      "all_identifiers": "CVE-2025-68161;GHSA-VC5P-V9HR-52MJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VC5P-V9HR-52MJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34477",
+      "all_identifiers": "CVE-2026-34477;GHSA-6HG6-V5C8-FPHQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6HG6-V5C8-FPHQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34479",
+      "all_identifiers": "CVE-2026-34479;GHSA-H383-GMXW-35V2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H383-GMXW-35V2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.14.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34480",
+      "all_identifiers": "CVE-2026-34480;GHSA-3PXV-7CMR-FJR4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3PXV-7CMR-FJR4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "grype_source": "https://github.com/tobiasbruss/vulnerable-repo/blob/2f427ec833bf763ea7d2a12165ae3fddd2d9dd33/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

@@ -1,0 +1,2622 @@
+{
+  "project_id": "P015",
+  "project": "vuln-spring-sast-practice",
+  "scanner": "osv",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 145,
+  "normalized_findings": [
+    {
+      "package": "ch.qos.logback:logback-classic",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-6378",
+      "all_identifiers": "CVE-2023-6378;GHSA-VMQ6-5M68-F53M",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VMQ6-5M68-F53M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-42550",
+      "all_identifiers": "CVE-2021-42550;GHSA-668Q-QRV7-99FM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-668Q-QRV7-99FM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-6378",
+      "all_identifiers": "CVE-2023-6378;GHSA-VMQ6-5M68-F53M",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VMQ6-5M68-F53M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-12798",
+      "all_identifiers": "CVE-2024-12798;GHSA-PR98-23F8-JWXV",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PR98-23F8-JWXV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-12801",
+      "all_identifiers": "CVE-2024-12801;GHSA-6V67-2WR5-GVF4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6V67-2WR5-GVF4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-11226",
+      "all_identifiers": "CVE-2025-11226;GHSA-25QH-J22F-PWP8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-25QH-J22F-PWP8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-10532",
+      "all_identifiers": "CVE-2026-10532;GHSA-JHQ6-GFMJ-V8FX",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JHQ6-GFMJ-V8FX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-1225",
+      "all_identifiers": "CVE-2026-1225;GHSA-QQPG-MVQG-649V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QQPG-MVQG-649V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-9828",
+      "all_identifiers": "CVE-2026-9828;GHSA-P47F-322F-WHFH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P47F-322F-WHFH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-49128",
+      "all_identifiers": "CVE-2025-49128;GHSA-WF8F-6423-GFXG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WF8F-6423-GFXG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-52999",
+      "all_identifiers": "CVE-2025-52999;GHSA-H46C-H94J-95F3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H46C-H94J-95F3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68494",
+      "all_identifiers": "CVE-2026-68494;GHSA-R7WM-3CXJ-WFF9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R7WM-3CXJ-WFF9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-89425",
+      "all_identifiers": "CVE-2026-89425;GHSA-7HHH-6RMP-J9QF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7HHH-6RMP-J9QF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-25649",
+      "all_identifiers": "CVE-2020-25649;GHSA-288C-CQ4H-88GQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-288C-CQ4H-88GQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-36518",
+      "all_identifiers": "CVE-2020-36518;GHSA-57J2-W4CX-62H2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-57J2-W4CX-62H2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-46877",
+      "all_identifiers": "CVE-2021-46877;GHSA-3X8X-79M2-3W2W",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3X8X-79M2-3W2W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-42003",
+      "all_identifiers": "CVE-2022-42003;GHSA-JJJH-JJXP-WPFF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJJH-JJXP-WPFF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-42004",
+      "all_identifiers": "CVE-2022-42004;GHSA-RGV9-Q543-RQG4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RGV9-Q543-RQG4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-19032",
+      "all_identifiers": "CVE-2026-19032;GHSA-WJGM-6HV5-3CVF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJGM-6HV5-3CVF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-50193",
+      "all_identifiers": "CVE-2026-50193;GHSA-3WRR-7QPF-2PRH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WRR-7QPF-2PRH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54512",
+      "all_identifiers": "CVE-2026-54512;GHSA-J3RV-43J4-C7QM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J3RV-43J4-C7QM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54513",
+      "all_identifiers": "CVE-2026-54513;GHSA-RMJ7-2VXQ-3G9F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RMJ7-2VXQ-3G9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54514",
+      "all_identifiers": "CVE-2026-54514;GHSA-HGJ6-7826-R7M5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGJ6-7826-R7M5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54515",
+      "all_identifiers": "CVE-2026-54515;GHSA-5JMJ-H7XM-6Q6V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5JMJ-H7XM-6Q6V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-59889",
+      "all_identifiers": "CVE-2026-59889;GHSA-5GVW-P9QM-JGWH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5GVW-P9QM-JGWH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-77310",
+      "all_identifiers": "CVE-2026-77310;GHSA-VVGP-RFG2-7RR6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VVGP-RFG2-7RR6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91776",
+      "all_identifiers": "CVE-2026-91776;GHSA-WV8Q-QHHJ-9H54",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WV8Q-QHHJ-9H54",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.10.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91777",
+      "all_identifiers": "CVE-2026-91777;GHSA-CXP5-3PX4-PW24",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CXP5-3PX4-PW24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.jayway.jsonpath:json-path",
+      "installed_version": "2.4.0",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-51074",
+      "all_identifiers": "CVE-2023-51074;GHSA-PFH2-HFMQ-PHG5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PFH2-HFMQ-PHG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mysql:mysql-connector-java",
+      "installed_version": "8.0.19",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-2471",
+      "all_identifiers": "CVE-2021-2471;GHSA-W6F2-8WX4-47R5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W6F2-8WX4-47R5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mysql:mysql-connector-java",
+      "installed_version": "8.0.19",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-21363",
+      "all_identifiers": "CVE-2022-21363;GHSA-G76J-4CXX-23H9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G76J-4CXX-23H9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mysql:mysql-connector-java",
+      "installed_version": "8.0.19",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-22102",
+      "all_identifiers": "CVE-2023-22102;GHSA-M6VM-37G8-GQVH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M6VM-37G8-GQVH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net.minidev:json-smart",
+      "installed_version": "2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-27568",
+      "all_identifiers": "CVE-2021-27568;GHSA-V528-7HRM-FRQP",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V528-7HRM-FRQP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "net.minidev:json-smart",
+      "installed_version": "2.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-1370",
+      "all_identifiers": "CVE-2023-1370;GHSA-493P-PFQ6-5258",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-493P-PFQ6-5258",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-11996",
+      "all_identifiers": "BIT-TOMCAT-2020-11996;CVE-2020-11996;GHSA-53HP-JPWQ-2JGQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-53HP-JPWQ-2JGQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-9484",
+      "all_identifiers": "BIT-TOMCAT-2020-9484;CVE-2020-9484;GHSA-344F-F5VG-2JFJ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-344F-F5VG-2JFJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-24122",
+      "all_identifiers": "BIT-TOMCAT-2021-24122;CVE-2021-24122;GHSA-2RVV-W9R2-RG7M",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2RVV-W9R2-RG7M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-25122",
+      "all_identifiers": "BIT-TOMCAT-2021-25122;CVE-2021-25122;GHSA-J39C-C8HJ-X4J3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J39C-C8HJ-X4J3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-25329",
+      "all_identifiers": "BIT-TOMCAT-2021-25329;CVE-2021-25329;GHSA-JGWR-3QM3-26F3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JGWR-3QM3-26F3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-42252",
+      "all_identifiers": "BIT-TOMCAT-2022-42252;CVE-2022-42252;GHSA-P22X-G9PX-3945",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P22X-G9PX-3945",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-24998",
+      "all_identifiers": "CVE-2023-24998;GHSA-HFRX-6QGJ-FP6C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HFRX-6QGJ-FP6C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-41080",
+      "all_identifiers": "BIT-TOMCAT-2023-41080;CVE-2023-41080;GHSA-Q3MW-PVR8-9GGC",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q3MW-PVR8-9GGC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-42795",
+      "all_identifiers": "BIT-TOMCAT-2023-42795;CVE-2023-42795;GHSA-G8PJ-R55Q-5C2V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8PJ-R55Q-5C2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-44487",
+      "all_identifiers": "BIT-APISIX-2023-44487;BIT-ASPNET-CORE-2023-44487;BIT-CONTOUR-2023-44487;BIT-DOTNET-2023-44487;BIT-DOTNET-SDK-2023-44487;BIT-ENVOY-2023-44487;BIT-GOLANG-2023-44487;BIT-JENKINS-2023-44487;BIT-KONG-2023-44487;BIT-NGINX-2023-44487;BIT-NGINX-GATEWAY-2023-44487;BIT-NODE-2023-44487;BIT-NODE-MIN-2023-44487;BIT-SOLR-2023-44487;BIT-TOMCAT-2023-44487;BIT-VARNISH-2023-44487;CVE-2023-44487;GHSA-QPPJ-FM5R-HXR3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QPPJ-FM5R-HXR3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-45648",
+      "all_identifiers": "BIT-TOMCAT-2023-45648;CVE-2023-45648;GHSA-R6J3-PX5G-CQ3X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R6J3-PX5G-CQ3X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-46589",
+      "all_identifiers": "BIT-TOMCAT-2023-46589;CVE-2023-46589;GHSA-FCCV-JMMP-QG76",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FCCV-JMMP-QG76",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-21733",
+      "all_identifiers": "BIT-TOMCAT-2024-21733;CVE-2024-21733;GHSA-F4QF-M5GF-8JM8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F4QF-M5GF-8JM8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-24549",
+      "all_identifiers": "BIT-TOMCAT-2024-24549;CVE-2024-24549;GHSA-7W75-32CG-R6G2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7W75-32CG-R6G2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-34750",
+      "all_identifiers": "BIT-TOMCAT-2024-34750;CVE-2024-34750;GHSA-WM9W-RJJ3-J356",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WM9W-RJJ3-J356",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38286",
+      "all_identifiers": "BIT-TOMCAT-2024-38286;CVE-2024-38286;GHSA-7JQF-V358-P8G7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7JQF-V358-P8G7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-50379",
+      "all_identifiers": "BIT-TOMCAT-2024-50379;CVE-2024-50379;GHSA-5J33-CVVR-W245",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5J33-CVVR-W245",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-56337",
+      "all_identifiers": "BIT-TOMCAT-2024-56337;CVE-2024-56337;GHSA-27HP-XHWR-WR2M",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27HP-XHWR-WR2M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-24813",
+      "all_identifiers": "BIT-TOMCAT-2025-24813;CVE-2025-24813;GHSA-83QJ-6FR2-VHQG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-83QJ-6FR2-VHQG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-46701",
+      "all_identifiers": "BIT-TOMCAT-2025-46701;CVE-2025-46701;GHSA-H2FW-RFH5-95R3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H2FW-RFH5-95R3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-48988",
+      "all_identifiers": "BIT-TOMCAT-2025-48988;CVE-2025-48988;GHSA-H3GC-QFQQ-6H8F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3GC-QFQQ-6H8F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-48989",
+      "all_identifiers": "BIT-TOMCAT-2025-48989;CVE-2025-48989;GHSA-GQP3-2CVR-X8M3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GQP3-2CVR-X8M3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-49124",
+      "all_identifiers": "BIT-TOMCAT-2025-49124;CVE-2025-49124;GHSA-42WG-HM62-JCWG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-42WG-HM62-JCWG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-49125",
+      "all_identifiers": "BIT-TOMCAT-2025-49125;CVE-2025-49125;GHSA-WC4R-XQ3C-5CF3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WC4R-XQ3C-5CF3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-52434",
+      "all_identifiers": "BIT-TOMCAT-2025-52434;CVE-2025-52434;GHSA-4J3C-42XV-3F84",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4J3C-42XV-3F84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-52520",
+      "all_identifiers": "BIT-TOMCAT-2025-52520;CVE-2025-52520;GHSA-WR62-C79Q-CV37",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WR62-C79Q-CV37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-53506",
+      "all_identifiers": "BIT-TOMCAT-2025-53506;CVE-2025-53506;GHSA-25XR-QJ8W-C4VF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-25XR-QJ8W-C4VF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-55668",
+      "all_identifiers": "BIT-TOMCAT-2025-55668;CVE-2025-55668;GHSA-23HV-MWM6-G8JF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-23HV-MWM6-G8JF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-55752",
+      "all_identifiers": "BIT-TOMCAT-2025-55752;CVE-2025-55752;GHSA-WMWF-9CCG-FFF5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WMWF-9CCG-FFF5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-61795",
+      "all_identifiers": "BIT-TOMCAT-2025-61795;CVE-2025-61795;GHSA-HGRR-935X-PQ79",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGRR-935X-PQ79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-66614",
+      "all_identifiers": "BIT-TOMCAT-2025-66614;CVE-2025-66614;GHSA-FPJ8-GQ4V-P354",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FPJ8-GQ4V-P354",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-24880",
+      "all_identifiers": "BIT-TOMCAT-2026-24880;CVE-2026-24880;GHSA-563X-Q5RQ-57QP",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-563X-Q5RQ-57QP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-25854",
+      "all_identifiers": "BIT-TOMCAT-2026-25854;CVE-2026-25854;GHSA-9M3C-QCXR-9X87",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M3C-QCXR-9X87",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34487",
+      "all_identifiers": "BIT-TOMCAT-2026-34487;CVE-2026-34487;GHSA-X4M4-345F-5H5G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X4M4-345F-5H5G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41284",
+      "all_identifiers": "BIT-TOMCAT-2026-41284;CVE-2026-41284;GHSA-GX5V-XP9W-J4CG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX5V-XP9W-J4CG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41293",
+      "all_identifiers": "BIT-TOMCAT-2026-41293;CVE-2026-41293;GHSA-R29C-68GH-XP6X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R29C-68GH-XP6X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-42498",
+      "all_identifiers": "BIT-TOMCAT-2026-42498;CVE-2026-42498;GHSA-FV25-8XCX-GQJC",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FV25-8XCX-GQJC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43512",
+      "all_identifiers": "BIT-TOMCAT-2026-43512;CVE-2026-43512;GHSA-H6FC-48RJ-7QQH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H6FC-48RJ-7QQH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43513",
+      "all_identifiers": "BIT-TOMCAT-2026-43513;CVE-2026-43513;GHSA-5MP6-JRQ3-R938",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5MP6-JRQ3-R938",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43514",
+      "all_identifiers": "BIT-TOMCAT-2026-43514;CVE-2026-43514;GHSA-9M89-8FRQ-C98C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M89-8FRQ-C98C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43515",
+      "all_identifiers": "BIT-TOMCAT-2026-43515;CVE-2026-43515;GHSA-5M62-PW8W-7W9F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5M62-PW8W-7W9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-53404",
+      "all_identifiers": "BIT-TOMCAT-2026-53404;CVE-2026-53404;GHSA-H792-V28V-PPGR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H792-V28V-PPGR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55276",
+      "all_identifiers": "BIT-TOMCAT-2026-55276;CVE-2026-55276;GHSA-MQG3-R7H5-24X4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQG3-R7H5-24X4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55956",
+      "all_identifiers": "BIT-TOMCAT-2026-55956;CVE-2026-55956;GHSA-5V3H-FJV2-54FG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5V3H-FJV2-54FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55957",
+      "all_identifiers": "BIT-TOMCAT-2026-55957;CVE-2026-55957;GHSA-7895-GFFQ-W6JQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7895-GFFQ-W6JQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65182",
+      "all_identifiers": "BIT-TOMCAT-2026-65182;CVE-2026-65182;GHSA-GCX9-497G-6CP6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCX9-497G-6CP6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65905",
+      "all_identifiers": "BIT-TOMCAT-2026-65905;CVE-2026-65905;GHSA-9XV2-5V5Q-P794",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9XV2-5V5Q-P794",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68525",
+      "all_identifiers": "BIT-TOMCAT-2026-68525;CVE-2026-68525;GHSA-H3X4-894J-XPX5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3X4-894J-XPX5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-13935",
+      "all_identifiers": "BIT-TOMCAT-2020-13935;CVE-2020-13935;GHSA-M7JV-HQ7H-MQ7C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M7JV-HQ7H-MQ7C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "installed_version": "9.0.33",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-23672",
+      "all_identifiers": "BIT-TOMCAT-2024-23672;CVE-2024-23672;GHSA-V682-8VV8-VPWR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V682-8VV8-VPWR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.assertj:assertj-core",
+      "installed_version": "3.13.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-24400",
+      "all_identifiers": "CVE-2026-24400;GHSA-RQFH-9R24-8C9R",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RQFH-9R24-8C9R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.hibernate.validator:hibernate-validator",
+      "installed_version": "6.0.18.Final",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-10693",
+      "all_identifiers": "CVE-2020-10693;GHSA-RMRM-75HP-PHR2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RMRM-75HP-PHR2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.hibernate.validator:hibernate-validator",
+      "installed_version": "6.0.18.Final",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-1932",
+      "all_identifiers": "CVE-2023-1932;GHSA-X83M-PF6F-PF9G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X83M-PF6F-PF9G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.hibernate.validator:hibernate-validator",
+      "installed_version": "6.0.18.Final",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-35036",
+      "all_identifiers": "CVE-2025-35036;GHSA-7V6M-28JR-RG84",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7V6M-28JR-RG84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-27772",
+      "all_identifiers": "CVE-2022-27772;GHSA-CM59-PR5Q-CW85",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CM59-PR5Q-CW85",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-22235",
+      "all_identifiers": "CVE-2025-22235;GHSA-RC42-6C7J-7H5R",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RC42-6C7J-7H5R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40973",
+      "all_identifiers": "CVE-2026-40973;GHSA-WWPQ-F5C3-7HVX",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WWPQ-F5C3-7HVX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-autoconfigure",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-20883",
+      "all_identifiers": "CVE-2023-20883;GHSA-XF96-W227-R7C4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XF96-W227-R7C4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-devtools",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40972",
+      "all_identifiers": "CVE-2026-40972;GHSA-56V8-86GJ-66JP",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-56V8-86GJ-66JP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-web",
+      "installed_version": "2.2.6.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22965",
+      "all_identifiers": "CVE-2022-22965;GHSA-36P3-WJMG-H94X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-36P3-WJMG-H94X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-beans",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22965",
+      "all_identifiers": "CVE-2022-22965;GHSA-36P3-WJMG-H94X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-36P3-WJMG-H94X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-beans",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22970",
+      "all_identifiers": "CVE-2022-22970;GHSA-HH26-6XWR-GGV7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HH26-6XWR-GGV7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-context",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22968",
+      "all_identifiers": "CVE-2022-22968;GHSA-G5MM-VMX4-3RG7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G5MM-VMX4-3RG7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-context",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38820",
+      "all_identifiers": "CVE-2024-38820;GHSA-4GC7-5J7H-4QPH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4GC7-5J7H-4QPH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-context",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-22233",
+      "all_identifiers": "CVE-2025-22233;GHSA-4WP7-92PW-Q264",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4WP7-92PW-Q264",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-core",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-22060",
+      "all_identifiers": "CVE-2021-22060;GHSA-6GF2-PVQW-37PH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6GF2-PVQW-37PH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-core",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-22096",
+      "all_identifiers": "CVE-2021-22096;GHSA-RFMP-97JJ-H8M6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFMP-97JJ-H8M6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-core",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41848",
+      "all_identifiers": "CVE-2026-41848;GHSA-659M-PX2C-25WJ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-659M-PX2C-25WJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22950",
+      "all_identifiers": "CVE-2022-22950;GHSA-558X-2XJG-6232",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-558X-2XJG-6232",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-20861",
+      "all_identifiers": "CVE-2023-20861;GHSA-564R-HJ7V-MCR5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-564R-HJ7V-MCR5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-20863",
+      "all_identifiers": "CVE-2023-20863;GHSA-WXQC-PXW9-G2P8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WXQC-PXW9-G2P8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38808",
+      "all_identifiers": "CVE-2024-38808;GHSA-9CMQ-M9J5-MVWW",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9CMQ-M9J5-MVWW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41849",
+      "all_identifiers": "CVE-2026-41849;GHSA-775G-4XR8-78H8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-775G-4XR8-78H8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41850",
+      "all_identifiers": "CVE-2026-41850;GHSA-R5W3-XV2F-J59Q",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R5W3-XV2F-J59Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41851",
+      "all_identifiers": "CVE-2026-41851;GHSA-WXPP-56Q6-5PCG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WXPP-56Q6-5PCG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41852",
+      "all_identifiers": "CVE-2026-41852;GHSA-9F52-RJQV-25QV",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9F52-RJQV-25QV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2016-1000027",
+      "all_identifiers": "CVE-2016-1000027;GHSA-4WRC-F8PQ-FPQP",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4WRC-F8PQ-FPQP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-22118",
+      "all_identifiers": "CVE-2021-22118;GHSA-GFWJ-FWQJ-FP3V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GFWJ-FWQJ-FP3V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22243",
+      "all_identifiers": "CVE-2024-22243;GHSA-CCGV-VJ62-XF9H",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CCGV-VJ62-XF9H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22259",
+      "all_identifiers": "CVE-2024-22259;GHSA-HGJH-9RJ2-G67J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGJH-9RJ2-G67J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22262",
+      "all_identifiers": "CVE-2024-22262;GHSA-2WRP-6FG6-HMC5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2WRP-6FG6-HMC5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38809",
+      "all_identifiers": "CVE-2024-38809;GHSA-2RMJ-MQ67-H97G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2RMJ-MQ67-H97G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38820",
+      "all_identifiers": "CVE-2024-38820;GHSA-4GC7-5J7H-4QPH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4GC7-5J7H-4QPH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-22965",
+      "all_identifiers": "CVE-2022-22965;GHSA-36P3-WJMG-H94X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-36P3-WJMG-H94X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38819",
+      "all_identifiers": "CVE-2024-38819;GHSA-G5VR-RGQM-VF78",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G5VR-RGQM-VF78",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22741",
+      "all_identifiers": "CVE-2026-22741;GHSA-WG35-8JPF-2XV3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WG35-8JPF-2XV3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22745",
+      "all_identifiers": "CVE-2026-22745;GHSA-6P4F-WCWH-5VVM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6P4F-WCWH-5VVM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41841",
+      "all_identifiers": "CVE-2026-41841;GHSA-MQ64-J8F9-9GCJ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQ64-J8F9-9GCJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41842",
+      "all_identifiers": "CVE-2026-41842;GHSA-X23C-287F-QQV5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X23C-287F-QQV5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41843",
+      "all_identifiers": "CVE-2026-41843;GHSA-72PG-X5F8-J25J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-72PG-X5F8-J25J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41844",
+      "all_identifiers": "CVE-2026-41844;GHSA-H3QP-GQRC-Q736",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3QP-GQRC-Q736",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41845",
+      "all_identifiers": "CVE-2026-41845;GHSA-3CHG-M5W7-QFV5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3CHG-M5W7-QFV5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41846",
+      "all_identifiers": "CVE-2026-41846;GHSA-957G-F97V-VPPC",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-957G-F97V-VPPC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41853",
+      "all_identifiers": "CVE-2026-41853;GHSA-CJPG-RGQ5-FR37",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CJPG-RGQ5-FR37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "5.2.5.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-47884",
+      "all_identifiers": "CVE-2026-47884;GHSA-PC63-QCMH-9CMG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PC63-QCMH-9CMG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40477",
+      "all_identifiers": "CVE-2026-40477;GHSA-R4V4-5MWR-2FWR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4V4-5MWR-2FWR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40478",
+      "all_identifiers": "CVE-2026-40478;GHSA-XJW8-8C5C-9R79",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJW8-8C5C-9R79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41901",
+      "all_identifiers": "CVE-2026-41901;GHSA-C9PH-GXWW-7744",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C9PH-GXWW-7744",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring5",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-43466",
+      "all_identifiers": "CVE-2021-43466;GHSA-QCJ6-JQRG-4WP2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QCJ6-JQRG-4WP2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring5",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40477",
+      "all_identifiers": "CVE-2026-40477;GHSA-R4V4-5MWR-2FWR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4V4-5MWR-2FWR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring5",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40478",
+      "all_identifiers": "CVE-2026-40478;GHSA-XJW8-8C5C-9R79",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJW8-8C5C-9R79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring5",
+      "installed_version": "3.0.11.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41901",
+      "all_identifiers": "CVE-2026-41901;GHSA-C9PH-GXWW-7744",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C9PH-GXWW-7744",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.xmlunit:xmlunit-core",
+      "installed_version": "2.6.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-31573",
+      "all_identifiers": "CVE-2024-31573;GHSA-CHFM-68VV-PVW5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CHFM-68VV-PVW5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2017-18640",
+      "all_identifiers": "CVE-2017-18640;GHSA-RVWF-54QP-4R6V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RVWF-54QP-4R6V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-1471",
+      "all_identifiers": "CVE-2022-1471;GHSA-MJMJ-J48Q-9WG2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MJMJ-J48Q-9WG2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-25857",
+      "all_identifiers": "CVE-2022-25857;GHSA-3MC7-4Q67-W48M",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3MC7-4Q67-W48M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-38749",
+      "all_identifiers": "CVE-2022-38749;GHSA-C4R9-R8FH-9VJ2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C4R9-R8FH-9VJ2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-38750",
+      "all_identifiers": "CVE-2022-38750;GHSA-HHHW-99GJ-P3C3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HHHW-99GJ-P3C3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-38751",
+      "all_identifiers": "CVE-2022-38751;GHSA-98WM-3W3Q-MW94",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-98WM-3W3Q-MW94",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-38752",
+      "all_identifiers": "CVE-2022-38752;GHSA-9W3M-GQGF-C4P9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9W3M-GQGF-C4P9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "installed_version": "1.25",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-41854",
+      "all_identifiers": "CVE-2022-41854;GHSA-W37G-RHQ8-7M4J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W37G-RHQ8-7M4J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/jo-0412/vuln-spring-sast-practice/blob/33da9a40eaa1985b69ca584c3033c54507e4258b/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

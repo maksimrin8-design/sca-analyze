@@ -1,0 +1,18 @@
+{
+  "project_id": "P020",
+  "name": "gin",
+  "repository": "gin-gonic/gin",
+  "commit": "0f09c3a9b4626d9fe9979cf4d0521d6ae32ab646",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 8,
+    "total": 8,
+    "osv": 8,
+    "grype": 8
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

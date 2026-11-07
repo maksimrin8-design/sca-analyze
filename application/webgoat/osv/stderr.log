@@ -1,0 +1,7 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/pom.xml file and found 47 packages
+End status: 437 dirs visited, 1854 inodes visited, 1 Extract calls, 80.141167ms elapsed, 80.141357ms wall time
+Filtered 23 local/unscannable package/s from the scan.
+Warning: enricher transitivedependency/pomxml may be risky when run on untrusted artifacts. Please ensure you trust the source code and artifacts.
+The default Maven registry is being overwritten from https://repo.maven.apache.org/maven2 to https://repo.maven.apache.org/maven2

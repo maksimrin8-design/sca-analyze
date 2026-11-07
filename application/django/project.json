@@ -1,0 +1,19 @@
+{
+  "project_id": "P024",
+  "name": "django",
+  "repository": "django/django",
+  "commit": "a1f2b45ce5a327f42437bdb620a817839d0bd067",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_grype": 1,
+    "only_osv": 2,
+    "total": 3,
+    "osv": 2,
+    "grype": 1
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

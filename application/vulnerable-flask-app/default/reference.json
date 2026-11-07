@@ -1,0 +1,16 @@
+{
+  "project_id": "P012",
+  "project": "vulnerable-flask-app",
+  "repository": "videvelopers/Vulnerable-Flask-App",
+  "source_commit": "155a9d4020cd6382e7cef2a4166a714c54af3441",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "total": 0,
+    "osv": 0,
+    "grype": 0
+  },
+  "vulnerabilities": []
+}

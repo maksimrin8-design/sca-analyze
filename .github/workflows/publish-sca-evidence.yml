@@ -1,0 +1,78 @@
+name: Publish 30 SCA evidence folders
+
+on:
+  push:
+    branches:
+      - fix/sca-benchmark-ground-truth-tables
+    paths:
+      - .github/workflows/publish-sca-evidence.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: publish-sca-evidence
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout SCA benchmark
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download original OSV and Grype reports for all 30 projects
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 42363667019
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pattern: scan-*
+          path: all-results
+          merge-multiple: false
+      - name: Validate all reports and build 30 directories
+        run: |
+          python scripts/publish_sca_folders.py \
+            --manifest projects/manifest.json \
+            --ground-truth ground-truth/expected-vulnerabilities.csv \
+            --results-dir all-results \
+            --output-dir application \
+            --source-run https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019
+          python - <<'PY'
+          import csv, json
+          from pathlib import Path
+          root=Path("application")
+          apps=[p for p in root.iterdir() if p.is_dir()]
+          assert len(apps)==30, len(apps)
+          for app in apps:
+              assert set(p.name for p in app.iterdir() if p.is_dir())=={"osv", "grype", "default"},app
+              for t in ("osv","grype"):
+                  assert (app/t/"result.json").exists(),app
+                  assert (app/t/"findings.json").exists(),app
+              ref=json.loads((app/"default/reference.json").read_text())
+              assert len(ref["vulnerabilities"])==ref["counts"]["total"],app
+          with (root/"INDEX.csv").open(encoding="utf-8") as stream:
+              assert len(list(csv.DictReader(stream)))==30
+          print("Verified: 30 applications x 3 subfolders, raw and normalized reports")
+          PY
+      - name: Upload audit snapshot even if push is blocked
+        uses: actions/upload-artifact@v4
+        with:
+          name: sca-30-application-folders
+          path: application/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Commit 30 project folders to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f application/
+          if git diff --cached --quiet; then
+            echo "SCA evidence directories already up to date"
+          else
+            git commit -m "Archive 30 SCA project reports and provisional combined references"
+            git push origin HEAD:${{ github.ref_name }}
+          fi

@@ -1,0 +1,1055 @@
+{
+  "project_id": "P010",
+  "project": "dv-graphql",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 55,
+  "normalized_findings": [
+    {
+      "package": "certifi",
+      "installed_version": "2022.12.7",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-37920",
+      "all_identifiers": "CVE-2023-37920;GHSA-XQR8-7JWR-RHP7;PYSEC-2023-135",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XQR8-7JWR-RHP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2022.12.7",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-39689",
+      "all_identifiers": "CVE-2024-39689;GHSA-248V-346W-9CWC;PYSEC-2024-230",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-248V-346W-9CWC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2022.12.7",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-6Q48-6C7W-9GW2",
+      "all_identifiers": "GHSA-6Q48-6C7W-9GW2;PYSEC-2026-4320",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6Q48-6C7W-9GW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-30861",
+      "all_identifiers": "CVE-2023-30861;GHSA-M2QF-HXJV-5GPQ;PYSEC-2023-62",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M2QF-HXJV-5GPQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-27205",
+      "all_identifiers": "CVE-2026-27205;GHSA-68RP-WP8R-4726;PYSEC-2026-2151",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-68RP-WP8R-4726",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gevent",
+      "installed_version": "22.10.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-41419",
+      "all_identifiers": "CVE-2023-41419;GHSA-X7M3-JPRG-WC5G;PYSEC-2023-177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X7M3-JPRG-WC5G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "h11",
+      "installed_version": "0.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-43859",
+      "all_identifiers": "CVE-2025-43859;GHSA-VQFR-H8MV-GHFJ;PYSEC-2026-348",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VQFR-H8MV-GHFJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-3651",
+      "all_identifiers": "CVE-2024-3651;GHSA-JJG7-2V4V-X38H",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJG7-2V4V-X38H",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-22195",
+      "all_identifiers": "CVE-2024-22195;GHSA-H5C8-RQWP-CP95;PYSEC-2026-1473",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H5C8-RQWP-CP95",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-34064",
+      "all_identifiers": "CVE-2024-34064;GHSA-H75V-3VVJ-5MFJ;PYSEC-2026-1474",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H75V-3VVJ-5MFJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-56201",
+      "all_identifiers": "CVE-2024-56201;GHSA-GMJ6-6F8F-6699;PYSEC-2026-1472",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GMJ6-6F8F-6699",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-56326",
+      "all_identifiers": "CVE-2024-56326;GHSA-Q2X7-8RV6-6Q7H;PYSEC-2026-1475",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2X7-8RV6-6Q7H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-27516",
+      "all_identifiers": "CVE-2025-27516;GHSA-CPWX-VRP4-4PQ7;PYSEC-2026-1471",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CPWX-VRP4-4PQ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-29217",
+      "all_identifiers": "CVE-2022-29217;GHSA-FFQJ-6FQR-9H24;PYSEC-2022-202",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFQJ-6FQR-9H24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-101917",
+      "all_identifiers": "CVE-2026-101917;GHSA-2GX3-RCP4-G85Q;PYSEC-2026-4140",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2GX3-RCP4-G85Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-101918",
+      "all_identifiers": "CVE-2026-101918;GHSA-42VR-XJ54-VC7V;PYSEC-2026-4141",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-42VR-XJ54-VC7V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102267",
+      "all_identifiers": "CVE-2026-102267;GHSA-9V7F-9G4P-FFGJ;PYSEC-2026-4144",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V7F-9G4P-FFGJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102268",
+      "all_identifiers": "CVE-2026-102268;GHSA-FFC3-869F-JXW9;PYSEC-2026-4145",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFC3-869F-JXW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102269",
+      "all_identifiers": "CVE-2026-102269;GHSA-HXM8-2XGR-2P9M;PYSEC-2026-4147",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HXM8-2XGR-2P9M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102270",
+      "all_identifiers": "CVE-2026-102270;GHSA-JWRC-G2Q2-PQ5P;PYSEC-2026-4148",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JWRC-G2Q2-PQ5P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-32597",
+      "all_identifiers": "CVE-2026-32597;GHSA-752W-5FWX-JX9F;PYSEC-2026-120",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-752W-5FWX-JX9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48522",
+      "all_identifiers": "CVE-2026-48522;GHSA-993G-76C3-P5M4;PYSEC-2026-175",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-993G-76C3-P5M4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48524",
+      "all_identifiers": "CVE-2026-48524;GHSA-FHV5-28VV-H8M8;PYSEC-2026-177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FHV5-28VV-H8M8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48526",
+      "all_identifiers": "CVE-2026-48526;GHSA-XGMM-8J9V-C9WX;PYSEC-2026-179",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XGMM-8J9V-C9WX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "2.0.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-PXH4-856F-4H89",
+      "all_identifiers": "GHSA-PXH4-856F-4H89",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PXH4-856F-4H89",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pytest",
+      "installed_version": "7.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-71176",
+      "all_identifiers": "CVE-2025-71176;GHSA-6W46-J5RX-G56G;PYSEC-2026-1845",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6W46-J5RX-G56G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "python-engineio",
+      "installed_version": "4.3.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48802",
+      "all_identifiers": "CVE-2026-48802;GHSA-CGWC-PV48-FHJ5;PYSEC-2026-3032",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CGWC-PV48-FHJ5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "python-engineio",
+      "installed_version": "4.3.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48809",
+      "all_identifiers": "CVE-2026-48809;GHSA-M9GH-VJ53-GVH9;PYSEC-2026-3033",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M9GH-VJ53-GVH9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "python-socketio",
+      "installed_version": "5.7.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-61765",
+      "all_identifiers": "CVE-2025-61765;GHSA-G8C6-8FJJ-2R4M;PYSEC-2026-1854",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8C6-8FJJ-2R4M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "python-socketio",
+      "installed_version": "5.7.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48804",
+      "all_identifiers": "CVE-2026-48804;GHSA-5W7Q-77MV-V69F;PYSEC-2026-3042",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5W7Q-77MV-V69F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.28.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-32681",
+      "all_identifiers": "CVE-2023-32681;GHSA-J8R2-6X86-Q33Q;PYSEC-2023-74",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J8R2-6X86-Q33Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.28.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-35195",
+      "all_identifiers": "CVE-2024-35195;GHSA-9WX4-H78V-VM56;PYSEC-2026-1873",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9WX4-H78V-VM56",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.28.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-47081",
+      "all_identifiers": "CVE-2024-47081;GHSA-9HJG-9R4M-MVJ7;PYSEC-2026-1872",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HJG-9R4M-MVJ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.28.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25645",
+      "all_identifiers": "CVE-2026-25645;GHSA-GC5V-M9X4-R6X2;PYSEC-2026-2275",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GC5V-M9X4-R6X2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-43804",
+      "all_identifiers": "CVE-2023-43804;GHSA-V845-JXX5-VC9F;PYSEC-2023-192",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V845-JXX5-VC9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-45803",
+      "all_identifiers": "CVE-2023-45803;GHSA-G4MX-Q9VG-27P4;PYSEC-2023-212",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G4MX-Q9VG-27P4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-37891",
+      "all_identifiers": "CVE-2024-37891;GHSA-34JH-P97F-MPXF;PYSEC-2026-1995",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-34JH-P97F-MPXF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-50181",
+      "all_identifiers": "CVE-2025-50181;GHSA-PQ67-6M6Q-MJ2V;PYSEC-2026-1999",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQ67-6M6Q-MJ2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66418",
+      "all_identifiers": "CVE-2025-66418;GHSA-GM62-XV2J-4W53;PYSEC-2026-1998",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GM62-XV2J-4W53",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66471",
+      "all_identifiers": "CVE-2025-66471;GHSA-2XPW-W6GG-JR37;PYSEC-2026-1994",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2XPW-W6GG-JR37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-21441",
+      "all_identifiers": "CVE-2026-21441;GHSA-38JV-5279-WG99;PYSEC-2026-1996",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-38JV-5279-WG99",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44431",
+      "all_identifiers": "CVE-2026-44431;GHSA-QCCP-GFCP-XXVC;PYSEC-2026-141",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QCCP-GFCP-XXVC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97687",
+      "all_identifiers": "CVE-2026-97687;GHSA-8988-9CW3-XX77;PYSEC-2026-4175",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8988-9CW3-XX77",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.13",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97689",
+      "all_identifiers": "CVE-2026-97689;GHSA-VXQ7-64XX-V4GW;PYSEC-2026-4177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXQ7-64XX-V4GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-23934",
+      "all_identifiers": "CVE-2023-23934;GHSA-PX8H-6QXV-M22Q;PYSEC-2023-57",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PX8H-6QXV-M22Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-25577",
+      "all_identifiers": "CVE-2023-25577;GHSA-XG9F-G7G7-2323;PYSEC-2023-58",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XG9F-G7G7-2323",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-46136",
+      "all_identifiers": "CVE-2023-46136;GHSA-HRFV-MQP8-Q5RW;PYSEC-2023-221",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HRFV-MQP8-Q5RW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-34069",
+      "all_identifiers": "CVE-2024-34069;GHSA-2G68-C3QC-8985;PYSEC-2026-2043",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2G68-C3QC-8985",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-49766",
+      "all_identifiers": "CVE-2024-49766;GHSA-F9VJ-2WH5-FJ8J;PYSEC-2026-2045",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F9VJ-2WH5-FJ8J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-49767",
+      "all_identifiers": "CVE-2024-49767;GHSA-Q34M-JH98-GWM2;PYSEC-2026-1860;PYSEC-2026-3417",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q34M-JH98-GWM2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66221",
+      "all_identifiers": "CVE-2025-66221;GHSA-HGF8-39GV-G3F2;PYSEC-2026-2046",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGF8-39GV-G3F2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102598",
+      "all_identifiers": "CVE-2026-102598;GHSA-G6X2-HCCM-HH4M;PYSEC-2026-4312",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G6X2-HCCM-HH4M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-21860",
+      "all_identifiers": "CVE-2026-21860;GHSA-87HC-H4R5-73F7;PYSEC-2026-2044",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-87HC-H4R5-73F7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-27199",
+      "all_identifiers": "CVE-2026-27199;GHSA-29VQ-49WR-VM6X;PYSEC-2026-2320",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-29VQ-49WR-VM6X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "grype_source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application/blob/a961308c02d1fb462b192681c336b0739e432da7/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

@@ -1,0 +1,57 @@
+{
+  "project_id": "P001",
+  "project": "osv-test",
+  "repository": "coder/osv-test",
+  "source_commit": "18c46d1b2a0119ff94e910e0b305819b763a4e79",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "both": 2,
+    "verified": 2,
+    "total": 2,
+    "osv": 2,
+    "grype": 2
+  },
+  "vulnerabilities": [
+    {
+      "package": "minimist",
+      "installed_version": "0.0.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2020-7598",
+      "all_identifiers": "CVE-2020-7598;GHSA-VH95-RMGR-6W4M",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "independently_verified_example",
+      "advisory_url": "https://github.com/advisories/GHSA-VH95-RMGR-6W4M",
+      "verified_evidence_url": "https://github.com/advisories/GHSA-vh95-rmgr-6w4m",
+      "osv_source": "https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json",
+      "grype_source": "https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json",
+      "notes": "Verified pinned lockfile and independent GitHub advisory: minimist < 0.2.1 is vulnerable."
+    },
+    {
+      "package": "minimist",
+      "installed_version": "0.0.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2021-44906",
+      "all_identifiers": "CVE-2021-44906;GHSA-XVCH-5GV4-984H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "independently_verified_example",
+      "advisory_url": "https://github.com/advisories/GHSA-XVCH-5GV4-984H",
+      "verified_evidence_url": "https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json",
+      "osv_source": "https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json",
+      "grype_source": "https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json",
+      "notes": "Pinned lockfile contains minimist@0.0.8; GitHub advisory GHSA-xvch-5gv4-984h lists versions below 0.2.4 as vulnerable."
+    }
+  ]
+}

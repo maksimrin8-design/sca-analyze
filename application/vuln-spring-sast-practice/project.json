@@ -1,0 +1,18 @@
+{
+  "project_id": "P015",
+  "name": "vuln-spring-sast-practice",
+  "repository": "jo-0412/vuln-spring-sast-practice",
+  "commit": "33da9a40eaa1985b69ca584c3033c54507e4258b",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 145,
+    "total": 145,
+    "osv": 145,
+    "grype": 0
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

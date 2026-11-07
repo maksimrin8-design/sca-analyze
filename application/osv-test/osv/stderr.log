@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/fixtures/vulnerable/package-lock.json file and found 1 package
+End status: 26 dirs visited, 65 inodes visited, 1 Extract calls, 727.008µs elapsed, 727.083µs wall time

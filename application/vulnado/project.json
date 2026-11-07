@@ -1,0 +1,19 @@
+{
+  "project_id": "P013",
+  "name": "vulnado",
+  "repository": "vincenzo-veracode/vulnado",
+  "commit": "097d1d80d213025ee768d990203eb398536794c0",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 190,
+    "only_osv": 6,
+    "total": 196,
+    "osv": 196,
+    "grype": 190
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

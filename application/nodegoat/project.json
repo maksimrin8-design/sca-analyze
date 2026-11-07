@@ -1,0 +1,21 @@
+{
+  "project_id": "P003",
+  "name": "nodegoat",
+  "repository": "OWASP/NodeGoat",
+  "commit": "c5cb68a7084e4ae7dcc60e6a98768720a81841e8",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 130,
+    "verified": 1,
+    "both": 70,
+    "only_grype": 20,
+    "total": 220,
+    "osv": 200,
+    "grype": 90
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

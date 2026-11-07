@@ -1,0 +1,4 @@
+osv-scanner version: 2.7.0
+osv-scalibr version: 0.5.3
+commit: bfe2f84abd2f09fe0b83ba7f6dad40d296762f40
+built at: 2026-10-12T00:39:39Z

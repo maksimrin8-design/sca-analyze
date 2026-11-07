@@ -1,0 +1,30 @@
+{
+  "project_id": "P024",
+  "project": "django",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 1,
+  "normalized_findings": [
+    {
+      "package": "psf/black",
+      "installed_version": "stable",
+      "ecosystem": "github-action",
+      "vulnerability_id": "CVE-2026-31900",
+      "all_identifiers": "CVE-2026-31900;GHSA-V53H-F6M7-XCGM",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V53H-F6M7-XCGM",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/django/django/blob/a1f2b45ce5a327f42437bdb620a817839d0bd067/.github/workflows/linters.yml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

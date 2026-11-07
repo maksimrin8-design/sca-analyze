@@ -1,0 +1,19 @@
+{
+  "project_id": "P023",
+  "name": "rails",
+  "repository": "rails/rails",
+  "commit": "f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 183,
+    "only_grype": 12,
+    "total": 195,
+    "osv": 183,
+    "grype": 195
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/package-lock.json file and found 980 packages
+End status: 84 dirs visited, 241 inodes visited, 1 Extract calls, 185.021879ms elapsed, 185.022029ms wall time

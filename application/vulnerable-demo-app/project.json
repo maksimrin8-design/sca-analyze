@@ -1,0 +1,19 @@
+{
+  "project_id": "P016",
+  "name": "vulnerable-demo-app",
+  "repository": "fomi009/vulnerable-demo-app",
+  "commit": "3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 180,
+    "only_osv": 15,
+    "total": 195,
+    "osv": 195,
+    "grype": 180
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

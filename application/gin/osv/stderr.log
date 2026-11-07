@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/go.mod file and found 33 packages
+End status: 28 dirs visited, 184 inodes visited, 1 Extract calls, 2.002752ms elapsed, 2.002832ms wall time

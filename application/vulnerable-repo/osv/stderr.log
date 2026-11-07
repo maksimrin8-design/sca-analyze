@@ -1,0 +1,6 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/pom.xml file and found 12 packages
+End status: 74 dirs visited, 174 inodes visited, 1 Extract calls, 4.922183ms elapsed, 4.922272ms wall time
+Filtered 9 local/unscannable package/s from the scan.
+Warning: enricher transitivedependency/pomxml may be risky when run on untrusted artifacts. Please ensure you trust the source code and artifacts.

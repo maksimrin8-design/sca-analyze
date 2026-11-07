@@ -1,0 +1,7 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/pom.xml file and found 8 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/target/vulnado-0.0.1-SNAPSHOT 2.jar/META-INF/maven/com.scalesec/vulnado/pom.xml file and found 8 packages
+End status: 61 dirs visited, 192 inodes visited, 2 Extract calls, 3.763463ms elapsed, 3.763553ms wall time
+Filtered 6 local/unscannable package/s from the scan.
+Warning: enricher transitivedependency/pomxml may be risky when run on untrusted artifacts. Please ensure you trust the source code and artifacts.

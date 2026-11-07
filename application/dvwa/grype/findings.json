@@ -1,0 +1,30 @@
+{
+  "project_id": "P008",
+  "project": "dvwa",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 1,
+  "normalized_findings": [
+    {
+      "package": "symfony/yaml",
+      "installed_version": "v8.1.2",
+      "ecosystem": "php-composer",
+      "vulnerability_id": "CVE-2026-109413",
+      "all_identifiers": "CVE-2026-109413;GHSA-2V3C-QXHR-7VPV",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2V3C-QXHR-7VPV",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/digininja/DVWA/blob/a1978a2fed195acd093010af6395f86a281537ca/vulnerabilities/api/composer.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

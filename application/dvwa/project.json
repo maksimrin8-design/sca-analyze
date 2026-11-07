@@ -1,0 +1,19 @@
+{
+  "project_id": "P008",
+  "name": "dvwa",
+  "repository": "digininja/DVWA",
+  "commit": "a1978a2fed195acd093010af6395f86a281537ca",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 1,
+    "only_grype": 1,
+    "total": 2,
+    "osv": 1,
+    "grype": 1
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

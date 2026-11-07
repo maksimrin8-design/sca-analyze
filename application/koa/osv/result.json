@@ -1,0 +1,1628 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/home/runner/work/sca-analyze/sca-analyze/target-repo/package-lock.json",
+        "type": "lockfile"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "brace-expansion",
+            "version": "1.1.18",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/brace-expansion@1.1.18?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-6j4f-fj2g-mc7p"
+              ],
+              "aliases": [
+                "CVE-2026-102276",
+                "GHSA-6j4f-fj2g-mc7p"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-q2hr-2g5m-vwhr"
+              ],
+              "aliases": [
+                "CVE-2026-102277",
+                "GHSA-q2hr-2g5m-vwhr"
+              ],
+              "max_severity": "5.3"
+            },
+            {
+              "ids": [
+                "GHSA-qhr7-859c-m2p7"
+              ],
+              "aliases": [
+                "CVE-2026-102278",
+                "GHSA-qhr7-859c-m2p7"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.10"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.7"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.5"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.19"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102276"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-674"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:44:58Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "HIGH"
+              },
+              "details": "### Summary\n\n`parseCommaParts()` can exhaust the native stack and crash the process. There are two distinct ways to trigger it, both reachable from a single untrusted pattern string.\n\nThis is the parsing-side counterpart to CVE-2026-14257 / GHSA-mh99-v99m-4gvg. That fix made `expand_()` iterative and documented a constant-stack-depth guarantee, but `parseCommaParts()` was left recursive, so the guarantee only held for one of the two parsing paths.\n\n### Vector 1 - unbounded recursion on `post`\n\n`parseCommaParts()` recursed on the remainder of the string once per brace group:\n\n```js\nconst postParts = parseCommaParts(post)   // unbounded\n```\n\nA brace group containing many comma-separated groups drives one recursion level per group:\n\n```js\nexpand('{' + '{a},'.repeat(7000) + 'b}')\n// RangeError: Maximum call stack size exceeded\n```\n\nAbout 7,300 repetitions - roughly 29 KB of input - is enough on Node 24; roughly 6,300 (25 KB) on Node 18. The threshold is identical on every affected release line.\n\n### Vector 2 - `push.apply` with an unbounded array\n\nEven with the recursion removed, `parseCommaParts()` spread whole arrays into an argument list:\n\n```js\np.push.apply(p, postParts)\nparts.push.apply(parts, p)\n```\n\n`Function.prototype.apply` places one argument per element on the stack, so a single large array overflows it. This needs **no recursion depth at all** - the following reaches a recursion depth of exactly 1:\n\n```js\nexpand('{{x},' + 'a,'.repeat(125000) + 'b}')\n// RangeError: Maximum call stack size exceeded\n```\n\nThreshold is about 124,300 repetitions (~249 KB). This vector was not part of the original report; it was found while verifying the fix. A patch that only de-recurses but keeps `push.apply` leaves a working denial of service behind.\n\n### Why `max` and `maxLength` do not help\n\nBoth crashes happen during **parsing**, before any expansion. The payloads produce one result per group, so output size grows linearly with input and is never the limiter. `expand(payload, { max: 1, maxLength: 1 })` still overflows.\n\n### Impact\n\nAny application that passes an untrusted string to `expand()` - directly, or through `minimatch` / `glob` where it is a user-supplied glob pattern - can be crashed. In Node, a `RangeError` that the application does not catch terminates the process, so a server that globs user input is exposed to remote unauthenticated denial of service.\n\n`minimatch`'s own `MAX_PATTERN_LENGTH` cap (65,536) does not help against vector 1: the overflow threshold sits well below it. Confirmed on minimatch 10.2.6 - a 64,003-byte pattern passes the length check and overflows both `minimatch.braceExpand()` and `new minimatch.Minimatch()`.\n\nThis is an availability-only issue. No code execution and no data exposure.\n\n### Not a regression\n\n5.0.8 and 5.0.9 overflow at the same repetition count, so the gap predates the recent advisories; those fixes simply did not reach it. Verified affected on 1.1.18, 2.1.4, 3.0.6, 5.0.8 and 5.0.9, all at an identical threshold.\n\n### Patch\n\n`parseCommaParts()` is rewritten as a loop that carries the partial part across chunks, and every array append uses an element-by-element loop rather than `push.apply`. The redundant `if (!str) return ['']` guard is dropped - the loop returns `['']` for the empty string on its own.\n\nEquivalence of the old and new implementations was checked by differential testing: exhaustive over every string of `{`, `}`, `,`, `a` up to length 7 plus 300,000 random inputs - 322,000 cases, zero mismatches.\n\n### Severity note\n\nScored 7.5 High under CVSS 3.1 for consistency with the other availability advisories on this package (GHSA-mh99-v99m-4gvg, GHSA-rgw5-rvv9-x895), which use the same vector. The reporter self-assessed 6.9 Medium under CVSS 4.0 (`CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N`).\n\n### Credit\n\nReported by baeseungwon1010, with a working proof of concept and a proposed patch. Vector 2 was identified during maintainer verification.",
+              "id": "GHSA-6j4f-fj2g-mc7p",
+              "modified": "2026-09-30T00:00:03.836613572Z",
+              "published": "2026-09-29T23:44:58Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-6j4f-fj2g-mc7p"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102276"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/0bcbfc0a5928c3073d48f42999d1ce4fc1c42fbc"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/316359e6019c39b3254c8ba8e25dc586a480652c"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/5171e681c0922b7ae8bfaf9a331e309107be6edc"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/6735c94873ca570bcdd6a0690033bdd3126379d3"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.12"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.9"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.7"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.21"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102277"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-407"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:45:39Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Summary\n\nExpanding `{a},b}`-shaped input takes time quadratic in the number of literal `}` characters, blocking the event loop.\n\nBash preserves a quirk where a brace group followed by a comma set still expands (`{a},b}`). The parser implements this by rewriting the string and restarting the scan. Each pass absorbs exactly one `}` and re-scans from the beginning, so `n` trailing braces cost `n` full passes.\n\n### Reproduction\n\n```js\nconst build = n =\u003e '{a}' + '}'.repeat(n) + ',z}'\n\nfor (const n of [8000, 16000, 32000, 64000, 128000]) {\n  const t = Date.now()\n  expand(build(n))\n  console.log(n, Date.now() - t + 'ms')\n}\n```\n\n| n | input | time | results |\n|---|---|---|---|\n| 8,000 | 8 KB | 110 ms | 2 |\n| 16,000 | 16 KB | 446 ms | 2 |\n| 32,000 | 32 KB | 1.7 s | 2 |\n| 64,000 | 64 KB | 6.9 s | 2 |\n| 128,000 | 128 KB | **27.7 s** | 2 |\n\n`ms/n^2` is flat at ~1.7 and each doubling of `n` costs exactly 4.0x - quadratic. 128 KB of input blocks the event loop for nearly half a minute to produce two results.\n\n### Mechanism\n\nInstrumenting the rewrite branch confirms it runs exactly `n + 1` times, once per literal `}`, each re-scanning the whole string.\n\nThere is a second multiplier. The rewrite replaces the group's closing `}` with the internal `escClose` sentinel, which is `'\\0CLOSE' + Math.random() + '\\0'` - about 25 characters. The working string therefore *grows* by ~25 characters on every pass:\n\n| n | input length | final string length |\n|---|---|---|\n| 1,000 | 1,006 | 26,006 |\n| 8,000 | 8,006 | 208,006 |\n\nSo the input is inflated roughly 26x, and that factor multiplies both the quadratic constant and peak memory. This makes it partly a memory-pressure issue as well as a CPU one.\n\n### Why `max` and `maxLength` do not help\n\nThe cost is in parsing, before the result set exists. The payload yields 2 results regardless of size, so neither bound is ever reached.\n\n### Impact\n\nAn application passing an untrusted pattern to `expand()`, directly or through `minimatch` / `glob`, can have its event loop blocked for tens of seconds by a payload well under minimatch's 65,536-character cap. For a single-threaded Node server that is a full stall, not just a slow request.\n\nDegraded availability rather than a crash - the process recovers once the expansion completes.\n\n### Affected versions\n\nVerified affected on 1.1.18, 2.1.4, 3.0.6 and 5.0.9, all within a few percent of each other (~460-490 ms at n=16,000).\n\n### Patch\n\nThe rewrite loop gets an iteration bound. Past the cap the remaining string is treated as non-expanding and returned literally, consistent with the existing `max` / `maxLength` caps, which truncate rather than throw.\n\nNote this bounds the number of passes, not the cost of each: worst-case work remains proportional to `cap x input length`. The cap is set low enough that the residual is bounded in practice, and far above what any realistic `{a},b}` input needs.\n\n### Severity note\n\nScored 5.3 Medium (`A:L`) for consistency with GHSA-3jxr-9vmj-r5cp, the other algorithmic-complexity advisory on this package (CWE-407), which uses the same vector. The stack-exhaustion advisories on this package score `A:H` because they crash the process outright; this one stalls it.",
+              "id": "GHSA-q2hr-2g5m-vwhr",
+              "modified": "2026-09-30T00:00:03.849541183Z",
+              "published": "2026-09-29T23:45:39Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-q2hr-2g5m-vwhr"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102277"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/33a5ef17b8d800bbfa8c52b14c39043b6aac1a96"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/bdff773f98e5988616b7039cc9b508df5d640b22"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/c55e67d8d8b1c56a2474afff15c2891166b2d364"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/ffdfa3e3806bed17c0874b8f1439b084de354a7e"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.11"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.8"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.6"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.20"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102278"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-674"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:45:17Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "HIGH"
+              },
+              "details": "### Summary\n\n`expand_()` recurses once per level of brace *nesting*. Deeply nested input exhausts the native stack and crashes the process.\n\nThis is distinct from CVE-2026-14257 / GHSA-mh99-v99m-4gvg, which made the *tail* iterative (recursion on `m.post`, driven by how many groups are chained). Nesting depth drives a different recursion that the tail fix never touched, so the documented constant-stack-depth guarantee only ever covered chained input, not nested input.\n\nIt is also distinct from GHSA-6j4f-fj2g-mc7p, which fixed recursion in `parseCommaParts()`. Both payloads below still crash with that fix applied.\n\n### Two recursion sites\n\n**Comma members.** Each alternative of a brace set is expanded by a recursive call, so nesting a set inside every alternative recurses once per level:\n\n```js\nexpand('{a,'.repeat(4000) + 'z' + '}'.repeat(4000))\n// RangeError: Maximum call stack size exceeded\n```\n\nCrashes at depth 3,907 - about **15.6 KB** of input.\n\n**Single set.** A brace set whose body parses to a single part is expanded by a recursive call before being re-wrapped (`x{{a,b}}y` -\u003e `x{a}y x{b}y`), which recurses once per nesting level:\n\n```js\nexpand('{'.repeat(3200) + 'a,b' + '}'.repeat(3200))\n// RangeError: Maximum call stack size exceeded\n```\n\nCrashes at depth 3,125 - about **6.25 KB** of input. This is the cheapest stack-exhaustion payload known against this package: roughly a quarter the input of GHSA-6j4f-fj2g-mc7p (29 KB), and about a tenth of minimatch's `MAX_PATTERN_LENGTH` (65,536).\n\n### Why `max` and `maxLength` do not help\n\nBoth crashes happen while recursing into sub-expansions, before the result set grows. The payloads produce almost no output - the single-set case yields 2 results - so neither bound is ever the limiter. `expand(payload, { max: 1, maxLength: 1 })` still overflows.\n\n### Impact\n\nAny application passing an untrusted string to `expand()`, directly or through `minimatch` / `glob` as a user-supplied glob pattern, can be crashed. In Node a `RangeError` the application does not catch terminates the process, so a server globbing user input is exposed to remote unauthenticated denial of service.\n\nAvailability only. No code execution, no data exposure.\n\n### Affected versions\n\nVerified affected on 1.1.18, 2.1.4, 3.0.6 and 5.0.9, at near-identical depths on every line (single set: 3,125 on all four; comma members: 3,907-4,102). Not a regression from any recent fix - the gap predates them.\n\n### Patch\n\nA `maxDepth` bound (default `EXPANSION_MAX_DEPTH`) is threaded through `expand_()`. Past the cap a group is treated as non-expanding and returned literally, which is how the parser already handles a group that cannot expand. This matches the existing `max` / `maxLength` caps, which truncate rather than throw, so `expand()` continues never to throw on any input.\n\nThe default sits far above any realistic nesting depth and well below the crash threshold.",
+              "id": "GHSA-qhr7-859c-m2p7",
+              "modified": "2026-09-30T00:00:04.402763332Z",
+              "published": "2026-09-29T23:45:17Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-qhr7-859c-m2p7"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102278"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/1efee7c397c191da6287a78ec19512476a966a7b"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/935d78f32f335b2ff76578e5c5e877d31ae9888c"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/de84f144e9816f30e25fc8179e2e1249ab6df0db"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "brace-expansion",
+            "version": "5.0.9",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/brace-expansion@5.0.9?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-6j4f-fj2g-mc7p"
+              ],
+              "aliases": [
+                "CVE-2026-102276",
+                "GHSA-6j4f-fj2g-mc7p"
+              ],
+              "max_severity": "7.5"
+            },
+            {
+              "ids": [
+                "GHSA-q2hr-2g5m-vwhr"
+              ],
+              "aliases": [
+                "CVE-2026-102277",
+                "GHSA-q2hr-2g5m-vwhr"
+              ],
+              "max_severity": "5.3"
+            },
+            {
+              "ids": [
+                "GHSA-qhr7-859c-m2p7"
+              ],
+              "aliases": [
+                "CVE-2026-102278",
+                "GHSA-qhr7-859c-m2p7"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.10"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.7"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.5"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-6j4f-fj2g-mc7p/GHSA-6j4f-fj2g-mc7p.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.19"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102276"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-674"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:44:58Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "HIGH"
+              },
+              "details": "### Summary\n\n`parseCommaParts()` can exhaust the native stack and crash the process. There are two distinct ways to trigger it, both reachable from a single untrusted pattern string.\n\nThis is the parsing-side counterpart to CVE-2026-14257 / GHSA-mh99-v99m-4gvg. That fix made `expand_()` iterative and documented a constant-stack-depth guarantee, but `parseCommaParts()` was left recursive, so the guarantee only held for one of the two parsing paths.\n\n### Vector 1 - unbounded recursion on `post`\n\n`parseCommaParts()` recursed on the remainder of the string once per brace group:\n\n```js\nconst postParts = parseCommaParts(post)   // unbounded\n```\n\nA brace group containing many comma-separated groups drives one recursion level per group:\n\n```js\nexpand('{' + '{a},'.repeat(7000) + 'b}')\n// RangeError: Maximum call stack size exceeded\n```\n\nAbout 7,300 repetitions - roughly 29 KB of input - is enough on Node 24; roughly 6,300 (25 KB) on Node 18. The threshold is identical on every affected release line.\n\n### Vector 2 - `push.apply` with an unbounded array\n\nEven with the recursion removed, `parseCommaParts()` spread whole arrays into an argument list:\n\n```js\np.push.apply(p, postParts)\nparts.push.apply(parts, p)\n```\n\n`Function.prototype.apply` places one argument per element on the stack, so a single large array overflows it. This needs **no recursion depth at all** - the following reaches a recursion depth of exactly 1:\n\n```js\nexpand('{{x},' + 'a,'.repeat(125000) + 'b}')\n// RangeError: Maximum call stack size exceeded\n```\n\nThreshold is about 124,300 repetitions (~249 KB). This vector was not part of the original report; it was found while verifying the fix. A patch that only de-recurses but keeps `push.apply` leaves a working denial of service behind.\n\n### Why `max` and `maxLength` do not help\n\nBoth crashes happen during **parsing**, before any expansion. The payloads produce one result per group, so output size grows linearly with input and is never the limiter. `expand(payload, { max: 1, maxLength: 1 })` still overflows.\n\n### Impact\n\nAny application that passes an untrusted string to `expand()` - directly, or through `minimatch` / `glob` where it is a user-supplied glob pattern - can be crashed. In Node, a `RangeError` that the application does not catch terminates the process, so a server that globs user input is exposed to remote unauthenticated denial of service.\n\n`minimatch`'s own `MAX_PATTERN_LENGTH` cap (65,536) does not help against vector 1: the overflow threshold sits well below it. Confirmed on minimatch 10.2.6 - a 64,003-byte pattern passes the length check and overflows both `minimatch.braceExpand()` and `new minimatch.Minimatch()`.\n\nThis is an availability-only issue. No code execution and no data exposure.\n\n### Not a regression\n\n5.0.8 and 5.0.9 overflow at the same repetition count, so the gap predates the recent advisories; those fixes simply did not reach it. Verified affected on 1.1.18, 2.1.4, 3.0.6, 5.0.8 and 5.0.9, all at an identical threshold.\n\n### Patch\n\n`parseCommaParts()` is rewritten as a loop that carries the partial part across chunks, and every array append uses an element-by-element loop rather than `push.apply`. The redundant `if (!str) return ['']` guard is dropped - the loop returns `['']` for the empty string on its own.\n\nEquivalence of the old and new implementations was checked by differential testing: exhaustive over every string of `{`, `}`, `,`, `a` up to length 7 plus 300,000 random inputs - 322,000 cases, zero mismatches.\n\n### Severity note\n\nScored 7.5 High under CVSS 3.1 for consistency with the other availability advisories on this package (GHSA-mh99-v99m-4gvg, GHSA-rgw5-rvv9-x895), which use the same vector. The reporter self-assessed 6.9 Medium under CVSS 4.0 (`CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N`).\n\n### Credit\n\nReported by baeseungwon1010, with a working proof of concept and a proposed patch. Vector 2 was identified during maintainer verification.",
+              "id": "GHSA-6j4f-fj2g-mc7p",
+              "modified": "2026-09-30T00:00:03.836613572Z",
+              "published": "2026-09-29T23:44:58Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-6j4f-fj2g-mc7p"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102276"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/0bcbfc0a5928c3073d48f42999d1ce4fc1c42fbc"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/316359e6019c39b3254c8ba8e25dc586a480652c"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/5171e681c0922b7ae8bfaf9a331e309107be6edc"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/6735c94873ca570bcdd6a0690033bdd3126379d3"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.12"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.9"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.7"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-q2hr-2g5m-vwhr/GHSA-q2hr-2g5m-vwhr.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.21"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102277"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-407"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:45:39Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Summary\n\nExpanding `{a},b}`-shaped input takes time quadratic in the number of literal `}` characters, blocking the event loop.\n\nBash preserves a quirk where a brace group followed by a comma set still expands (`{a},b}`). The parser implements this by rewriting the string and restarting the scan. Each pass absorbs exactly one `}` and re-scans from the beginning, so `n` trailing braces cost `n` full passes.\n\n### Reproduction\n\n```js\nconst build = n =\u003e '{a}' + '}'.repeat(n) + ',z}'\n\nfor (const n of [8000, 16000, 32000, 64000, 128000]) {\n  const t = Date.now()\n  expand(build(n))\n  console.log(n, Date.now() - t + 'ms')\n}\n```\n\n| n | input | time | results |\n|---|---|---|---|\n| 8,000 | 8 KB | 110 ms | 2 |\n| 16,000 | 16 KB | 446 ms | 2 |\n| 32,000 | 32 KB | 1.7 s | 2 |\n| 64,000 | 64 KB | 6.9 s | 2 |\n| 128,000 | 128 KB | **27.7 s** | 2 |\n\n`ms/n^2` is flat at ~1.7 and each doubling of `n` costs exactly 4.0x - quadratic. 128 KB of input blocks the event loop for nearly half a minute to produce two results.\n\n### Mechanism\n\nInstrumenting the rewrite branch confirms it runs exactly `n + 1` times, once per literal `}`, each re-scanning the whole string.\n\nThere is a second multiplier. The rewrite replaces the group's closing `}` with the internal `escClose` sentinel, which is `'\\0CLOSE' + Math.random() + '\\0'` - about 25 characters. The working string therefore *grows* by ~25 characters on every pass:\n\n| n | input length | final string length |\n|---|---|---|\n| 1,000 | 1,006 | 26,006 |\n| 8,000 | 8,006 | 208,006 |\n\nSo the input is inflated roughly 26x, and that factor multiplies both the quadratic constant and peak memory. This makes it partly a memory-pressure issue as well as a CPU one.\n\n### Why `max` and `maxLength` do not help\n\nThe cost is in parsing, before the result set exists. The payload yields 2 results regardless of size, so neither bound is ever reached.\n\n### Impact\n\nAn application passing an untrusted pattern to `expand()`, directly or through `minimatch` / `glob`, can have its event loop blocked for tens of seconds by a payload well under minimatch's 65,536-character cap. For a single-threaded Node server that is a full stall, not just a slow request.\n\nDegraded availability rather than a crash - the process recovers once the expansion completes.\n\n### Affected versions\n\nVerified affected on 1.1.18, 2.1.4, 3.0.6 and 5.0.9, all within a few percent of each other (~460-490 ms at n=16,000).\n\n### Patch\n\nThe rewrite loop gets an iteration bound. Past the cap the remaining string is treated as non-expanding and returned literally, consistent with the existing `max` / `maxLength` caps, which truncate rather than throw.\n\nNote this bounds the number of passes, not the cost of each: worst-case work remains proportional to `cap x input length`. The cap is set low enough that the residual is bounded in practice, and far above what any realistic `{a},b}` input needs.\n\n### Severity note\n\nScored 5.3 Medium (`A:L`) for consistency with GHSA-3jxr-9vmj-r5cp, the other algorithmic-complexity advisory on this package (CWE-407), which uses the same vector. The stack-exhaustion advisories on this package score `A:H` because they crash the process outright; this one stalls it.",
+              "id": "GHSA-q2hr-2g5m-vwhr",
+              "modified": "2026-09-30T00:00:03.849541183Z",
+              "published": "2026-09-29T23:45:39Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-q2hr-2g5m-vwhr"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102277"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/33a5ef17b8d800bbfa8c52b14c39043b6aac1a96"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/bdff773f98e5988616b7039cc9b508df5d640b22"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/c55e67d8d8b1c56a2474afff15c2891166b2d364"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/ffdfa3e3806bed17c0874b8f1439b084de354a7e"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "5.0.11"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.0.8"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.0.0"
+                        },
+                        {
+                          "fixed": "2.1.6"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-qhr7-859c-m2p7/GHSA-qhr7-859c-m2p7.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "brace-expansion",
+                    "purl": "pkg:npm/brace-expansion"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "1.1.20"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-102278"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-674"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-29T23:45:17Z",
+                "nvd_published_at": "2026-09-28T21:17:16Z",
+                "severity": "HIGH"
+              },
+              "details": "### Summary\n\n`expand_()` recurses once per level of brace *nesting*. Deeply nested input exhausts the native stack and crashes the process.\n\nThis is distinct from CVE-2026-14257 / GHSA-mh99-v99m-4gvg, which made the *tail* iterative (recursion on `m.post`, driven by how many groups are chained). Nesting depth drives a different recursion that the tail fix never touched, so the documented constant-stack-depth guarantee only ever covered chained input, not nested input.\n\nIt is also distinct from GHSA-6j4f-fj2g-mc7p, which fixed recursion in `parseCommaParts()`. Both payloads below still crash with that fix applied.\n\n### Two recursion sites\n\n**Comma members.** Each alternative of a brace set is expanded by a recursive call, so nesting a set inside every alternative recurses once per level:\n\n```js\nexpand('{a,'.repeat(4000) + 'z' + '}'.repeat(4000))\n// RangeError: Maximum call stack size exceeded\n```\n\nCrashes at depth 3,907 - about **15.6 KB** of input.\n\n**Single set.** A brace set whose body parses to a single part is expanded by a recursive call before being re-wrapped (`x{{a,b}}y` -\u003e `x{a}y x{b}y`), which recurses once per nesting level:\n\n```js\nexpand('{'.repeat(3200) + 'a,b' + '}'.repeat(3200))\n// RangeError: Maximum call stack size exceeded\n```\n\nCrashes at depth 3,125 - about **6.25 KB** of input. This is the cheapest stack-exhaustion payload known against this package: roughly a quarter the input of GHSA-6j4f-fj2g-mc7p (29 KB), and about a tenth of minimatch's `MAX_PATTERN_LENGTH` (65,536).\n\n### Why `max` and `maxLength` do not help\n\nBoth crashes happen while recursing into sub-expansions, before the result set grows. The payloads produce almost no output - the single-set case yields 2 results - so neither bound is ever the limiter. `expand(payload, { max: 1, maxLength: 1 })` still overflows.\n\n### Impact\n\nAny application passing an untrusted string to `expand()`, directly or through `minimatch` / `glob` as a user-supplied glob pattern, can be crashed. In Node a `RangeError` the application does not catch terminates the process, so a server globbing user input is exposed to remote unauthenticated denial of service.\n\nAvailability only. No code execution, no data exposure.\n\n### Affected versions\n\nVerified affected on 1.1.18, 2.1.4, 3.0.6 and 5.0.9, at near-identical depths on every line (single set: 3,125 on all four; comma members: 3,907-4,102). Not a regression from any recent fix - the gap predates them.\n\n### Patch\n\nA `maxDepth` bound (default `EXPANSION_MAX_DEPTH`) is threaded through `expand_()`. Past the cap a group is treated as non-expanding and returned literally, which is how the parser already handles a group that cannot expand. This matches the existing `max` / `maxLength` caps, which truncate rather than throw, so `expand()` continues never to throw on any input.\n\nThe default sits far above any realistic nesting depth and well below the crash threshold.",
+              "id": "GHSA-qhr7-859c-m2p7",
+              "modified": "2026-09-30T00:00:04.402763332Z",
+              "published": "2026-09-29T23:45:17Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/security/advisories/GHSA-qhr7-859c-m2p7"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102278"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/1efee7c397c191da6287a78ec19512476a966a7b"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/935d78f32f335b2ff76578e5c5e877d31ae9888c"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/juliangruber/brace-expansion/commit/de84f144e9816f30e25fc8179e2e1249ab6df0db"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/juliangruber/brace-expansion"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "glob",
+            "version": "13.0.6",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/glob@13.0.6?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-3g3m-2fjr-6pw4"
+              ],
+              "aliases": [
+                "CVE-2026-118773",
+                "GHSA-3g3m-2fjr-6pw4"
+              ],
+              "max_severity": "6.3"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 14.0.1",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/10/GHSA-3g3m-2fjr-6pw4/GHSA-3g3m-2fjr-6pw4.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "glob",
+                    "purl": "pkg:npm/glob"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "9.0.0"
+                        },
+                        {
+                          "fixed": "14.0.2"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-118773"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-10-30T23:09:11Z",
+                "nvd_published_at": "2026-10-29T19:17:19Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Summary\n\nIn glob 13.0.6, an aborted async walk rejects or emits an error but continues recursively reading directories in the background.\n\nThe root cause is that abort branches in src/walker.ts call cb() without returning. As a result, callers that rely on signal or AbortSignal.timeout() to bound glob traversal cost can still incur filesystem I/O and CPU work after the request has already been rejected.\n\n### Details\n\nThis was reproduced on glob v13.0.6 (commit e80cb38ae60d6cbff9e75f39032a994858994d35).\n\nThe README documents that the signal option cancels the glob walk. However, in src/walker.ts, the following methods call cb() when this.signal?.aborted is true but do not return:\n\n- GlobUtil.walkCB()\n- GlobUtil.walkCB2()\n- GlobUtil.walkCBSync()\n- GlobUtil.walkCB2Sync()\n\nExample vulnerable pattern:\n\nif (this.signal?.aborted) cb()\n\nBecause execution continues after cb(), the walker still reaches processor.processPatterns(), readdirCB(), and recursive walkCB2() calls.\n\nThe issue was directly demonstrated against v13.0.6. A source-history review shows the same missing-return pattern is present in tagged releases from v9.0.0 through v13.0.6.\n\nThe issue affects both glob() and globStream().\n\nRecommended fix:\nChange each abort branch to return immediately:\n\nif (this.signal?.aborted) return cb()\n\n### Proof of concept\n\nEnvironment:\n- Linux x86_64\n- Node.js v22.23.3\n- npm 10.9.9\n- glob 13.0.6\n\nReproduction steps:\n\n1. Install the affected package:\n   npm init -y\n   npm install glob@13.0.6\n\n2. Run the attached PoC:\n   node poc/abort-continues-work.mjs\n\nThe PoC aborts after the first readdir() call, waits briefly, and counts how many more directory reads happen after the promise has already rejected.\n\nObserved output on the vulnerable version:\n\n{\n  \"rejection\": \"Error: probe-abort\",\n  \"readdirCalls\": 1365,\n  \"readdirCallsAtReject\": 5,\n  \"readdirCallsAfterReject\": 1360\n}\n\nExpected behavior:\nreaddirCallsAfterReject should be 0.\n\nA second PoC using AbortSignal.timeout() also reproduces the issue:\n\n{\n  \"rejection\": \"TimeoutError: The operation was aborted due to timeout\",\n  \"readdirCalls\": 133,\n  \"readdirCallsAtReject\": 1,\n  \"readdirCallsAfterReject\": 132\n}\n\nThe same test against a patched build with return cb() in the four abort branches stops immediately:\n\n{\n  \"readdirCalls\": 1,\n  \"readdirCallsAtReject\": 1,\n  \"readdirCallsAfterReject\": 0\n}\n\n### Impact\n\nThis is an availability issue.\n\nApplications that expose globbing over attacker-influenced patterns or attacker-controlled directory trees and use AbortSignal / AbortSignal.timeout() as a traversal budget can still perform significant filesystem I/O and CPU work after a request has already timed out or been canceled.\n\nRepeated timed-out requests can stack background glob walks and degrade worker throughput or service availability.\n\nNo confidentiality or integrity impact was observed.",
+              "id": "GHSA-3g3m-2fjr-6pw4",
+              "modified": "2026-10-30T23:15:04.503965732Z",
+              "published": "2026-10-30T23:09:11Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/node-glob/security/advisories/GHSA-3g3m-2fjr-6pw4"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118773"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/node-glob/commit/4682e8c9babee1b385202ede36389634e12076d7"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/isaacs/node-glob"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/node-glob/releases/tag/v14.0.2"
+                }
+              ],
+              "schema_version": "1.9.2",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "js-yaml",
+            "version": "4.3.1",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/js-yaml@4.3.1?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-2883-xcg3-v3hh"
+              ],
+              "aliases": [
+                "CVE-2026-84375",
+                "GHSA-2883-xcg3-v3hh"
+              ],
+              "max_severity": "7.5"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-2883-xcg3-v3hh/GHSA-2883-xcg3-v3hh.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "js-yaml",
+                    "purl": "pkg:npm/js-yaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "4.0.0"
+                        },
+                        {
+                          "fixed": "4.3.2"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                },
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-2883-xcg3-v3hh/GHSA-2883-xcg3-v3hh.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "js-yaml",
+                    "purl": "pkg:npm/js-yaml"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "3.0.0"
+                        },
+                        {
+                          "fixed": "3.15.2"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-84375"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-400",
+                  "CWE-407"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-08T21:24:51Z",
+                "nvd_published_at": "2026-09-01T22:17:19Z",
+                "severity": "HIGH"
+              },
+              "details": "## Summary\n\n`maxTotalMergeKeys` does not count empty mappings. An attacker can repeatedly merge a large sequence of them and consume significant CPU without reaching the configured limit.\n\n## Example\n\n```yaml\narr: \u0026arr [{}, {}, {}, ...] # N empty mappings\ntargets:\n  - \u003c\u003c: *arr                # repeated K times\n```\n\nFor every target, the loader iterates all `N` elements of `arr`. This results in `O(N * K)` work while `totalMergeKeys` remains unchanged.\n\n## PoC\n\n```js\nimport { performance } from 'node:perf_hooks'\nimport { load, YAML11_SCHEMA } from 'js-yaml'\n\nconst n = 20000\n\nconst src =\n  'arr: \u0026arr [' + '{},'.repeat(n).slice(0, -1) + ']\\n' +\n  'targets:\\n' +\n  '  - \u003c\u003c: *arr\\n'.repeat(n)\n\nconst started = performance.now()\n\nload(src, { schema: YAML11_SCHEMA })\n\nconsole.log(`${(performance.now() - started).toFixed(1)} ms`)\n```\n\nObserved results:\n\n| N | YAML size | Time |\n|---:|---:|---:|\n| 800 | ~13 KB | ~20 ms |\n| 3200 | ~50 KB | ~180 ms |\n| 20000 | ~500 KB | ~13 s |\n\n## Impact\n\nAn attacker can submit a relatively small YAML document that causes prolonged CPU consumption despite the default `maxTotalMergeKeys` limit.\n\n## Fix\n\nCount each merge-source mapping as one budget unit, in addition to counting its keys.\n\n## Difference with v5\n\nIn v3 \u0026 v4, merge is enabled by default. So, the severity score is higher.",
+              "id": "GHSA-2883-xcg3-v3hh",
+              "modified": "2026-09-08T21:30:05.575808098Z",
+              "published": "2026-09-08T21:24:51Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/security/advisories/GHSA-2883-xcg3-v3hh"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84375"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/pull/797"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/commit/3485bc06ff8a0251505f44a00414d90df2466639"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/commit/6a8e05f9a485188ed730ac81e81ae221352ef480"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/commit/d90b6612a5a84385bdcb556c44578eac76dc0f6b"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/nodeca/js-yaml"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/releases/tag/3.15.2"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nodeca/js-yaml/releases/tag/4.3.2"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                  "type": "CVSS_V3"
+                }
+              ],
+              "summary": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "minimatch",
+            "version": "10.2.5",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/minimatch@10.2.5?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-g3hv-75wg-m249"
+              ],
+              "aliases": [
+                "CVE-2026-118764",
+                "GHSA-g3hv-75wg-m249"
+              ],
+              "max_severity": "6.9"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/10/GHSA-g3hv-75wg-m249/GHSA-g3hv-75wg-m249.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "minimatch",
+                    "purl": "pkg:npm/minimatch"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "7.0.0"
+                        },
+                        {
+                          "fixed": "11.0.1"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-118764"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-405"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-10-30T23:09:55Z",
+                "nvd_published_at": "2026-10-29T17:18:07Z",
+                "severity": "MODERATE"
+              },
+              "details": "minimatch 10.2.6 contains an attacker-controlled pattern amplification in firstPhasePreProcess() when optimizationLevel \u003e= 2.\n\nresearcher: Reid Downing (b1nv0id)\nfiles: \n\n- src/index.ts: 690-770\n- src/index.ts: 780-796\n\nissue:\ninput-controlled growth of globParts during first-phase preprocessing, followed by quadratic second-phase processing.\n\nthe **/../ transformation clones a globparts entry and appends the clone to the same globparts array:\n```\nparts.splice(gs, 1)\nconst other = parts.slice(0)\nother[gs] = '**'\nglobParts.push(other)\n```\nthis occurs inside a do...while (didSomething) fixpoint loop, allowing generated entries to be processed again.\n\nthe expanded globparts array is subsequently processed by secondPhasePreProcess(), which performs pairwise comparisons:\n```\nfor (let i = 0; i \u003c globParts.length - 1; i++) {\n  for (let j = i + 1; j \u003c globParts.length; j++) {\n    this.partsMatch(...)\n  }\n}\n```\nan attacker who can supply a glob pattern can therefore cause additional pattern entries to be generated during preprocessing, followed by quadratic pairwise processing, resulting in excessive cpu and memory consumption.",
+              "id": "GHSA-g3hv-75wg-m249",
+              "modified": "2026-11-04T17:01:25.850114200Z",
+              "published": "2026-10-30T23:09:55Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/minimatch/security/advisories/GHSA-g3hv-75wg-m249"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118764"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/minimatch/commit/297b6c1a01f2410b3ba1ebed14ba222d0c3c1033"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/minimatch/commit/77a0f5c4b80bdc641c3c930a1d9edf5ad2db57f8"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/minimatch/commit/fd0b3ab9cbc5bf1aff1c99f1f46e413c2b3340da"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/isaacs/minimatch"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/isaacs/minimatch/releases/tag/v11.0.1"
+                }
+              ],
+              "schema_version": "1.9.2",
+              "severity": [
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "minimatch has potential denial of service via globparts amplification"
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "qs",
+            "version": "6.15.2",
+            "ecosystem": "npm",
+            "purl": "pkg:npm/qs@6.15.2?source=PUBLIC_REGISTRY"
+          },
+          "dependency_groups": [
+            "dev"
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-4mjr-xmp4-gh2g"
+              ],
+              "aliases": [
+                "CVE-2026-82417",
+                "GHSA-4mjr-xmp4-gh2g"
+              ],
+              "max_severity": "6.3"
+            },
+            {
+              "ids": [
+                "GHSA-6pq8-jhm2-2vcw"
+              ],
+              "aliases": [
+                "CVE-2026-110816",
+                "GHSA-6pq8-jhm2-2vcw"
+              ],
+              "max_severity": "6.3"
+            },
+            {
+              "ids": [
+                "GHSA-x5fp-wj9c-mxmx"
+              ],
+              "aliases": [
+                "CVE-2026-82562",
+                "GHSA-x5fp-wj9c-mxmx"
+              ],
+              "max_severity": "6.3"
+            }
+          ],
+          "vulnerabilities": [
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-4mjr-xmp4-gh2g/GHSA-4mjr-xmp4-gh2g.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "qs",
+                    "purl": "pkg:npm/qs"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "2.2.5"
+                        },
+                        {
+                          "fixed": "6.16.0"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-82417"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-248",
+                  "CWE-703"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-02T14:45:13Z",
+                "nvd_published_at": "2026-08-30T00:16:34Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Summary\n\n`qs.stringify()` calls `utils.isBuffer()` on every value it serializes, and `utils.isBuffer()` invokes `obj.constructor.isBuffer(obj)` without checking that it is callable. A value whose own `constructor.isBuffer` is a non-function makes `qs` call a non-callable and throw `TypeError`. Such a value is produced **by `qs.parse` itself** from an untrusted query string when `plainObjects: true` or `allowPrototypes: true` is set, so a pure-`qs` `parse` → `stringify` round-trip — no `JSON.parse` — turns an unauthenticated query string into an uncaught throw.\n\nAn attacker-controlled `parse` input reaches the host application's availability asset — via `qs`'s own recommended `plainObjects` mitigation — and triggers an uncaught exception during a `parse` → `stringify` round-trip.\n\n### Details\n`utils.isBuffer` runs at `lib/stringify.js:127` for every serialized value:\n\n```js\nif (isNonNullishPrimitive(obj) || utils.isBuffer(obj)) { ... }\n```\n\n`utils.isBuffer` (`lib/utils.js:327-333`) invokes `obj.constructor.isBuffer` without verifying it is callable:\n\n```js\nvar isBuffer = function isBuffer(obj) {\n    if (!obj || typeof obj !== 'object') { return false; }\n    return !!(obj.constructor \u0026\u0026 obj.constructor.isBuffer \u0026\u0026 obj.constructor.isBuffer(obj));\n};\n```\n\n`constructor` and `isBuffer` are ordinary keys. `qs.parse` with `plainObjects: true` or `allowPrototypes: true` keeps them as own properties, so the parsed value carries a non-function `constructor.isBuffer`; `stringify` then calls a non-callable and throws `TypeError`. By contrast `utils.isRegExp` uses a brand check (`Object.prototype.toString`); the missing guard here is an internal inconsistency, not a platform limitation.\n\n\n### Trust Boundary Note\n\n`qs.stringify` alone treats its input as caller-constructed, so serializing a hostile object could be argued outside its contract. This report does not depend on that framing: the malicious shape is produced by **`qs.parse`, whose input is untrusted by design**. `qs.parse` normally strips a `constructor` key via its prototype guard, but with the documented options `plainObjects: true` or `allowPrototypes: true` the key survives and lands as an own property. Feeding the parsed object back into `qs.stringify` — the standard round-trip in gateways and request-forwarders — then hits the unchecked call. \n\n\n### PoC\n`poc02c_isBuffer_qs_only_roundtrip.js` — pure-`qs` chain, no `JSON.parse`; an untrusted query string alone reaches the throw:\n\n```js\n'use strict';\nvar qs = require('qs');\n\nvar untrustedQueryString = 'x%5Bconstructor%5D%5BisBuffer%5D=y'; // x[constructor][isBuffer]=y\n\nvar parsed = qs.parse(untrustedQueryString, { plainObjects: true });\nconsole.log('[parse] kept constructor key:', JSON.stringify(parsed));\n\ntry {\n    qs.stringify(parsed);\n    console.log('[stringify] no throw (unexpected)');\n} catch (e) {\n    console.log('[stringify] DoS reproduced -\u003e', e.constructor.name + ':', e.message);\n}\n```\n\n`poc02_isBuffer.js` — the minimal defect:\n\n```js\n'use strict';\nvar qs = require('qs');\ntry {\n    qs.stringify(JSON.parse('{\"a\":{\"constructor\":{\"isBuffer\":\"x\"}}}'));\n} catch (e) {\n    console.log('[A] DoS reproduced -\u003e', e.constructor.name + ':', e.message);\n}\n```\n\n`poc02b_isBuffer_async_crash.js` — worker death in an async sink:\n\n```js\n'use strict';\nvar qs = require('qs');\n\nfunction handleRequestAsync(clientJsonBody) {\n    try {\n        setImmediate(function () {                 // async continuation, outside the try\n            qs.stringify(JSON.parse(clientJsonBody)); // throws here, uncaught\n        });\n        console.log('[handler] returned 200 synchronously; async work scheduled');\n    } catch (e) {\n        console.log('[handler] caught synchronously (will NOT happen):', e.message);\n    }\n}\nprocess.on('exit', function (code) {\n    console.log('[proc] process exiting with code:', code);\n});\nhandleRequestAsync('{\"filters\":{\"constructor\":{\"isBuffer\":\"x\"}}}');\n```\n\n### Execution Steps\n\n```bash\ncd poc\nnpm install qs@6.15.3\nnode poc02c_isBuffer_qs_only_roundtrip.js  # pure qs parse-\u003estringify -\u003e TypeError\nnode poc02_isBuffer.js                      # minimal defect -\u003e TypeError inside stringify\nnode poc02b_isBuffer_async_crash.js         # async sink -\u003e uncaught throw -\u003e exit code 1\n```\n\n### Reproduction Evidence\n\n`poc02c_isBuffer_qs_only_roundtrip.js` :\n\n```\n[parse] kept constructor key: {\"x\":{\"constructor\":{\"isBuffer\":\"y\"}}}\n[stringify] DoS reproduced -\u003e TypeError: obj.constructor.isBuffer is not a function\n```\n\n`poc02_isBuffer.js`:\n\n```\n[A] DoS reproduced -\u003e TypeError: obj.constructor.isBuffer is not a function\n```\n\n`poc02b_isBuffer_async_crash.js` :\n\n```\n[handler] returned 200 synchronously; async work scheduled\n[proc] process exiting with code: 1\nTypeError: obj.constructor.isBuffer is not a function\n    at Object.isBuffer (.../qs/lib/utils.js:332:78)\n    at stringify (.../qs/lib/stringify.js:127:45)\n=== EXIT CODE: 1 ===\n```\n\nThe pure-`qs` round-trip shows the malicious shape originates from `qs.parse` of an untrusted query string, with no `JSON.parse`. The synchronous `try/catch` in the async case does not catch the throw; the process exits with code 1, denying service to all requests on that worker.\n\n### Impact\n\nAn unauthenticated request degrades any endpoint that re-serializes deserialized client data with `qs.stringify`. The primary impact is a per-request failure: the handler throws and the framework returns HTTP 500. Where the call sits in an unguarded async continuation, the throw escapes and the worker process exits, denying service to all requests it was handling, which means a higher impact that depends on the application's error handling, not on `qs`.\n\n### Recommended Fix\n\nReplace the duck-type with a brand check mirroring `utils.isRegExp`:\n\n```js\nvar isBuffer = function isBuffer(obj) {\n    if (!obj || typeof obj !== 'object') { return false; }\n    if (typeof Buffer !== 'undefined' \u0026\u0026 typeof Buffer.isBuffer === 'function') {\n        return Buffer.isBuffer(obj);\n    }\n    return Object.prototype.toString.call(obj) === '[object Uint8Array]';\n};\n```\n\nIf duck-typing must remain, require `typeof obj.constructor.isBuffer === 'function'` before invoking and wrap the call in `try/catch`.",
+              "id": "GHSA-4mjr-xmp4-gh2g",
+              "modified": "2026-09-10T03:51:14.991984096Z",
+              "published": "2026-09-02T14:45:13Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/security/advisories/GHSA-4mjr-xmp4-gh2g"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82417"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/commit/e83d321ffafb38cf210683ac31714fce6ce1c6c6"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/ljharb/qs"
+                }
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                },
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "qs: Denial of Service via Attacker Controlled isBuffer"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 6.16.0",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/10/GHSA-6pq8-jhm2-2vcw/GHSA-6pq8-jhm2-2vcw.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "qs",
+                    "purl": "pkg:npm/qs"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.7.0"
+                        },
+                        {
+                          "fixed": "6.16.1"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-110816"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-248",
+                  "CWE-704"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-10-27T16:10:55Z",
+                "nvd_published_at": "2026-10-14T22:17:23Z",
+                "severity": "MODERATE"
+              },
+              "details": "## Summary\n\n`qs.stringify(obj, { arrayFormat: 'comma' })` throws an uncaught `TypeError: Cannot convert object to primitive value` when an array in `obj` contains an element that carries an own, non-callable `toString` property (for example `{ a: [ { toString: 'x' } ] }`). A remote, unauthenticated attacker who can influence an object that the application later re-serializes with the comma array format triggers the throw. In a service that lacks a synchronous error boundary around the serialization call, the uncaught exception crashes the worker process, producing a denial of service.\n\n## Root Cause\n\nWhen `arrayFormat: 'comma'` is selected, the comma branch collapses the whole array into a single value via `Array.prototype.join`, or, under `encodeValuesOnly: true`, maps each element through the value encoder before joining. Both paths perform an implicit string coercion (`ToPrimitive` with hint `\"string\"`) on each element. For an object whose own `toString` is a non-callable value, coercion skips the shadowed non-callable `toString`, falls through to `Object.prototype.valueOf` (which returns the object rather than a primitive), and throws. The comma branch runs this coercion before the per-element null and skip handling in the main loop, so nothing downstream can neutralize the hostile element, and the throw is never caught inside the library.\n\n```text\nlib/stringify.js  (comma-array branch)\n  line 152-154: obj = utils.maybeMap(obj, function (v) { return v == null ? v : encoder(v); });  // encodeValuesOnly path\n  line 156:     objKeys = [{ value: obj.length \u003e 0 ? obj.join(',') || null : void undefined }];   // default comma path\nlib/utils.js\n  line 292:     string = String(str);   // value encoder coercion reached via the encodeValuesOnly path\n```\n\n## Impact\n\nPrerequisites: the application calls `qs.stringify` with `arrayFormat: 'comma'` (a documented, supported option) on an object whose shape can be influenced by attacker input. Attacker-controllable sources include `qs.parse(input, { allowPrototypes: true })`, which retains a `toString` segment (Express 4's default query parser, Express 5's `extended` query parser, and body-parser's `extended` urlencoded parser all set it), `qs.parse(input, { plainObjects: true })`, whose null-prototype elements throw even without a `toString` key (eg, `a[][b]=c`), and `JSON.parse` of a request body, which needs no qs parse option at all. No authentication or user interaction is required. Demonstrated capability: a single request forces an uncaught synchronous `TypeError` in the serialization call. In a naive single-process Node service with no synchronous error boundary, this crashes the process and takes the service offline (availability impact). Under a framework such as Express that traps synchronous handler throws, the plausible outcome is a per-request 500 rather than a full outage; that lower-impact case is noted but not the worst credible supported deployment. There is no confidentiality or integrity impact, no memory unsafety, and no prototype pollution.\n\n## Proof of Concept\n\n`Install qs at the affected version (for example 6.16.0) and run the following script with Node.js. No network setup is required; it demonstrates the throw in isolation.`\n\n```js\nvar qs = require('qs');\n\n// Source A: qs.parse with allowPrototypes retains the hostile toString segment\nqs.stringify(qs.parse('a[0][toString]=x', { allowPrototypes: true }), { arrayFormat: 'comma' });\n\n// Source B: a JSON request body, no qs parse option needed\nqs.stringify(JSON.parse('{\"a\":[{\"toString\":\"x\"}]}'), { arrayFormat: 'comma' });\n\n// Also affected: the encodeValuesOnly sub-path\nqs.stringify(JSON.parse('{\"a\":[{\"toString\":\"x\"}]}'), { arrayFormat: 'comma', encodeValuesOnly: true });\n```\n\n```text\nA default-join (allowPrototypes) =\u003e THREW: TypeError: Cannot convert object to primitive value\nB default-join (JSON.parse) =\u003e THREW: TypeError: Cannot convert object to primitive value\nC encodeValuesOnly path =\u003e THREW: TypeError: Cannot convert object to primitive value\nN2 callable toString =\u003e NO THROW; output=\"a=z\"\nN3 isBuffer vector (CVE-2026-82417) =\u003e NO THROW; output=\"a%5Bconstructor%5D%5BisBuffer%5D=x\"\nqs version: 6.16.0\n```\n\n## Attack Chain\n\n1. **Exposure:** A remote, unauthenticated request reaches an endpoint whose handler eventually serializes attacker-influenced data with `qs.stringify(obj, { arrayFormat: 'comma' })`.\n2. **Control:** The attacker supplies data that becomes `{ a: [ { toString: \u003cnon-callable value\u003e } ] }`, either via `a[0][toString]=x` parsed with `allowPrototypes`, or via a JSON body `{\"a\":[{\"toString\":\"x\"}]}`.\n3. **Path:** In `stringify`, the primitive/buffer guard at `lib/stringify.js:134` is false for an array, so control reaches the comma branch at `lib/stringify.js:149`.\n4. **Guard:** On the `encodeValuesOnly` path, the closure `v == null ? v : encoder(v)` at `lib/stringify.js:152-154` passes only `null`/`undefined` through; a non-null object still reaches the encoder. The default path skips that closure entirely and reaches `obj.join(',')` at `lib/stringify.js:156` with no guard at all.\n5. **Primitive:** The element is coerced to a string (`Array.prototype.join`, or `String(str)` at `lib/utils.js:292`). `ToPrimitive` skips the non-callable own `toString`, `valueOf` returns the object, and a `TypeError` is thrown.\n6. **Result:** The uncaught synchronous exception propagates out of the serialization call, failing the request and, in a service without a synchronous error boundary, crashing the process (denial of service).\n\n## Bypass Evidence\n\nThis is a different element type on the code path CVE-2026-8723 (GHSA-q8mj-m7cp-5q26) patched, plus the default comma path, which that fix never covered. CVE-2026-8723 addressed a `TypeError` crash on `null`/`undefined` entries in the comma plus `encodeValuesOnly` path. Its fix (commit 21f80b3) wraps the encoder in `function (v) { return v == null ? v : encoder(v); }`, so it only passes `null` and `undefined` through. A non-null element with a hostile own `toString` fails the `v == null` test, so the encoder still runs and still throws; the encodeValuesOnly case (case C above) throws on the exact fixed code. The default comma path (`encodeValuesOnly` unset, the library default) never entered that fix at all: `git log -S \"obj.join(','\" -- lib/stringify.js` shows no security fix has ever touched the `obj.join(',')` line, and cases A and B throw with `encodeValuesOnly` unset. The related isBuffer hardening for CVE-2026-82417 (commit e83d321) is a different sink at the `lib/stringify.js:134` guard, which is never entered for the array element; the negative control `{a:{constructor:{isBuffer:'x'}}}` serializes cleanly. Disproof attempts that failed: a `valueOf`-only object does not throw (it serializes to `[object Object]`), confirming the trigger is an element with no callable `toString` (an own non-callable `toString`, or a null-prototype object with no `toString` at all, as `qs.parse` produces under `plainObjects`); nested arrays (`{\"a\":[[{\"toString\":\"x\"}]]}`) throw the same way; a callable `toString` serializes cleanly; and the default (non-comma) array format serializes cleanly, confirming the comma format is required. All positive and negative cases were reproduced on the exact published 6.16.0 artifact.\n\n## Affected Versions\n\n- `Ecosystem: npm`\n- `Package: qs`\n- `Confirmed affected range: \u003e= 6.7.0, \u003c= 6.16.0`\n- `Latest release checked: 6.16.0 (npm latest; git tag v6.16.0)`\n- `Fix status: fixed in 6.16.1 (a952e75)`\n\nThe `arrayFormat: 'comma'` join sink was introduced in qs 6.7.0, so 6.7.0 is the lower boundary; releases before 6.7.0 lack the sink. No released version fixes this vector, and the latest published release (6.16.0) reproduces the throw, so the closed upper bound `\u003c= 6.16.0` covers every affected release. The `encodeValuesOnly` sub-path was added later, but the default comma-join vector already affects 6.7.0, so 6.7.0 governs the lower boundary.\n\n## Suggested Fix\n\nThe comma array serialization must not allow an implicit string coercion of an array element to throw an uncaught exception. Coercion of each comma element should be performed defensively (for example by wrapping the join and per-element encode so that a coercion failure is caught and handled), and this protection must cover both the default `obj.join(',')` path and the `encodeValuesOnly` encoder path, not only the previously patched `null`/`undefined` case. As an interim mitigation without a code change, applications can avoid `arrayFormat: 'comma'` when serializing data derived from untrusted input, sanitize parsed objects (avoid `allowPrototypes`/`plainObjects` on untrusted input and strip unexpected own properties), or wrap `qs.stringify` calls in a synchronous error boundary so a coercion failure cannot crash the process.\n\nReported by zx (GitHub: @manus-pi).\n\n---\n\n## Independent report by @Lucidsec\n\nThe following was reported separately, after this advisory, and is merged here as a duplicate.\n\n### Summary\n\nIn project [qs](https://github.com/ljharb/qs), in versions `\u003e= 6.7.0, \u003c= 6.16.0` (every version that supports `arrayFormat: 'comma'`), `qs.stringify` with `arrayFormat: 'comma'` can throw an uncaught `TypeError: Cannot convert object to primitive value` when an array element has a non-callable own `toString`. It is fixed in 6.16.1. Related: CWE-248 and CWE-704.\n\n### Technical Details\n\n`qs.stringify` with `arrayFormat: 'comma'` joins an array at `lib/stringify.js:156` via `obj.join(',')`. An element whose own `toString` is not callable makes `Array.prototype.join` throw. There is no type check and no catch on that path.\n\nA second path exists with `encodeValuesOnly`: at `lib/stringify.js:151-154`, `maybeMap` only skips `v == null`, then `lib/utils.js:292` does `String(str)` and throws the same `TypeError` (this second site exists since v6.11.1; before that, the same input throws at `join`).\n\nWho can trigger: someone who can shape an array element passed to `stringify`. The host must use non-default `arrayFormat: 'comma'`. Default `arrayFormat` `indices` does not fold arrays and is not affected. A parse-then-stringify path also needs `plainObjects: true` (null-prototype elements from `lib/parse.js:200`) or `allowPrototypes: true` (which Express 4's default query parser, Express 5's `extended` query parser, and body-parser's `extended` urlencoded parser all set). Default `qs.parse('a[0][toString]=x')` returns `{}` because the prototype guard drops `toString`. Direct JSON handed to `stringify` can supply `{\"a\":[{\"toString\":\"x\"}]}`.\n\nCause: the comma fold at `lib/stringify.js:149-156` collapses the array into a single value before the main loop at `lib/stringify.js:172-212`, so `skipNulls` and `strictNullHandling` only ever see the joined value, never individual elements. `isNonNullishPrimitive` / `isBuffer` at `lib/stringify.js:134` inspect the whole value, not each element. A normal object uses `Object.prototype.toString` and becomes `[object Object]`. An own non-callable `toString` is skipped, `valueOf` returns the object, and `join` throws. (The skipped TODO test at `test/stringify.js:684-689` uses a plain `{ b: 1 }` element, which does not throw; it covers the separate question of what comma format should output for object elements, not this crash.) Earlier comma crash fixes did not cover object elements.\n\n### Impact\n\nOne small input makes that serialization path throw a synchronous, catchable `TypeError`. Behind a framework error boundary (eg, a synchronous Express handler), the request fails with a 500 and the process survives. In a host with no error boundary (eg, a bare `http.createServer` handler), the uncaught exception exits the process (the client sees `ECONNRESET`). Availability only.\n\n### Proof of Concept\n\n\u003cdetails\u003e\n\u003csummary\u003eShow the proof of concept\u003c/summary\u003e\n\nChecked on the latest commit that was checked: `07b1d4d82c8f9301c105ea4b94fa2302cfd6e8b4`. Still present. Demonstrated.\n\n- Payload `{\"a\":[{\"toString\":\"x\"}]}` throws at `lib/stringify.js:156`.\n- Baseline `{\"a\":[\"x\",\"y\"]}` returns 200 with body `a=x%2Cy`.\n- A plain object element stringifies to `a=%5Bobject%20Object%5D` and does not throw.\n- `encodeValuesOnly: true` throws via `utils.js:292`.\n- `plainObjects` parse plus comma throws.\n\n\u003c/details\u003e\n\n### Suggested Fix\n\nBefore `join`, map elements with the existing primitive check; skip or replace non-primitives so `join` cannot throw. On the `encodeValuesOnly` path, do not send non-primitives into `String()`. Optionally guard `lib/utils.js:292`. Add new regression tests.",
+              "id": "GHSA-6pq8-jhm2-2vcw",
+              "modified": "2026-10-27T16:15:05.324423680Z",
+              "published": "2026-10-27T16:10:55Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/security/advisories/GHSA-6pq8-jhm2-2vcw"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110816"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/commit/a952e7519338ef0cfb25694a2988848f93333727"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/ljharb/qs"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/releases/tag/v6.16.1"
+                }
+              ],
+              "schema_version": "1.9.2",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                },
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)"
+            },
+            {
+              "affected": [
+                {
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 6.15.3",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2026/09/GHSA-x5fp-wj9c-mxmx/GHSA-x5fp-wj9c-mxmx.json"
+                  },
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "qs",
+                    "purl": "pkg:npm/qs"
+                  },
+                  "ranges": [
+                    {
+                      "events": [
+                        {
+                          "introduced": "6.14.2"
+                        },
+                        {
+                          "fixed": "6.16.0"
+                        }
+                      ],
+                      "type": "SEMVER"
+                    }
+                  ]
+                }
+              ],
+              "aliases": [
+                "CVE-2026-82562"
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-770"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2026-09-02T14:46:57Z",
+                "nvd_published_at": "2026-08-30T01:20:32Z",
+                "severity": "MODERATE"
+              },
+              "details": "### Summary\n\n`qs` `v6.15.3` allows bracket-key input to bypass `arrayLimit` and `throwOnLimitExceeded` when `comma: true`. The input `a[]=1,2,3,4` succeeds with `arrayLimit: 3`, while the equivalent plain-key input is rejected.\n\nAffected version tested:\n\n```text\nqs v6.15.3\ncommit 18d085e919dae70c8f1b200ab99323058edab2c2\n```\n\n### Details\n\n`parseArrayValue()` enforces the comma limit only for flat values. The `a[]` form is marked non-flat, so its comma-separated value is wrapped after parsing and the inner array is not checked. A single parameter can therefore materialize arbitrarily large arrays.\n\n### PoC\n\n```js\nconst qs = require('qs')\nconst options = { comma: true, arrayLimit: 3, throwOnLimitExceeded: true }\n\nconst result = qs.parse('a[]=1,2,3,4', options)\nconsole.log(result.a[0].length) // 4; expected RangeError\n\nconst big = qs.parse('a[]=' + '1,'.repeat(1000000) + '1', { comma: true, arrayLimit: 20 })\nconsole.log(big.a[0].length) // 1000001\n```\n\nOn `v6.15.3`, the first input parses successfully and the second creates an array with 1,000,001 elements. The equivalent `a=1,2,3,4` input throws `RangeError` as expected.\n\n### Impact\n\nAn attacker who can supply a query string or form body can bypass configured array limits and force excessive memory allocation, causing denial of service. The limit must be applied after comma splitting and before the resulting array is wrapped.",
+              "id": "GHSA-x5fp-wj9c-mxmx",
+              "modified": "2026-09-10T03:50:54.569331980Z",
+              "published": "2026-09-02T14:46:57Z",
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/security/advisories/GHSA-w7fw-mjwx-w883"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/security/advisories/GHSA-x5fp-wj9c-mxmx"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82562"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/ljharb/qs/commit/8859c37470e11b42b547b275e4e9bd0bc8cc5464"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/ljharb/qs"
+                }
+              ],
+              "related": [
+                "CVE-2026-82562"
+              ],
+              "schema_version": "1.9.0",
+              "severity": [
+                {
+                  "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                  "type": "CVSS_V3"
+                },
+                {
+                  "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+                  "type": "CVSS_V4"
+                }
+              ],
+              "summary": "qs array-limit bypass via bracket-key comma parsing"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

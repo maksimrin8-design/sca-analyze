@@ -1,0 +1,848 @@
+{
+  "project_id": "P014",
+  "project": "vulnerable-spring-petclinic",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 44,
+  "normalized_findings": [
+    {
+      "package": "com.h2database:h2",
+      "installed_version": "1.4.197",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2021-42392",
+      "all_identifiers": "CVE-2021-42392;GHSA-H376-J262-VHQ6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H376-J262-VHQ6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.h2database:h2",
+      "installed_version": "1.4.197",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2022-23221",
+      "all_identifiers": "CVE-2022-23221;GHSA-45HX-WFHJ-473X",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-45HX-WFHJ-473X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.unboundid:unboundid-ldapsdk",
+      "installed_version": "3.1.1",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2018-1000134",
+      "all_identifiers": "CVE-2018-1000134;GHSA-QWQ9-8RPF-8MP7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QWQ9-8RPF-8MP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "junit:junit",
+      "installed_version": "4.12",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-15250",
+      "all_identifiers": "CVE-2020-15250;GHSA-269G-PWP5-87PP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-269G-PWP5-87PP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.commons:commons-lang3",
+      "installed_version": "3.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-48924",
+      "all_identifiers": "CVE-2025-48924;GHSA-J288-Q9X7-2F5V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J288-Q9X7-2F5V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.20.0",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-68161",
+      "all_identifiers": "CVE-2025-68161;GHSA-VC5P-V9HR-52MJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VC5P-V9HR-52MJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.20.0",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34477",
+      "all_identifiers": "CVE-2026-34477;GHSA-6HG6-V5C8-FPHQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6HG6-V5C8-FPHQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.20.0",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34479",
+      "all_identifiers": "CVE-2026-34479;GHSA-H383-GMXW-35V2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H383-GMXW-35V2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-core",
+      "installed_version": "2.20.0",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34480",
+      "all_identifiers": "CVE-2026-34480;GHSA-3PXV-7CMR-FJR4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3PXV-7CMR-FJR4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2019-0221",
+      "all_identifiers": "CVE-2019-0221;GHSA-JJPQ-GP5Q-8Q6W",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJPQ-GP5Q-8Q6W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2020-9484",
+      "all_identifiers": "BIT-TOMCAT-2020-9484;CVE-2020-9484;GHSA-344F-F5VG-2JFJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-344F-F5VG-2JFJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-28708",
+      "all_identifiers": "BIT-TOMCAT-2023-28708;CVE-2023-28708;GHSA-2C9M-W27F-53RM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2C9M-W27F-53RM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-41080",
+      "all_identifiers": "BIT-TOMCAT-2023-41080;CVE-2023-41080;GHSA-Q3MW-PVR8-9GGC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q3MW-PVR8-9GGC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-42795",
+      "all_identifiers": "BIT-TOMCAT-2023-42795;CVE-2023-42795;GHSA-G8PJ-R55Q-5C2V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8PJ-R55Q-5C2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2023-46589",
+      "all_identifiers": "BIT-TOMCAT-2023-46589;CVE-2023-46589;GHSA-FCCV-JMMP-QG76",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FCCV-JMMP-QG76",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-50379",
+      "all_identifiers": "BIT-TOMCAT-2024-50379;CVE-2024-50379;GHSA-5J33-CVVR-W245",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5J33-CVVR-W245",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-52316",
+      "all_identifiers": "BIT-TOMCAT-2024-52316;CVE-2024-52316;GHSA-XCPR-7MR4-H4XQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XCPR-7MR4-H4XQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-24813",
+      "all_identifiers": "BIT-TOMCAT-2025-24813;CVE-2025-24813;GHSA-83QJ-6FR2-VHQG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-83QJ-6FR2-VHQG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-31651",
+      "all_identifiers": "BIT-TOMCAT-2025-31651;CVE-2025-31651;GHSA-FF77-26X5-69CR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FF77-26X5-69CR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-46701",
+      "all_identifiers": "BIT-TOMCAT-2025-46701;CVE-2025-46701;GHSA-H2FW-RFH5-95R3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H2FW-RFH5-95R3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-48988",
+      "all_identifiers": "BIT-TOMCAT-2025-48988;CVE-2025-48988;GHSA-H3GC-QFQQ-6H8F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3GC-QFQQ-6H8F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-49125",
+      "all_identifiers": "BIT-TOMCAT-2025-49125;CVE-2025-49125;GHSA-WC4R-XQ3C-5CF3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WC4R-XQ3C-5CF3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-52520",
+      "all_identifiers": "BIT-TOMCAT-2025-52520;CVE-2025-52520;GHSA-WR62-C79Q-CV37",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WR62-C79Q-CV37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-55752",
+      "all_identifiers": "BIT-TOMCAT-2025-55752;CVE-2025-55752;GHSA-WMWF-9CCG-FFF5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WMWF-9CCG-FFF5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2025-61795",
+      "all_identifiers": "BIT-TOMCAT-2025-61795;CVE-2025-61795;GHSA-HGRR-935X-PQ79",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGRR-935X-PQ79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-25854",
+      "all_identifiers": "BIT-TOMCAT-2026-25854;CVE-2026-25854;GHSA-9M3C-QCXR-9X87",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M3C-QCXR-9X87",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41284",
+      "all_identifiers": "BIT-TOMCAT-2026-41284;CVE-2026-41284;GHSA-GX5V-XP9W-J4CG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX5V-XP9W-J4CG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-42498",
+      "all_identifiers": "BIT-TOMCAT-2026-42498;CVE-2026-42498;GHSA-FV25-8XCX-GQJC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FV25-8XCX-GQJC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43512",
+      "all_identifiers": "BIT-TOMCAT-2026-43512;CVE-2026-43512;GHSA-H6FC-48RJ-7QQH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H6FC-48RJ-7QQH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43513",
+      "all_identifiers": "BIT-TOMCAT-2026-43513;CVE-2026-43513;GHSA-5MP6-JRQ3-R938",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5MP6-JRQ3-R938",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43514",
+      "all_identifiers": "BIT-TOMCAT-2026-43514;CVE-2026-43514;GHSA-9M89-8FRQ-C98C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M89-8FRQ-C98C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43515",
+      "all_identifiers": "BIT-TOMCAT-2026-43515;CVE-2026-43515;GHSA-5M62-PW8W-7W9F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5M62-PW8W-7W9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-53404",
+      "all_identifiers": "BIT-TOMCAT-2026-53404;CVE-2026-53404;GHSA-H792-V28V-PPGR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H792-V28V-PPGR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55956",
+      "all_identifiers": "BIT-TOMCAT-2026-55956;CVE-2026-55956;GHSA-5V3H-FJV2-54FG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5V3H-FJV2-54FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55957",
+      "all_identifiers": "BIT-TOMCAT-2026-55957;CVE-2026-55957;GHSA-7895-GFFQ-W6JQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7895-GFFQ-W6JQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65182",
+      "all_identifiers": "BIT-TOMCAT-2026-65182;CVE-2026-65182;GHSA-GCX9-497G-6CP6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCX9-497G-6CP6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65905",
+      "all_identifiers": "BIT-TOMCAT-2026-65905;CVE-2026-65905;GHSA-9XV2-5V5Q-P794",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9XV2-5V5Q-P794",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat:tomcat-catalina",
+      "installed_version": "8.5.38",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68525",
+      "all_identifiers": "BIT-TOMCAT-2026-68525;CVE-2026-68525;GHSA-H3X4-894J-XPX5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3X4-894J-XPX5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2016-1000027",
+      "all_identifiers": "CVE-2016-1000027;GHSA-4WRC-F8PQ-FPQP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4WRC-F8PQ-FPQP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22243",
+      "all_identifiers": "CVE-2024-22243;GHSA-CCGV-VJ62-XF9H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CCGV-VJ62-XF9H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22259",
+      "all_identifiers": "CVE-2024-22259;GHSA-HGJH-9RJ2-G67J",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGJH-9RJ2-G67J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-22262",
+      "all_identifiers": "CVE-2024-22262;GHSA-2WRP-6FG6-HMC5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2WRP-6FG6-HMC5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38809",
+      "all_identifiers": "CVE-2024-38809;GHSA-2RMJ-MQ67-H97G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2RMJ-MQ67-H97G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "5.3.31",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2024-38820",
+      "all_identifiers": "CVE-2024-38820;GHSA-4GC7-5J7H-4QPH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4GC7-5J7H-4QPH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/EmailService/pom.xml;https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "grype_source": "https://github.com/Contrast-Security-OSS/vulnerable-spring-petclinic/blob/cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a/Log4ShellServer/pom.xml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

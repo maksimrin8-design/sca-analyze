@@ -1,0 +1,20 @@
+{
+  "project_id": "P010",
+  "name": "dv-graphql",
+  "repository": "dolevf/Damn-Vulnerable-GraphQL-Application",
+  "commit": "a961308c02d1fb462b192681c336b0739e432da7",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 53,
+    "only_grype": 2,
+    "only_osv": 7,
+    "total": 62,
+    "osv": 60,
+    "grype": 55
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

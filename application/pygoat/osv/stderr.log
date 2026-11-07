@@ -1,0 +1,29 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/requirements.txt file and found 32 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/dependency_attack_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/package_injection_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/crypto_failure_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/xxe_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/auth_failure_lab/requirements.txt file and found 4 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/sensitive_data_exposure/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/broken_auth_lab/requirements.txt file and found 7 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/insecure_design_lab/requirements.txt file and found 4 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/sql_injection_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/a9_uckv_lab/requirements.txt file and found 6 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/xss_lab/requirements.txt file and found 6 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/insufficient_logging_lab/requirements.txt file and found 6 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/broken_access_lab/requirements.txt file and found 2 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/sde/requirements.txt file and found 2 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/software_integrity_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/ssrf_lab/requirements.txt file and found 2 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/command_injection_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/template_injection_lab/requirements.txt file and found 6 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/sec_misconfig/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/open_source_library_attack_lab/requirements.txt file and found 3 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/dockerized_labs/insec_des_lab/requirements.txt file and found 2 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/challenge/labs/business_logic_lab/requirements.txt file and found 6 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/challenge/labs/bopla_lab/requirements.txt file and found 2 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/challenge/labs/security_headers_lab/requirements.txt file and found 6 packages
+End status: 128 dirs visited, 616 inodes visited, 25 Extract calls, 9.7748ms elapsed, 9.77487ms wall time
+Filtered 2 local/unscannable package/s from the scan.

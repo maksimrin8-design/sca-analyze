@@ -1,0 +1,87 @@
+{
+  "project_id": "P021",
+  "project": "hugo",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 4,
+  "normalized_findings": [
+    {
+      "package": "github.com/andybalholm/brotli",
+      "installed_version": "1.2.6",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-111497",
+      "all_identifiers": "CVE-2026-111497;GHSA-C9GR-GMG4-2VQV;GO-2026-6888",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C9GR-GMG4-2VQV",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "installed_version": "0.58.0",
+      "ecosystem": "go",
+      "vulnerability_id": "GO-2026-5932",
+      "all_identifiers": "GO-2026-5932",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://osv.dev/vulnerability/GO-2026-5932",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "grype_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/net",
+      "installed_version": "0.61.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-78661",
+      "all_identifiers": "CVE-2026-78661;GO-2026-6860",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78661",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "grype_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/net",
+      "installed_version": "0.61.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-97045",
+      "all_identifiers": "CVE-2026-97045;GO-2026-6866",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97045",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "grype_source": "https://github.com/gohugoio/hugo/blob/7ff95e046daa1bc6b132ac582c9517ff9f24b204/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

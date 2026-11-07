@@ -1,0 +1,21 @@
+{
+  "project_id": "P002",
+  "name": "nodejs-goof",
+  "repository": "snyk-labs/nodejs-goof",
+  "commit": "add14ba59e98240d9e00a235dd7d42cd61ae9912",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 79,
+    "both": 186,
+    "verified": 1,
+    "only_grype": 46,
+    "total": 311,
+    "osv": 265,
+    "grype": 232
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

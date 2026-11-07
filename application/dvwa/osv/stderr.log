@@ -1,0 +1,5 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/external/recaptcha file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/vulnerabilities/api/composer.lock file and found 6 packages
+End status: 92 dirs visited, 370 inodes visited, 2 Extract calls, 280.925413ms elapsed, 280.925513ms wall time

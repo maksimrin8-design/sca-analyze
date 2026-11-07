@@ -1,0 +1,3702 @@
+{
+  "project_id": "P016",
+  "project": "vulnerable-demo-app",
+  "scanner": "osv",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 195,
+  "normalized_findings": [
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-21330",
+      "all_identifiers": "CVE-2021-21330;GHSA-V6WP-4M6F-GCJG;PYSEC-2021-76",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V6WP-4M6F-GCJG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-37276",
+      "all_identifiers": "CVE-2023-37276;GHSA-45C4-8WX5-QW6W;PYSEC-2023-120",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-45C4-8WX5-QW6W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-47627",
+      "all_identifiers": "CVE-2023-47627;GHSA-GFW2-4JVH-WGFG;PYSEC-2023-246",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GFW2-4JVH-WGFG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-47641",
+      "all_identifiers": "CVE-2023-47641;GHSA-XX9P-XXVH-7G8J;PYSEC-2023-247",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XX9P-XXVH-7G8J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-49081",
+      "all_identifiers": "CVE-2023-49081;GHSA-Q3QX-C6G2-7PW2;PYSEC-2023-250",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q3QX-C6G2-7PW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-49082",
+      "all_identifiers": "CVE-2023-49082;GHSA-QVRW-V9RV-5RJX;PYSEC-2023-251",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QVRW-V9RV-5RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-23334",
+      "all_identifiers": "CVE-2024-23334;GHSA-5H86-8MV2-JQ9F;PYSEC-2024-24",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5H86-8MV2-JQ9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-23829",
+      "all_identifiers": "CVE-2024-23829;GHSA-8QPW-XQXJ-H4R2;PYSEC-2024-26",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8QPW-XQXJ-H4R2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-27306",
+      "all_identifiers": "CVE-2024-27306;GHSA-7GPW-8WMC-PM8G;PYSEC-2026-1102",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7GPW-8WMC-PM8G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-30251",
+      "all_identifiers": "CVE-2024-30251;GHSA-5M98-QGG9-WH84;PYSEC-2026-1098",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5M98-QGG9-WH84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-52304",
+      "all_identifiers": "CVE-2024-52304;GHSA-8495-4G3G-X7PR;PYSEC-2026-1103",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8495-4G3G-X7PR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-53643",
+      "all_identifiers": "CVE-2025-53643;GHSA-9548-QRRJ-X5PJ;PYSEC-2026-1104",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9548-QRRJ-X5PJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69223",
+      "all_identifiers": "CVE-2025-69223;GHSA-6MQ8-RVHQ-8WGG;PYSEC-2026-1101",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6MQ8-RVHQ-8WGG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69224",
+      "all_identifiers": "CVE-2025-69224;GHSA-69F9-5GXW-WVC2;PYSEC-2026-1099",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-69F9-5GXW-WVC2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69225",
+      "all_identifiers": "CVE-2025-69225;GHSA-MQQC-3GQH-H2X8;PYSEC-2026-1109",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQQC-3GQH-H2X8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69226",
+      "all_identifiers": "CVE-2025-69226;GHSA-54JQ-C3M8-4M76;PYSEC-2026-1097",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-54JQ-C3M8-4M76",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69227",
+      "all_identifiers": "CVE-2025-69227;GHSA-JJ3X-WXRX-4X23;PYSEC-2026-1107",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJ3X-WXRX-4X23",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69228",
+      "all_identifiers": "CVE-2025-69228;GHSA-6JHG-HG63-JVVF;PYSEC-2026-1100",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6JHG-HG63-JVVF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69229",
+      "all_identifiers": "CVE-2025-69229;GHSA-G84X-MCQJ-X9QQ;PYSEC-2026-1106",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G84X-MCQJ-X9QQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-69230",
+      "all_identifiers": "CVE-2025-69230;GHSA-FH55-R93G-J68G;PYSEC-2026-1105",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FH55-R93G-J68G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111063",
+      "all_identifiers": "CVE-2026-111063;GHSA-494J-54XM-RWP3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-494J-54XM-RWP3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111064",
+      "all_identifiers": "CVE-2026-111064;GHSA-5WR8-GCQF-GQF3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5WR8-GCQF-GQF3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111065",
+      "all_identifiers": "CVE-2026-111065;GHSA-6CJC-53GC-5RQM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6CJC-53GC-5RQM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111066",
+      "all_identifiers": "CVE-2026-111066;GHSA-9XW5-W5JJ-PVCG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9XW5-W5JJ-PVCG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111748",
+      "all_identifiers": "CVE-2026-111748;GHSA-F9XW-JH8M-3MWQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F9XW-JH8M-3MWQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111749",
+      "all_identifiers": "CVE-2026-111749;GHSA-GX76-C99X-2C96",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX76-C99X-2C96",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111750",
+      "all_identifiers": "CVE-2026-111750;GHSA-PQXQ-W44R-73XW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQXQ-W44R-73XW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-22815",
+      "all_identifiers": "CVE-2026-22815;GHSA-W2FM-2CPV-W7V5;PYSEC-2026-2094",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W2FM-2CPV-W7V5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34513",
+      "all_identifiers": "CVE-2026-34513;GHSA-HCC4-C3V8-RX92;PYSEC-2026-2095",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HCC4-C3V8-RX92",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34514",
+      "all_identifiers": "CVE-2026-34514;GHSA-2VRM-GR82-F7M5;PYSEC-2026-2096",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2VRM-GR82-F7M5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34515",
+      "all_identifiers": "CVE-2026-34515;GHSA-P998-JP59-783M;PYSEC-2026-2097",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P998-JP59-783M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34516",
+      "all_identifiers": "CVE-2026-34516;GHSA-M5QP-6W8W-W647;PYSEC-2026-2098",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M5QP-6W8W-W647",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34517",
+      "all_identifiers": "CVE-2026-34517;GHSA-3WQ7-RQQ7-WX6J;PYSEC-2026-2099",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WQ7-RQQ7-WX6J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34518",
+      "all_identifiers": "CVE-2026-34518;GHSA-966J-VMVW-G2G9;PYSEC-2026-2100",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-966J-VMVW-G2G9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34519",
+      "all_identifiers": "CVE-2026-34519;GHSA-MWH4-6H8G-PG8W;PYSEC-2026-2101",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWH4-6H8G-PG8W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34520",
+      "all_identifiers": "CVE-2026-34520;GHSA-63HF-3VF5-4WQF;PYSEC-2026-2102",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-63HF-3VF5-4WQF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34525",
+      "all_identifiers": "CVE-2026-34525;GHSA-C427-H43C-VF67;PYSEC-2026-2103",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C427-H43C-VF67",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34993",
+      "all_identifiers": "CVE-2026-34993;GHSA-JG22-MG44-37J8;PYSEC-2026-2104",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JG22-MG44-37J8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-47265",
+      "all_identifiers": "CVE-2026-47265;GHSA-HG6J-4RV6-33PG;PYSEC-2026-2105",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HG6J-4RV6-33PG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-50269",
+      "all_identifiers": "CVE-2026-50269;GHSA-M6QW-4CW2-HM4M;PYSEC-2026-2106",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M6QW-4CW2-HM4M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54273",
+      "all_identifiers": "CVE-2026-54273;GHSA-4FVR-RGM6-GQMC;PYSEC-2026-2107",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4FVR-RGM6-GQMC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54274",
+      "all_identifiers": "CVE-2026-54274;GHSA-XCGM-R5H9-7989;PYSEC-2026-2108",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XCGM-R5H9-7989",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54275",
+      "all_identifiers": "CVE-2026-54275;GHSA-4M7W-QMGQ-4WJ5;PYSEC-2026-237",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4M7W-QMGQ-4WJ5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54276",
+      "all_identifiers": "CVE-2026-54276;GHSA-HPJ7-WQ8M-9HGP;PYSEC-2026-2109",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HPJ7-WQ8M-9HGP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54277",
+      "all_identifiers": "CVE-2026-54277;GHSA-63HW-FMQ6-XXG2;PYSEC-2026-2110",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-63HW-FMQ6-XXG2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54278",
+      "all_identifiers": "CVE-2026-54278;GHSA-G3CQ-J2XW-WF74;PYSEC-2026-2111",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3CQ-J2XW-WF74",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54279",
+      "all_identifiers": "CVE-2026-54279;GHSA-2FQR-MR3J-6WP8;PYSEC-2026-2112",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2FQR-MR3J-6WP8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54280",
+      "all_identifiers": "CVE-2026-54280;GHSA-9X8Q-7H8H-WCW9;PYSEC-2026-2113",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9X8Q-7H8H-WCW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59881",
+      "all_identifiers": "CVE-2026-59881;GHSA-MQ44-7P77-Q5H7;PYSEC-2026-3547",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQ44-7P77-Q5H7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69243",
+      "all_identifiers": "CVE-2026-69243;GHSA-MFX4-HV73-Q22V;PYSEC-2026-3546",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MFX4-HV73-Q22V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69244",
+      "all_identifiers": "CVE-2026-69244;GHSA-CQ5V-8Q36-5273;PYSEC-2026-3545",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CQ5V-8Q36-5273",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-2G87-PP6C-29X5",
+      "all_identifiers": "GHSA-2G87-PP6C-29X5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2G87-PP6C-29X5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "2.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-PJJW-QHG8-P2P9",
+      "all_identifiers": "GHSA-PJJW-QHG8-P2P9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PJJW-QHG8-P2P9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2017.7.27.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-37920",
+      "all_identifiers": "CVE-2023-37920;GHSA-XQR8-7JWR-RHP7;PYSEC-2023-135",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XQR8-7JWR-RHP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2017.7.27.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-39689",
+      "all_identifiers": "CVE-2024-39689;GHSA-248V-346W-9CWC;PYSEC-2024-230",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-248V-346W-9CWC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2018-10903",
+      "all_identifiers": "CVE-2018-10903;GHSA-FCF9-3QW3-GXMJ;PYSEC-2018-52",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FCF9-3QW3-GXMJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-25659",
+      "all_identifiers": "CVE-2020-25659;GHSA-HGGM-JPG3-V476;PYSEC-2021-62",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGGM-JPG3-V476",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-0286",
+      "all_identifiers": "CVE-2023-0286;GHSA-X4QR-2FVF-3MR5;PYSEC-2026-800;RUSTSEC-2023-0006",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X4QR-2FVF-3MR5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-23931",
+      "all_identifiers": "CVE-2023-23931;GHSA-W7PP-M8WF-VJ6R;PYSEC-2023-11",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W7PP-M8WF-VJ6R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-50782",
+      "all_identifiers": "CVE-2023-50782;GHSA-3WW4-GG4F-JR7F;PYSEC-2026-1283",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WW4-GG4F-JR7F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-0727",
+      "all_identifiers": "CVE-2024-0727;GHSA-9V9H-CGJ8-H64P;PYSEC-2026-1285",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V9H-CGJ8-H64P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-26007",
+      "all_identifiers": "CVE-2026-26007;GHSA-R6PH-V2QM-Q3C2;PYSEC-2026-2141",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R6PH-V2QM-Q3C2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34073",
+      "all_identifiers": "CVE-2026-34073;GHSA-M959-CC7F-WV43;PYSEC-2026-35",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M959-CC7F-WV43",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69248",
+      "all_identifiers": "CVE-2026-69248;GHSA-M2H6-J472-RP4C;PYSEC-2026-3554",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M2H6-J472-RP4C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69249",
+      "all_identifiers": "CVE-2026-69249;GHSA-JWV3-5HGF-82WW;PYSEC-2026-3553",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JWV3-5HGF-82WW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-537C-GMF6-5CCF",
+      "all_identifiers": "GHSA-537C-GMF6-5CCF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-537C-GMF6-5CCF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-5CPQ-8WJ7-HF2V",
+      "all_identifiers": "GHSA-5CPQ-8WJ7-HF2V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5CPQ-8WJ7-HF2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "cryptography",
+      "installed_version": "2.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-JM77-QPHF-C4W8",
+      "all_identifiers": "GHSA-JM77-QPHF-C4W8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JM77-QPHF-C4W8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "0.12.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2018-1000656",
+      "all_identifiers": "CVE-2018-1000656;GHSA-562C-5R94-XH97;PYSEC-2018-66",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-562C-5R94-XH97",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "0.12.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-1010083",
+      "all_identifiers": "CVE-2019-1010083;GHSA-5WV5-4VPF-PJ6M;PYSEC-2019-179",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5WV5-4VPF-PJ6M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "0.12.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-30861",
+      "all_identifiers": "CVE-2023-30861;GHSA-M2QF-HXJV-5GPQ;PYSEC-2023-62",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M2QF-HXJV-5GPQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "0.12.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-27205",
+      "all_identifiers": "CVE-2026-27205;GHSA-68RP-WP8R-4726;PYSEC-2026-2151",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-68RP-WP8R-4726",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "2.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-3651",
+      "all_identifiers": "CVE-2024-3651;GHSA-JJG7-2V4V-X38H;PYSEC-2024-60",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJG7-2V4V-X38H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "2.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX;PYSEC-2026-215",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-115355",
+      "all_identifiers": "CVE-2026-115355;GHSA-H7WW-273W-6CM8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H7WW-273W-6CM8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44708",
+      "all_identifiers": "CVE-2026-44708;GHSA-8G87-J6Q8-G93X;PYSEC-2026-2206",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8G87-J6Q8-G93X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44896",
+      "all_identifiers": "CVE-2026-44896;GHSA-58CW-G322-P94V;PYSEC-2026-168",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-58CW-G322-P94V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44897",
+      "all_identifiers": "CVE-2026-44897;GHSA-V87V-83H2-53W7;PYSEC-2026-2207",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V87V-83H2-53W7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44898",
+      "all_identifiers": "CVE-2026-44898;GHSA-6269-CQXG-MHHV;PYSEC-2026-2208",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6269-CQXG-MHHV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44899",
+      "all_identifiers": "CVE-2026-44899;GHSA-CCFX-MFMX-2FX9;PYSEC-2026-2209",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CCFX-MFMX-2FX9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-49851",
+      "all_identifiers": "CVE-2026-49851;GHSA-QCQ2-496W-V96P;PYSEC-2026-2652",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QCQ2-496W-V96P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59922",
+      "all_identifiers": "CVE-2026-59922;GHSA-C8J7-8CV4-2XMQ;PYSEC-2026-2210",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C8J7-8CV4-2XMQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59923",
+      "all_identifiers": "CVE-2026-59923;GHSA-8C25-4J27-2RV3;PYSEC-2026-2211",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8C25-4J27-2RV3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59924",
+      "all_identifiers": "CVE-2026-59924;GHSA-R4RV-85JG-W4MF;PYSEC-2026-2212",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4RV-85JG-W4MF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59925",
+      "all_identifiers": "CVE-2026-59925;GHSA-4J32-57V6-6G45;PYSEC-2026-2213",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4J32-57V6-6G45",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59926",
+      "all_identifiers": "CVE-2026-59926;GHSA-G97X-GVCM-X72H;PYSEC-2026-2214",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G97X-GVCM-X72H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59927",
+      "all_identifiers": "CVE-2026-59927;GHSA-8MPJ-M6QM-5QR8;PYSEC-2026-2215",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8MPJ-M6QM-5QR8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59928",
+      "all_identifiers": "CVE-2026-59928;GHSA-FFQ3-XPV3-J92Q;PYSEC-2026-2216",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFQ3-XPV3-J92Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59929",
+      "all_identifiers": "CVE-2026-59929;GHSA-QFRW-5RXM-MHH2;PYSEC-2026-2217",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QFRW-5RXM-MHH2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "mistune",
+      "installed_version": "0.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59930",
+      "all_identifiers": "CVE-2026-59930;GHSA-2HM2-HC3V-44H9;PYSEC-2026-2218",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2HM2-HC3V-44H9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "numpy",
+      "installed_version": "1.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-6446",
+      "all_identifiers": "CVE-2019-6446;GHSA-9FQ2-X9R6-WFMF;PYSEC-2019-108",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FQ2-X9R6-WFMF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "numpy",
+      "installed_version": "1.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-33430",
+      "all_identifiers": "CVE-2021-33430;GHSA-6P56-WP2H-9HXR;PYSEC-2021-854",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6P56-WP2H-9HXR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "numpy",
+      "installed_version": "1.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-34141",
+      "all_identifiers": "CVE-2021-34141;GHSA-FPFV-JQM9-F5JM;PYSEC-2021-855",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FPFV-JQM9-F5JM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "numpy",
+      "installed_version": "1.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-41495",
+      "all_identifiers": "CVE-2021-41495;GHSA-5545-2Q6W-2GH6;PYSEC-2021-856",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5545-2Q6W-2GH6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "numpy",
+      "installed_version": "1.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-41496",
+      "all_identifiers": "CVE-2021-41496;GHSA-F7C7-J99H-C22F;PYSEC-2021-857",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F7C7-J99H-C22F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-16865",
+      "all_identifiers": "CVE-2019-16865;GHSA-J7MJ-748X-7P78;PYSEC-2019-110",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7MJ-748X-7P78",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-19911",
+      "all_identifiers": "CVE-2019-19911;GHSA-5GM3-PX64-RW72;PYSEC-2020-172",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5GM3-PX64-RW72",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-10177",
+      "all_identifiers": "BIT-PILLOW-2020-10177;CVE-2020-10177;GHSA-CQHG-XJHH-P8HF;PYSEC-2020-76",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CQHG-XJHH-P8HF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-10378",
+      "all_identifiers": "BIT-PILLOW-2020-10378;CVE-2020-10378;GHSA-3XV8-3J54-HGRP;PYSEC-2020-77",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3XV8-3J54-HGRP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-10379",
+      "all_identifiers": "BIT-PILLOW-2020-10379;CVE-2020-10379;GHSA-8843-M7MW-MXQM;PYSEC-2020-78",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8843-M7MW-MXQM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-10994",
+      "all_identifiers": "BIT-PILLOW-2020-10994;CVE-2020-10994;GHSA-VJ42-XQ3R-HR3R;PYSEC-2020-79",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VJ42-XQ3R-HR3R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-11538",
+      "all_identifiers": "BIT-PILLOW-2020-11538;CVE-2020-11538;GHSA-43FQ-W8QQ-V88H;PYSEC-2020-80",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-43FQ-W8QQ-V88H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-35653",
+      "all_identifiers": "BIT-PILLOW-2020-35653;CVE-2020-35653;GHSA-F5G8-5QQ7-938W;PYSEC-2021-69",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F5G8-5QQ7-938W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-35654",
+      "all_identifiers": "BIT-PILLOW-2020-35654;CVE-2020-35654;GHSA-VQCJ-WRF2-7V73;PYSEC-2021-70",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VQCJ-WRF2-7V73",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-35655",
+      "all_identifiers": "BIT-PILLOW-2020-35655;CVE-2020-35655;GHSA-HF64-X4GQ-P99H;PYSEC-2021-71",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HF64-X4GQ-P99H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-5310",
+      "all_identifiers": "BIT-PILLOW-2020-5310;CVE-2020-5310;GHSA-VCQG-3P29-XW73;PYSEC-2020-81",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VCQG-3P29-XW73",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-5311",
+      "all_identifiers": "BIT-PILLOW-2020-5311;CVE-2020-5311;GHSA-R7RM-8J6H-R933;PYSEC-2020-82",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R7RM-8J6H-R933",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-5312",
+      "all_identifiers": "BIT-PILLOW-2020-5312;CVE-2020-5312;GHSA-P49H-HJVM-JG3H;PYSEC-2020-83",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P49H-HJVM-JG3H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-5313",
+      "all_identifiers": "BIT-PILLOW-2020-5313;CVE-2020-5313;GHSA-HJ69-C76V-86WR;PYSEC-2020-84",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HJ69-C76V-86WR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-23437",
+      "all_identifiers": "BIT-PILLOW-2021-23437;CVE-2021-23437;GHSA-98VV-PW6R-Q6Q4;PYSEC-2021-317;SNYK-PYTHON-PILLOW-1319443",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-98VV-PW6R-Q6Q4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25287",
+      "all_identifiers": "BIT-PILLOW-2021-25287;CVE-2021-25287;GHSA-77GC-V2XV-RVVH;PYSEC-2021-137",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-77GC-V2XV-RVVH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25288",
+      "all_identifiers": "BIT-PILLOW-2021-25288;CVE-2021-25288;GHSA-RWV7-3V45-HG29;PYSEC-2021-138",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RWV7-3V45-HG29",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25289",
+      "all_identifiers": "BIT-PILLOW-2021-25289;CVE-2021-25289;GHSA-57H3-9RGR-C24M;PYSEC-2021-35",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-57H3-9RGR-C24M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25290",
+      "all_identifiers": "BIT-PILLOW-2021-25290;CVE-2021-25290;GHSA-8XJQ-8FCG-G5HW;PYSEC-2021-36",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8XJQ-8FCG-G5HW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25291",
+      "all_identifiers": "BIT-PILLOW-2021-25291;CVE-2021-25291;GHSA-MVG9-XFFR-P774;PYSEC-2021-37",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MVG9-XFFR-P774",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25292",
+      "all_identifiers": "BIT-PILLOW-2021-25292;CVE-2021-25292;GHSA-9HX2-HGQ2-2G4F;PYSEC-2021-38",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HX2-HGQ2-2G4F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-25293",
+      "all_identifiers": "BIT-PILLOW-2021-25293;CVE-2021-25293;GHSA-P43W-G3C5-G5MQ;PYSEC-2021-39",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P43W-G3C5-G5MQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-27921",
+      "all_identifiers": "BIT-PILLOW-2021-27921;CVE-2021-27921;GHSA-F4W8-CV6P-X6R5;PYSEC-2021-40",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F4W8-CV6P-X6R5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-27922",
+      "all_identifiers": "BIT-PILLOW-2021-27922;CVE-2021-27922;GHSA-3WVG-MJ6G-M9CV;PYSEC-2021-41",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WVG-MJ6G-M9CV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-27923",
+      "all_identifiers": "BIT-PILLOW-2021-27923;CVE-2021-27923;GHSA-95Q3-8GR9-GM8W;PYSEC-2021-42",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-95Q3-8GR9-GM8W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-28675",
+      "all_identifiers": "BIT-PILLOW-2021-28675;CVE-2021-28675;GHSA-G6RJ-RV7J-XWP4;PYSEC-2021-139",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G6RJ-RV7J-XWP4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-28676",
+      "all_identifiers": "BIT-PILLOW-2021-28676;CVE-2021-28676;GHSA-7R7M-5H27-29HP;PYSEC-2021-92",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7R7M-5H27-29HP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-28677",
+      "all_identifiers": "BIT-PILLOW-2021-28677;CVE-2021-28677;GHSA-Q5HQ-FP76-QMRC;PYSEC-2021-93",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q5HQ-FP76-QMRC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-28678",
+      "all_identifiers": "BIT-PILLOW-2021-28678;CVE-2021-28678;GHSA-HJFX-8P6C-G7GX;PYSEC-2021-94",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HJFX-8P6C-G7GX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2021-34552",
+      "all_identifiers": "BIT-PILLOW-2021-34552;CVE-2021-34552;GHSA-7534-MM45-C74V;PYSEC-2021-331",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7534-MM45-C74V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-22815",
+      "all_identifiers": "BIT-PILLOW-2022-22815;CVE-2022-22815;GHSA-PW3C-H7WP-CVHX;PYSEC-2022-8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PW3C-H7WP-CVHX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-22816",
+      "all_identifiers": "BIT-PILLOW-2022-22816;CVE-2022-22816;GHSA-XRCV-F9GM-V42C;PYSEC-2022-9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XRCV-F9GM-V42C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-22817",
+      "all_identifiers": "BIT-PILLOW-2022-22817;CVE-2022-22817;GHSA-8VJ2-VXX3-667W;PYSEC-2022-10",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8VJ2-VXX3-667W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-24303",
+      "all_identifiers": "BIT-PILLOW-2022-24303;CVE-2022-24303;GHSA-9J59-75QJ-795W;PYSEC-2022-168",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9J59-75QJ-795W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-45198",
+      "all_identifiers": "BIT-PILLOW-2022-45198;CVE-2022-45198;GHSA-M2VV-5VJ5-2HM7;PYSEC-2022-42979",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M2VV-5VJ5-2HM7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-45199",
+      "all_identifiers": "BIT-PILLOW-2022-45199;CVE-2022-45199;GHSA-Q4MP-JVH2-76FJ;PYSEC-2022-42980",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q4MP-JVH2-76FJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-44271",
+      "all_identifiers": "BIT-PILLOW-2023-44271;CVE-2023-44271;GHSA-8GHJ-P4VJ-MR35;PYSEC-2023-227",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8GHJ-P4VJ-MR35",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-4863",
+      "all_identifiers": "A-299477569;ASB-A-299477569;CVE-2023-4863;CVE-2023-5129;GHSA-J7HP-H8JX-5PPR;PYSEC-2026-1794;RUSTSEC-2023-0060;RUSTSEC-2023-0061",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J7HP-H8JX-5PPR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-50447",
+      "all_identifiers": "BIT-PILLOW-2023-50447;CVE-2023-50447;GHSA-3F63-HFP8-52JQ;PYSEC-2026-457",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3F63-HFP8-52JQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-28219",
+      "all_identifiers": "BIT-PILLOW-2024-28219;CVE-2024-28219;GHSA-44WM-F244-XHP3;PYSEC-2026-1793",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-44WM-F244-XHP3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112392",
+      "all_identifiers": "BIT-PILLOW-2026-112392;CVE-2026-112392;GHSA-27H8-GF7J-V5HC;PYSEC-2026-4326",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27H8-GF7J-V5HC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112393",
+      "all_identifiers": "BIT-PILLOW-2026-112393;CVE-2026-112393;GHSA-332P-7HRC-92WF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-332P-7HRC-92WF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112394",
+      "all_identifiers": "BIT-PILLOW-2026-112394;CVE-2026-112394;GHSA-4558-3H8R-V8XP;PYSEC-2026-4327",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4558-3H8R-V8XP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112397",
+      "all_identifiers": "BIT-PILLOW-2026-112397;CVE-2026-112397;GHSA-58R4-6RV3-GFH8;PYSEC-2026-4329",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-58R4-6RV3-GFH8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112398",
+      "all_identifiers": "BIT-PILLOW-2026-112398;CVE-2026-112398;GHSA-5X8W-8JJ5-Q52H;PYSEC-2026-4330",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X8W-8JJ5-Q52H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112402",
+      "all_identifiers": "BIT-PILLOW-2026-112402;CVE-2026-112402;GHSA-7MWM-GHPF-9VRM;PYSEC-2026-4331",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7MWM-GHPF-9VRM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112403",
+      "all_identifiers": "BIT-PILLOW-2026-112403;CVE-2026-112403;GHSA-8G5G-8VMR-9782;PYSEC-2026-4332",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8G5G-8VMR-9782",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112892",
+      "all_identifiers": "BIT-PILLOW-2026-112892;CVE-2026-112892;GHSA-GG2R-WVFM-Q9RX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GG2R-WVFM-Q9RX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112896",
+      "all_identifiers": "BIT-PILLOW-2026-112896;CVE-2026-112896;GHSA-PCHR-8J38-3X4P;PYSEC-2026-4334",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PCHR-8J38-3X4P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112899",
+      "all_identifiers": "CVE-2026-112899;GHSA-VX6W-VV9F-6GVG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VX6W-VV9F-6GVG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112900",
+      "all_identifiers": "BIT-PILLOW-2026-112900;CVE-2026-112900;GHSA-W889-685W-C8FH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W889-685W-C8FH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112901",
+      "all_identifiers": "BIT-PILLOW-2026-112901;CVE-2026-112901;GHSA-XGH8-JP6Q-P5X8;PYSEC-2026-4335",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XGH8-JP6Q-P5X8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112902",
+      "all_identifiers": "CVE-2026-112902;GHSA-XVH5-G6GV-559V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XVH5-G6GV-559V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42308",
+      "all_identifiers": "BIT-PILLOW-2026-42308;CVE-2026-42308;GHSA-WJX4-4JCJ-G98J;PYSEC-2026-165",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJX4-4JCJ-G98J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42310",
+      "all_identifiers": "BIT-PILLOW-2026-42310;CVE-2026-42310;GHSA-R73J-PQJ5-W3X7;PYSEC-2026-2874",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R73J-PQJ5-W3X7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54058",
+      "all_identifiers": "BIT-PILLOW-2026-54058;CVE-2026-54058;GHSA-62P4-GMF7-7G93;PYSEC-2026-3493",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-62P4-GMF7-7G93",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54059",
+      "all_identifiers": "BIT-PILLOW-2026-54059;CVE-2026-54059;GHSA-8V84-F9PQ-WR9X;PYSEC-2026-2253",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8V84-F9PQ-WR9X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54060",
+      "all_identifiers": "BIT-PILLOW-2026-54060;CVE-2026-54060;GHSA-5X94-69RX-G8H2;PYSEC-2026-2254",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X94-69RX-G8H2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55379",
+      "all_identifiers": "BIT-PILLOW-2026-55379;CVE-2026-55379;GHSA-45HQ-CXWH-F6VC;PYSEC-2026-2255",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-45HQ-CXWH-F6VC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55380",
+      "all_identifiers": "BIT-PILLOW-2026-55380;CVE-2026-55380;GHSA-PHJ9-MV4W-65PM;PYSEC-2026-2256",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PHJ9-MV4W-65PM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55798",
+      "all_identifiers": "BIT-PILLOW-2026-55798;CVE-2026-55798;GHSA-4X4J-2G7C-83W6;PYSEC-2026-2257",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4X4J-2G7C-83W6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59197",
+      "all_identifiers": "BIT-PILLOW-2026-59197;CVE-2026-59197;GHSA-XJ96-63GP-2GMR;PYSEC-2026-3454",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJ96-63GP-2GMR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59199",
+      "all_identifiers": "BIT-PILLOW-2026-59199;CVE-2026-59199;GHSA-6R8X-57C9-28J4;PYSEC-2026-3451",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6R8X-57C9-28J4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59205",
+      "all_identifiers": "BIT-PILLOW-2026-59205;CVE-2026-59205;GHSA-9HW9-CH79-4VH6;PYSEC-2026-3453",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HW9-CH79-4VH6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96636",
+      "all_identifiers": "BIT-PILLOW-2026-96636;CVE-2026-96636;GHSA-P8HX-V2P6-RP84;PYSEC-2026-4337",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P8HX-V2P6-RP84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96637",
+      "all_identifiers": "BIT-PILLOW-2026-96637;CVE-2026-96637;GHSA-G842-9RC4-69PW;PYSEC-2026-4338",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G842-9RC4-69PW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96641",
+      "all_identifiers": "BIT-PILLOW-2026-96641;CVE-2026-96641;GHSA-4RM8-3HMM-39FG;PYSEC-2026-4340",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4RM8-3HMM-39FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96642",
+      "all_identifiers": "BIT-PILLOW-2026-96642;CVE-2026-96642;GHSA-3J72-P6QG-6XP7;PYSEC-2026-4341",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3J72-P6QG-6XP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96644",
+      "all_identifiers": "BIT-PILLOW-2026-96644;CVE-2026-96644;GHSA-9V9V-9QVF-H2HJ;PYSEC-2026-4343",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V9V-9QVF-H2HJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-4FX9-VC88-Q2XC",
+      "all_identifiers": "GHSA-4FX9-VC88-Q2XC",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4FX9-VC88-Q2XC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "5.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "PYSEC-2023-175",
+      "all_identifiers": "PYSEC-2023-175",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://osv.dev/vulnerability/PYSEC-2023-175",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2017-11424",
+      "all_identifiers": "CVE-2017-11424;GHSA-R9JW-MWHQ-WP62;PYSEC-2017-24",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R9JW-MWHQ-WP62",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2022-29217",
+      "all_identifiers": "CVE-2022-29217;GHSA-FFQJ-6FQR-9H24;PYSEC-2022-202",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFQJ-6FQR-9H24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-45768",
+      "all_identifiers": "CVE-2025-45768;PYSEC-2025-183",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45768",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-101917",
+      "all_identifiers": "CVE-2026-101917;GHSA-2GX3-RCP4-G85Q;PYSEC-2026-4140",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2GX3-RCP4-G85Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102267",
+      "all_identifiers": "CVE-2026-102267;GHSA-9V7F-9G4P-FFGJ;PYSEC-2026-4144",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V7F-9G4P-FFGJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102268",
+      "all_identifiers": "CVE-2026-102268;GHSA-FFC3-869F-JXW9;PYSEC-2026-4145",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFC3-869F-JXW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102269",
+      "all_identifiers": "CVE-2026-102269;GHSA-HXM8-2XGR-2P9M;PYSEC-2026-4147",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HXM8-2XGR-2P9M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102270",
+      "all_identifiers": "CVE-2026-102270;GHSA-JWRC-G2Q2-PQ5P;PYSEC-2026-4148",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JWRC-G2Q2-PQ5P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-32597",
+      "all_identifiers": "CVE-2026-32597;GHSA-752W-5FWX-JX9F;PYSEC-2026-120",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-752W-5FWX-JX9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48522",
+      "all_identifiers": "CVE-2026-48522;GHSA-993G-76C3-P5M4;PYSEC-2026-175",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-993G-76C3-P5M4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48524",
+      "all_identifiers": "CVE-2026-48524;GHSA-FHV5-28VV-H8M8;PYSEC-2026-177",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FHV5-28VV-H8M8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48526",
+      "all_identifiers": "CVE-2026-48526;GHSA-XGMM-8J9V-C9WX;PYSEC-2026-179",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XGMM-8J9V-C9WX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyjwt",
+      "installed_version": "1.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-PXH4-856F-4H89",
+      "all_identifiers": "GHSA-PXH4-856F-4H89",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PXH4-856F-4H89",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2018-18074",
+      "all_identifiers": "CVE-2018-18074;GHSA-X84V-XCM2-53PG;PYSEC-2018-28",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X84V-XCM2-53PG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-32681",
+      "all_identifiers": "CVE-2023-32681;GHSA-J8R2-6X86-Q33Q;PYSEC-2023-74",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J8R2-6X86-Q33Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-35195",
+      "all_identifiers": "CVE-2024-35195;GHSA-9WX4-H78V-VM56;PYSEC-2026-1873",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9WX4-H78V-VM56",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-47081",
+      "all_identifiers": "CVE-2024-47081;GHSA-9HJG-9R4M-MVJ7;PYSEC-2026-1872",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HJG-9R4M-MVJ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25645",
+      "all_identifiers": "CVE-2026-25645;GHSA-GC5V-M9X4-R6X2;PYSEC-2026-2275",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GC5V-M9X4-R6X2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2018-20060",
+      "all_identifiers": "CVE-2018-20060;GHSA-WWW2-V7XJ-XRC6;PYSEC-2018-32",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WWW2-V7XJ-XRC6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2018-25091",
+      "all_identifiers": "CVE-2018-25091;GHSA-GWVM-45GX-3CF8;PYSEC-2023-207",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GWVM-45GX-3CF8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-11236",
+      "all_identifiers": "CVE-2019-11236;GHSA-R64Q-W8JR-G9QP;PYSEC-2019-132",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R64Q-W8JR-G9QP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2019-11324",
+      "all_identifiers": "CVE-2019-11324;GHSA-MH33-7RRQ-662W;PYSEC-2019-133",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MH33-7RRQ-662W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2020-26137",
+      "all_identifiers": "CVE-2020-26137;GHSA-WQVQ-5M8C-6G24;PYSEC-2020-148",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WQVQ-5M8C-6G24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-43804",
+      "all_identifiers": "CVE-2023-43804;GHSA-V845-JXX5-VC9F;PYSEC-2023-192",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V845-JXX5-VC9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-45803",
+      "all_identifiers": "CVE-2023-45803;GHSA-G4MX-Q9VG-27P4;PYSEC-2023-212",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G4MX-Q9VG-27P4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-37891",
+      "all_identifiers": "CVE-2024-37891;GHSA-34JH-P97F-MPXF;PYSEC-2026-1995",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-34JH-P97F-MPXF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-50181",
+      "all_identifiers": "CVE-2025-50181;GHSA-PQ67-6M6Q-MJ2V;PYSEC-2026-1999",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQ67-6M6Q-MJ2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66471",
+      "all_identifiers": "CVE-2025-66471;GHSA-2XPW-W6GG-JR37;PYSEC-2026-1994",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2XPW-W6GG-JR37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.21.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97689",
+      "all_identifiers": "CVE-2026-97689;GHSA-VXQ7-64XX-V4GW;PYSEC-2026-4177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXQ7-64XX-V4GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "grype_source": "https://github.com/fomi009/vulnerable-demo-app/blob/3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

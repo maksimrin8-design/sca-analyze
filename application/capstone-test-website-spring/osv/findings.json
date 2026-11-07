@@ -1,0 +1,1794 @@
+{
+  "project_id": "P018",
+  "project": "capstone-test-website-spring",
+  "scanner": "osv",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 99,
+  "normalized_findings": [
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.5.32",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-10532",
+      "all_identifiers": "CVE-2026-10532;GHSA-JHQ6-GFMJ-V8FX",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JHQ6-GFMJ-V8FX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "installed_version": "1.5.32",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-9828",
+      "all_identifiers": "CVE-2026-9828;GHSA-P47F-322F-WHFH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P47F-322F-WHFH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-18401",
+      "all_identifiers": "CVE-2026-18401;GHSA-72HV-8253-57QQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-72HV-8253-57QQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68494",
+      "all_identifiers": "CVE-2026-68494;GHSA-R7WM-3CXJ-WFF9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R7WM-3CXJ-WFF9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-89407",
+      "all_identifiers": "CVE-2026-89407;GHSA-P6PP-M3F8-5C89",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P6PP-M3F8-5C89",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-89425",
+      "all_identifiers": "CVE-2026-89425;GHSA-7HHH-6RMP-J9QF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7HHH-6RMP-J9QF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-19032",
+      "all_identifiers": "CVE-2026-19032;GHSA-WJGM-6HV5-3CVF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJGM-6HV5-3CVF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54512",
+      "all_identifiers": "CVE-2026-54512;GHSA-J3RV-43J4-C7QM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J3RV-43J4-C7QM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54513",
+      "all_identifiers": "CVE-2026-54513;GHSA-RMJ7-2VXQ-3G9F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RMJ7-2VXQ-3G9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54514",
+      "all_identifiers": "CVE-2026-54514;GHSA-HGJ6-7826-R7M5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGJ6-7826-R7M5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54515",
+      "all_identifiers": "CVE-2026-54515;GHSA-5JMJ-H7XM-6Q6V",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5JMJ-H7XM-6Q6V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-59888",
+      "all_identifiers": "CVE-2026-59888;GHSA-3PJW-73GF-8QR5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3PJW-73GF-8QR5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-59889",
+      "all_identifiers": "CVE-2026-59889;GHSA-5GVW-P9QM-JGWH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5GVW-P9QM-JGWH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68497",
+      "all_identifiers": "CVE-2026-68497;GHSA-Q4XH-88C3-WMH7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q4XH-88C3-WMH7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-77310",
+      "all_identifiers": "CVE-2026-77310;GHSA-VVGP-RFG2-7RR6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VVGP-RFG2-7RR6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-83557",
+      "all_identifiers": "CVE-2026-83557;GHSA-GX83-3VF8-GH7J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX83-3VF8-GH7J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91776",
+      "all_identifiers": "CVE-2026-91776;GHSA-WV8Q-QHHJ-9H54",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WV8Q-QHHJ-9H54",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "installed_version": "2.20.2",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91777",
+      "all_identifiers": "CVE-2026-91777;GHSA-CXP5-3PX4-PW24",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CXP5-3PX4-PW24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-api",
+      "installed_version": "2.25.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-49844",
+      "all_identifiers": "CVE-2026-49844;GHSA-QV9R-C865-CP47",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QV9R-C865-CP47",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-24880",
+      "all_identifiers": "BIT-TOMCAT-2026-24880;CVE-2026-24880;GHSA-563X-Q5RQ-57QP",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-563X-Q5RQ-57QP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-25854",
+      "all_identifiers": "BIT-TOMCAT-2026-25854;CVE-2026-25854;GHSA-9M3C-QCXR-9X87",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M3C-QCXR-9X87",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-29129",
+      "all_identifiers": "BIT-TOMCAT-2026-29129;CVE-2026-29129;GHSA-69CC-CV78-QC8G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-69CC-CV78-QC8G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-32990",
+      "all_identifiers": "BIT-TOMCAT-2026-32990;CVE-2026-32990;GHSA-8MC5-53M5-3QJ2",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8MC5-53M5-3QJ2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34483",
+      "all_identifiers": "BIT-TOMCAT-2026-34483;CVE-2026-34483;GHSA-RV64-5GF8-9QQ8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RV64-5GF8-9QQ8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-34487",
+      "all_identifiers": "BIT-TOMCAT-2026-34487;CVE-2026-34487;GHSA-X4M4-345F-5H5G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X4M4-345F-5H5G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41284",
+      "all_identifiers": "BIT-TOMCAT-2026-41284;CVE-2026-41284;GHSA-GX5V-XP9W-J4CG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX5V-XP9W-J4CG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41293",
+      "all_identifiers": "BIT-TOMCAT-2026-41293;CVE-2026-41293;GHSA-R29C-68GH-XP6X",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R29C-68GH-XP6X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-42498",
+      "all_identifiers": "BIT-TOMCAT-2026-42498;CVE-2026-42498;GHSA-FV25-8XCX-GQJC",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FV25-8XCX-GQJC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43512",
+      "all_identifiers": "BIT-TOMCAT-2026-43512;CVE-2026-43512;GHSA-H6FC-48RJ-7QQH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H6FC-48RJ-7QQH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43513",
+      "all_identifiers": "BIT-TOMCAT-2026-43513;CVE-2026-43513;GHSA-5MP6-JRQ3-R938",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5MP6-JRQ3-R938",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43514",
+      "all_identifiers": "BIT-TOMCAT-2026-43514;CVE-2026-43514;GHSA-9M89-8FRQ-C98C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9M89-8FRQ-C98C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-43515",
+      "all_identifiers": "BIT-TOMCAT-2026-43515;CVE-2026-43515;GHSA-5M62-PW8W-7W9F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5M62-PW8W-7W9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-53404",
+      "all_identifiers": "BIT-TOMCAT-2026-53404;CVE-2026-53404;GHSA-H792-V28V-PPGR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H792-V28V-PPGR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55276",
+      "all_identifiers": "BIT-TOMCAT-2026-55276;CVE-2026-55276;GHSA-MQG3-R7H5-24X4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQG3-R7H5-24X4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-55956",
+      "all_identifiers": "BIT-TOMCAT-2026-55956;CVE-2026-55956;GHSA-5V3H-FJV2-54FG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5V3H-FJV2-54FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65182",
+      "all_identifiers": "BIT-TOMCAT-2026-65182;CVE-2026-65182;GHSA-GCX9-497G-6CP6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCX9-497G-6CP6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-65905",
+      "all_identifiers": "BIT-TOMCAT-2026-65905;CVE-2026-65905;GHSA-9XV2-5V5Q-P794",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9XV2-5V5Q-P794",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "installed_version": "11.0.18",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68525",
+      "all_identifiers": "BIT-TOMCAT-2026-68525;CVE-2026-68525;GHSA-H3X4-894J-XPX5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3X4-894J-XPX5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.postgresql:postgresql",
+      "installed_version": "42.7.10",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-42198",
+      "all_identifiers": "BIT-POSTGRESQL-JDBC-DRIVER-2026-42198;CVE-2026-42198;GHSA-98QH-XJC8-98PQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-98QH-XJC8-98PQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.postgresql:postgresql",
+      "installed_version": "42.7.10",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54291",
+      "all_identifiers": "BIT-POSTGRESQL-JDBC-DRIVER-2026-54291;CVE-2026-54291;GHSA-J92G-9F8W-J867",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J92G-9F8W-J867",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40973",
+      "all_identifiers": "CVE-2026-40973;GHSA-WWPQ-F5C3-7HVX",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WWPQ-F5C3-7HVX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40976",
+      "all_identifiers": "CVE-2026-40976;GHSA-8V8J-3HXP-93WR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8V8J-3HXP-93WR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-autoconfigure",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41001",
+      "all_identifiers": "CVE-2026-41001;GHSA-GGG2-9786-HWC8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GGG2-9786-HWC8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.data:spring-data-commons",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41695",
+      "all_identifiers": "CVE-2026-41695;GHSA-88FW-V6X4-3F58",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-88FW-V6X4-3F58",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.data:spring-data-commons",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41711",
+      "all_identifiers": "CVE-2026-41711;GHSA-5VPF-XVV7-C8VH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5VPF-XVV7-C8VH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.data:spring-data-commons",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41716",
+      "all_identifiers": "CVE-2026-41716;GHSA-9FW2-H3HF-293R",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FW2-H3HF-293R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.data:spring-data-commons",
+      "installed_version": "4.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41721",
+      "all_identifiers": "CVE-2026-41721;GHSA-5M4M-73W9-8433",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5M4M-73W9-8433",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-config",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22753",
+      "all_identifiers": "CVE-2026-22753;GHSA-4WRG-8WPC-H923",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4WRG-8WPC-H923",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-config",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22754",
+      "all_identifiers": "CVE-2026-22754;GHSA-4VRC-J85C-598C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4VRC-J85C-598C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-core",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22746",
+      "all_identifiers": "CVE-2026-22746;GHSA-VXF7-QJ7Q-83FH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXF7-QJ7Q-83FH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-core",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22751",
+      "all_identifiers": "CVE-2026-22751;GHSA-X2WQ-9X2F-FHJ7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X2WQ-9X2F-FHJ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-oauth2-jose",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22748",
+      "all_identifiers": "CVE-2026-22748;GHSA-CVC6-Q2CP-2XHW",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CVC6-Q2CP-2XHW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-web",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22732",
+      "all_identifiers": "CVE-2026-22732;GHSA-MF92-479X-3373",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MF92-479X-3373",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-web",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22747",
+      "all_identifiers": "CVE-2026-22747;GHSA-2JRG-RF5X-568G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2JRG-RF5X-568G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework.security:spring-security-web",
+      "installed_version": "7.0.3",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41706",
+      "all_identifiers": "CVE-2026-41706;GHSA-X2R2-RVHQ-2MQV",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X2R2-RVHQ-2MQV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-core",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41848",
+      "all_identifiers": "CVE-2026-41848;GHSA-659M-PX2C-25WJ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-659M-PX2C-25WJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41850",
+      "all_identifiers": "CVE-2026-41850;GHSA-R5W3-XV2F-J59Q",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R5W3-XV2F-J59Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41851",
+      "all_identifiers": "CVE-2026-41851;GHSA-WXPP-56Q6-5PCG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WXPP-56Q6-5PCG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41852",
+      "all_identifiers": "CVE-2026-41852;GHSA-9F52-RJQV-25QV",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9F52-RJQV-25QV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41854",
+      "all_identifiers": "CVE-2026-41854;GHSA-7M2P-62GW-P8QQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7M2P-62GW-P8QQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22735",
+      "all_identifiers": "CVE-2026-22735;GHSA-6HCQ-HMM3-JJ3C",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6HCQ-HMM3-JJ3C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22737",
+      "all_identifiers": "CVE-2026-22737;GHSA-4773-3JFM-QMX3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4773-3JFM-QMX3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22741",
+      "all_identifiers": "CVE-2026-22741;GHSA-WG35-8JPF-2XV3",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WG35-8JPF-2XV3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-22745",
+      "all_identifiers": "CVE-2026-22745;GHSA-6P4F-WCWH-5VVM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6P4F-WCWH-5VVM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41841",
+      "all_identifiers": "CVE-2026-41841;GHSA-MQ64-J8F9-9GCJ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQ64-J8F9-9GCJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41842",
+      "all_identifiers": "CVE-2026-41842;GHSA-X23C-287F-QQV5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X23C-287F-QQV5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41843",
+      "all_identifiers": "CVE-2026-41843;GHSA-72PG-X5F8-J25J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-72PG-X5F8-J25J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41844",
+      "all_identifiers": "CVE-2026-41844;GHSA-H3QP-GQRC-Q736",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H3QP-GQRC-Q736",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41845",
+      "all_identifiers": "CVE-2026-41845;GHSA-3CHG-M5W7-QFV5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3CHG-M5W7-QFV5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41846",
+      "all_identifiers": "CVE-2026-41846;GHSA-957G-F97V-VPPC",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-957G-F97V-VPPC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41853",
+      "all_identifiers": "CVE-2026-41853;GHSA-CJPG-RGQ5-FR37",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CJPG-RGQ5-FR37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-47884",
+      "all_identifiers": "CVE-2026-47884;GHSA-PC63-QCMH-9CMG",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PC63-QCMH-9CMG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "installed_version": "7.0.5",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-47890",
+      "all_identifiers": "CVE-2026-47890;GHSA-J9F9-W8PJ-32F8",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J9F9-W8PJ-32F8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40477",
+      "all_identifiers": "CVE-2026-40477;GHSA-R4V4-5MWR-2FWR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4V4-5MWR-2FWR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40478",
+      "all_identifiers": "CVE-2026-40478;GHSA-XJW8-8C5C-9R79",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJW8-8C5C-9R79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41901",
+      "all_identifiers": "CVE-2026-41901;GHSA-C9PH-GXWW-7744",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C9PH-GXWW-7744",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring6",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40477",
+      "all_identifiers": "CVE-2026-40477;GHSA-R4V4-5MWR-2FWR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4V4-5MWR-2FWR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring6",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-40478",
+      "all_identifiers": "CVE-2026-40478;GHSA-XJW8-8C5C-9R79",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJW8-8C5C-9R79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring6",
+      "installed_version": "3.1.3.RELEASE",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-41901",
+      "all_identifiers": "CVE-2026-41901;GHSA-C9PH-GXWW-7744",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C9PH-GXWW-7744",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-18401",
+      "all_identifiers": "CVE-2026-18401;GHSA-72HV-8253-57QQ",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-72HV-8253-57QQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-29062",
+      "all_identifiers": "CVE-2026-29062;GHSA-6V53-7C9G-W56R",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6V53-7C9G-W56R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68494",
+      "all_identifiers": "CVE-2026-68494;GHSA-R7WM-3CXJ-WFF9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R7WM-3CXJ-WFF9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-89407",
+      "all_identifiers": "CVE-2026-89407;GHSA-P6PP-M3F8-5C89",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P6PP-M3F8-5C89",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-89425",
+      "all_identifiers": "CVE-2026-89425;GHSA-7HHH-6RMP-J9QF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7HHH-6RMP-J9QF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-core",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "GHSA-2M67-WJPJ-XHG9",
+      "all_identifiers": "GHSA-2M67-WJPJ-XHG9",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2M67-WJPJ-XHG9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-19032",
+      "all_identifiers": "CVE-2026-19032;GHSA-WJGM-6HV5-3CVF",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJGM-6HV5-3CVF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54512",
+      "all_identifiers": "CVE-2026-54512;GHSA-J3RV-43J4-C7QM",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J3RV-43J4-C7QM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54513",
+      "all_identifiers": "CVE-2026-54513;GHSA-RMJ7-2VXQ-3G9F",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RMJ7-2VXQ-3G9F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54514",
+      "all_identifiers": "CVE-2026-54514;GHSA-HGJ6-7826-R7M5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGJ6-7826-R7M5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54516",
+      "all_identifiers": "CVE-2026-54516;GHSA-9FXM-VC8V-HJ55",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FXM-VC8V-HJ55",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54517",
+      "all_identifiers": "CVE-2026-54517;GHSA-5HH8-Q8HV-FR38",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5HH8-Q8HV-FR38",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-54518",
+      "all_identifiers": "CVE-2026-54518;GHSA-RCQC-6CW3-H962",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RCQC-6CW3-H962",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-59888",
+      "all_identifiers": "CVE-2026-59888;GHSA-3PJW-73GF-8QR5",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3PJW-73GF-8QR5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-59889",
+      "all_identifiers": "CVE-2026-59889;GHSA-5GVW-P9QM-JGWH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5GVW-P9QM-JGWH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-68497",
+      "all_identifiers": "CVE-2026-68497;GHSA-Q4XH-88C3-WMH7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q4XH-88C3-WMH7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-77310",
+      "all_identifiers": "CVE-2026-77310;GHSA-VVGP-RFG2-7RR6",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VVGP-RFG2-7RR6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-83557",
+      "all_identifiers": "CVE-2026-83557;GHSA-GX83-3VF8-GH7J",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX83-3VF8-GH7J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91776",
+      "all_identifiers": "CVE-2026-91776;GHSA-WV8Q-QHHJ-9H54",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WV8Q-QHHJ-9H54",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tools.jackson.core:jackson-databind",
+      "installed_version": "3.0.4",
+      "ecosystem": "maven",
+      "vulnerability_id": "CVE-2026-91777",
+      "all_identifiers": "CVE-2026-91777;GHSA-CXP5-3PX4-PW24",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CXP5-3PX4-PW24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/vurs/capstone-test-website-spring/blob/7cea291b69e156a35588a6ab1c661e9cad73d423/app/pom.xml",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

@@ -1,0 +1,14 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/community/vendor/github.com file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/community/vendor/go.mongodb.org file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/community/vendor/golang.org file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/community/go.mod file and found 20 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/gateway-service/go.mod file and found 4 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/web/package-lock.json file and found 1583 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/chatbot/requirements.txt file and found 30 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/chatbot/requirements-dev.txt file and found 1 package
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/workshop/requirements.txt file and found 26 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/services/workshop/dev-requirements.txt file and found 2 packages
+End status: 276 dirs visited, 1364 inodes visited, 10 Extract calls, 842.03633ms elapsed, 842.03647ms wall time
+Filtered 9 local/unscannable package/s from the scan.
