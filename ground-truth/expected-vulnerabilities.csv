@@ -1,0 +1,2 @@
+project_id,package,version,ecosystem,vulnerability_ids,status,evidence_url,notes
+P001,minimist,0.0.8,npm,GHSA-xvch-5gv4-984h;CVE-2021-44906,verified,https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json,"Pinned lockfile contains minimist@0.0.8; advisory affected range includes versions before 0.2.4; GHSA/CVE aliases refer to the same vulnerability."
