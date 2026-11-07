@@ -72,12 +72,16 @@ class FindingTests(unittest.TestCase):
             (root/'grype/result.json').write_text(json.dumps(self.grype))
             (root/'grype/exit-code.txt').write_text('0')
             subprocess.run([sys.executable,str(ROOT/'scripts/build_sca_table.py'),'--results-dir',str(base/'raw'),'--manifest',str(base/'manifest.json'),'--ground-truth',str(base/'gt.csv'),'--output-dir',str(base/'out')],check=True,capture_output=True)
-            for i in range(1,5):
-                self.assertTrue(list((base/'out').glob(f'0{i}*.csv')))
-            with (base/'out/02-project-summary.csv').open() as f:
-                rows=list(csv.DictReader(f))
-            self.assertEqual(2,len(rows))
-            self.assertEqual('missing_artifact',rows[1]['osv_scan'])
+            self.assertEqual(["sca-comparison.csv"], sorted(p.name for p in (base/'out').glob("*.csv")))
+            self.assertEqual(["sca-comparison.md"], sorted(p.name for p in (base/'out').glob("*.md")))
+            with (base/'out/sca-comparison.csv').open() as f:
+                rows = list(csv.DictReader(f))
+            self.assertEqual(2, len(rows))
+            self.assertEqual("verified", rows[0]["reference_status"])
+            self.assertEqual("Найдено полностью", rows[0]["osv_status"])
+            self.assertEqual("not_yet_adjudicated", rows[1]["reference_status"])
+            self.assertEqual("Не оценивалось", rows[1]["grype_status"])
+            self.assertIn("missing_artifact", rows[1]["grype_comment"])
 
 
 if __name__ == '__main__':
