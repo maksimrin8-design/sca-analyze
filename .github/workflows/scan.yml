@@ -160,9 +160,9 @@ jobs:
           merge-multiple: false
       - name: Run comparison tests
         run: python -m unittest discover -s tests -v
-      - name: Build one SCA comparison table
+      - name: Build exhaustive observed SCA comparison
         run: |
-          python scripts/build_sca_table.py \
+          python scripts/build_full_sca_table.py \
             --results-dir all-results \
             --manifest projects/manifest.json \
             --ground-truth ground-truth/expected-vulnerabilities.csv \
