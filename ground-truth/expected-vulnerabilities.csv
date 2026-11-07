@@ -1,2 +1,8 @@
-project_id,package,version,ecosystem,vulnerability_ids,status,evidence_url,notes
-P001,minimist,0.0.8,npm,GHSA-xvch-5gv4-984h;CVE-2021-44906,verified,https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json,"Pinned lockfile contains minimist@0.0.8; advisory affected range includes versions before 0.2.4; GHSA/CVE aliases refer to the same vulnerability."
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: ground_truth.csv>
+index,project_id,package,version,ecosystem,vulnerability_ids,status,evidence_url,notes
+0,P001,minimist,0.0.8,npm,GHSA-xvch-5gv4-984h;CVE-2021-44906,verified,https://github.com/coder/osv-test/blob/18c46d1b2a0119ff94e910e0b305819b763a4e79/fixtures/vulnerable/package-lock.json,Pinned lockfile contains minimist@0.0.8; GitHub advisory GHSA-xvch-5gv4-984h lists versions below 0.2.4 as vulnerable.
+1,P001,minimist,0.0.8,npm,GHSA-vh95-rmgr-6w4m;CVE-2020-7598,verified,https://github.com/advisories/GHSA-vh95-rmgr-6w4m,Verified pinned lockfile and independent GitHub advisory: minimist < 0.2.1 is vulnerable.
+2,P002,adm-zip,0.4.7,npm,GHSA-3v6h-hqm4-2rg6;CVE-2018-1002204,verified,https://github.com/snyk-labs/nodejs-goof/blob/add14ba59e98240d9e00a235dd7d42cd61ae9912/package-lock.json,Pinned package-lock lists node_modules/adm-zip at 0.4.7; GitHub advisory GHSA-3v6h-hqm4-2rg6 affects versions below 0.4.11; source is direct dependency.
+3,P003,adm-zip,0.4.4,npm,GHSA-3v6h-hqm4-2rg6;CVE-2018-1002204,verified,https://github.com/OWASP/NodeGoat/blob/c5cb68a7084e4ae7dcc60e6a98768720a81841e8/package-lock.json,Pinned package-lock lists node_modules/adm-zip at 0.4.4 (dev dependency); GitHub advisory GHSA-3v6h-hqm4-2rg6 affects versions below 0.4.11; not necessarily runtime-exploitable.
+4,P004,body-parser,1.20.6,npm,GHSA-27r3-jxmh-p828;CVE-2026-111181,verified,https://github.com/cr0hn/vulnerable-node/blob/d68f2a3c9277ece2c2feb9976052033bdecd7fbe/package-lock.json,Pinned package-lock lists node_modules/body-parser at 1.20.6; GHSA-27r3-jxmh-p828 advisory affects versions below 1.20.9; advisory published 2026-10-23.
