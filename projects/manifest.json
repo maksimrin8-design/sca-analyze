@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "purpose": "SCA corpus for comparing OSV-Scanner and Grype. Each entry is a real upstream GitHub repository; refs are pinned where an audited commit was available.",
+  "ground_truth_policy": "A repository being in this corpus does NOT mean every dependency is vulnerable. Only rows with status=verified in ground-truth/expected-vulnerabilities.csv are scored. Other findings remain unadjudicated, not false positives.",
+  "projects": [
+    {
+      "id": "P001",
+      "name": "osv-test",
+      "repo": "coder/osv-test",
+      "ref": "18c46d1b2a0119ff94e910e0b305819b763a4e79",
+      "ecosystem": "npm",
+      "role": "known-vulnerable-fixture",
+      "evidence": "fixtures/vulnerable/package-lock.json"
+    },
+    {
+      "id": "P002",
+      "name": "nodejs-goof",
+      "repo": "snyk-labs/nodejs-goof",
+      "ecosystem": "npm",
+      "role": "security-training-project",
+      "ref": "add14ba59e98240d9e00a235dd7d42cd61ae9912"
+    },
+    {
+      "id": "P003",
+      "name": "nodegoat",
+      "repo": "OWASP/NodeGoat",
+      "ecosystem": "npm",
+      "role": "security-training-project",
+      "ref": "c5cb68a7084e4ae7dcc60e6a98768720a81841e8"
+    },
+    {
+      "id": "P004",
+      "name": "vulnerable-node",
+      "repo": "cr0hn/vulnerable-node",
+      "ecosystem": "npm",
+      "role": "vulnerable-demo",
+      "ref": "d68f2a3c9277ece2c2feb9976052033bdecd7fbe"
+    },
+    {
+      "id": "P005",
+      "name": "crapi",
+      "repo": "OWASP/crAPI",
+      "ecosystem": "multi",
+      "role": "security-training-project",
+      "ref": "b5fc307f3e5f875809b095b771108ef342a33724"
+    },
+    {
+      "id": "P006",
+      "name": "koa",
+      "repo": "koajs/koa",
+      "ecosystem": "npm",
+      "role": "real-world-project",
+      "ref": "b7ead6f7a2bb56e2948b1c5e1cca77483e89c885"
+    },
+    {
+      "id": "P007",
+      "name": "webgoat",
+      "repo": "WebGoat/WebGoat",
+      "ecosystem": "maven",
+      "role": "security-training-project",
+      "ref": "be2c186b94201bcbdfa46c3a6f5f53dd83262d6a"
+    },
+    {
+      "id": "P008",
+      "name": "dvwa",
+      "repo": "digininja/DVWA",
+      "ecosystem": "composer",
+      "role": "security-training-project",
+      "ref": "a1978a2fed195acd093010af6395f86a281537ca"
+    },
+    {
+      "id": "P009",
+      "name": "railsgoat",
+      "repo": "OWASP/railsgoat",
+      "ecosystem": "rubygems",
+      "role": "security-training-project",
+      "ref": "f5951f13089d85c979de09e7da3c8c0fb982f94a"
+    },
+    {
+      "id": "P010",
+      "name": "dv-graphql",
+      "repo": "dolevf/Damn-Vulnerable-GraphQL-Application",
+      "ecosystem": "pypi",
+      "role": "security-training-project",
+      "ref": "a961308c02d1fb462b192681c336b0739e432da7"
+    },
+    {
+      "id": "P011",
+      "name": "pygoat",
+      "repo": "adeyosemanputra/pygoat",
+      "ecosystem": "pypi",
+      "role": "security-training-project",
+      "ref": "2aa4cc14f251e4a780e94e200aed6b36a5b15c21"
+    },
+    {
+      "id": "P012",
+      "name": "vulnerable-flask-app",
+      "repo": "videvelopers/Vulnerable-Flask-App",
+      "ecosystem": "pypi",
+      "role": "vulnerable-demo",
+      "ref": "155a9d4020cd6382e7cef2a4166a714c54af3441"
+    },
+    {
+      "id": "P013",
+      "name": "vulnado",
+      "repo": "vincenzo-veracode/vulnado",
+      "ecosystem": "maven",
+      "role": "vulnerable-demo",
+      "ref": "097d1d80d213025ee768d990203eb398536794c0"
+    },
+    {
+      "id": "P014",
+      "name": "vulnerable-spring-petclinic",
+      "repo": "Contrast-Security-OSS/vulnerable-spring-petclinic",
+      "ecosystem": "maven",
+      "role": "vulnerable-demo",
+      "ref": "cf4e5cff0db984831d3e5aa39c5ba07e0a052a0a"
+    },
+    {
+      "id": "P015",
+      "name": "vuln-spring-sast-practice",
+      "repo": "jo-0412/vuln-spring-sast-practice",
+      "ecosystem": "maven",
+      "role": "security-training-project",
+      "ref": "33da9a40eaa1985b69ca584c3033c54507e4258b"
+    },
+    {
+      "id": "P016",
+      "name": "vulnerable-demo-app",
+      "repo": "fomi009/vulnerable-demo-app",
+      "ecosystem": "pypi",
+      "role": "vulnerable-demo",
+      "ref": "3fb9fb0a81af0fe37e6c5aecd6a63e34b8264dba"
+    },
+    {
+      "id": "P017",
+      "name": "py-reach-demo",
+      "repo": "Super-Vulnerable-Org/py-reach-demo",
+      "ecosystem": "pypi",
+      "role": "research-demo",
+      "ref": "2b6434dccbf4f4fdd077a3e07bebff343674ef7f"
+    },
+    {
+      "id": "P018",
+      "name": "capstone-test-website-spring",
+      "repo": "vurs/capstone-test-website-spring",
+      "ecosystem": "maven",
+      "role": "research-demo",
+      "ref": "7cea291b69e156a35588a6ab1c661e9cad73d423"
+    },
+    {
+      "id": "P019",
+      "name": "vulnerable-repo",
+      "repo": "tobiasbruss/vulnerable-repo",
+      "ecosystem": "maven",
+      "role": "vulnerable-demo",
+      "ref": "2f427ec833bf763ea7d2a12165ae3fddd2d9dd33"
+    },
+    {
+      "id": "P020",
+      "name": "gin",
+      "repo": "gin-gonic/gin",
+      "ecosystem": "golang",
+      "role": "real-world-project",
+      "ref": "0f09c3a9b4626d9fe9979cf4d0521d6ae32ab646"
+    },
+    {
+      "id": "P021",
+      "name": "hugo",
+      "repo": "gohugoio/hugo",
+      "ecosystem": "golang",
+      "role": "real-world-project",
+      "ref": "7ff95e046daa1bc6b132ac582c9517ff9f24b204"
+    },
+    {
+      "id": "P022",
+      "name": "grafana",
+      "repo": "grafana/grafana",
+      "ecosystem": "golang",
+      "role": "real-world-project",
+      "ref": "2548988415a97215f3df967d5eb305f88774eeca"
+    },
+    {
+      "id": "P023",
+      "name": "rails",
+      "repo": "rails/rails",
+      "ecosystem": "multi",
+      "role": "real-world-project",
+      "ref": "f4a33dbbd3e38d6def4f776cb6b60eb4070a9aff"
+    },
+    {
+      "id": "P024",
+      "name": "django",
+      "repo": "django/django",
+      "ecosystem": "pypi",
+      "role": "real-world-project",
+      "note": "The repository contains requirements files; verify which represent shipped/runtime dependencies before interpreting findings.",
+      "ref": "a1f2b45ce5a327f42437bdb620a817839d0bd067"
+    },
+    {
+      "id": "P025",
+      "name": "CantusDB",
+      "repo": "DDMAL/CantusDB",
+      "ref": "ae827fcd0ed68262c89ed478bfa0bec676337ce1",
+      "ecosystem": "multi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    },
+    {
+      "id": "P026",
+      "name": "CoPeP",
+      "repo": "chandar-lab/CoPeP",
+      "ref": "7cceddc3a08781b23d852b8bb4bfe047097698f2",
+      "ecosystem": "multi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    },
+    {
+      "id": "P027",
+      "name": "cycode-cli",
+      "repo": "cycodehq/cycode-cli",
+      "ref": "0d44b695dd0300040b31a9216fe9cacf278145da",
+      "ecosystem": "multi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    },
+    {
+      "id": "P028",
+      "name": "OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "ref": "9e8ba84f75470cbf28494105c9c6d1d2a96fc8a9",
+      "ecosystem": "multi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    },
+    {
+      "id": "P029",
+      "name": "openpiv-python",
+      "repo": "OpenPIV/openpiv-python",
+      "ref": "7e46ce8e9585f8e763dc94a1eccd5bb0dbbb5285",
+      "ecosystem": "pypi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    },
+    {
+      "id": "P030",
+      "name": "pypi-browser",
+      "repo": "chriskuehl/pypi-browser",
+      "ref": "473dfd752836d35162cef73c46d65c9e6c114ed3",
+      "ecosystem": "pypi",
+      "role": "research-corpus",
+      "source": "cuddest/sboms-study"
+    }
+  ]
+}
