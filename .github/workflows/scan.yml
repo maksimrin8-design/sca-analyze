@@ -21,7 +21,9 @@ jobs:
           with open("projects/manifest.json", encoding="utf-8") as f:
               projects = json.load(f)["projects"]
           assert len(projects) == 30, f"Expected 30 projects, got {len(projects)}"
-          assert len({p["repo"].lower() for p in projects}) == 30, "Duplicate repositories"
+          assert len({p['repo'].lower() for p in projects}) == 30, "Duplicate repositories"
+          assert len({p['id'] for p in projects}) == 30, "Duplicate IDs"
+          assert all(len(p.get('ref', '')) == 40 for p in projects), "Use pinned commit SHAs for every project"
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
               out.write("matrix=" + json.dumps(projects, separators=(",", ":")) + "\n")
           PY
@@ -29,6 +31,7 @@ jobs:
   scan:
     needs: prepare
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     strategy:
       fail-fast: false
       max-parallel: 6
@@ -40,7 +43,28 @@ jobs:
         with:
           path: benchmark
 
-      - name: Checkout upstream project
+      - name: Initialize evidence (even if upstream checkout fails)
+        shell: bash
+        run: |
+          APP="application/${{ matrix.project.name }}"
+          mkdir -p "$APP/osv" "$APP/grype" "$APP/default"
+          cat > "$APP/project.json" <<EOF
+          {"project_id":"${{ matrix.project.id }}","name":"${{ matrix.project.name }}","repository":"${{ matrix.project.repo }}","requested_ref":"${{ matrix.project.ref }}"}
+          EOF
+          python - "$APP/default/reference.json" "${{ matrix.project.id }}" benchmark/ground-truth/expected-vulnerabilities.csv <<'PY'
+          import csv, json, sys
+          output, project_id, csv_path = sys.argv[1:]
+          with open(csv_path, newline="", encoding="utf-8") as f:
+              rows = [row for row in csv.DictReader(f) if row['project_id'] == project_id and row['status'].strip().lower() == 'verified']
+          payload = {"project_id": project_id, "reference_status": "verified_entries_present" if rows else "not_yet_adjudicated", "note": "Empty reference means unverified, never zero vulnerabilities.", "vulnerabilities": rows}
+          with open(output, "w", encoding="utf-8") as f:
+              json.dump(payload, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+          PY
+
+      - name: Checkout pinned upstream
+        id: upstream
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: ${{ matrix.project.repo }}
@@ -49,71 +73,68 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
 
-      - name: Prepare application evidence structure
+      - name: Record upstream source and dependency files
+        if: steps.upstream.outcome == 'success'
         shell: bash
         run: |
           APP="application/${{ matrix.project.name }}"
-          mkdir -p "$APP/osv" "$APP/grype" "$APP/default"
           git -C target-repo rev-parse HEAD > "$APP/upstream-commit.txt"
           git -C target-repo remote get-url origin > "$APP/upstream.txt"
           find target-repo -type f | grep -E '/(package-lock\.json|npm-shrinkwrap\.json|yarn\.lock|pnpm-lock\.yaml|pom\.xml|gradle\.lockfile|requirements[^/]*\.txt|Pipfile\.lock|poetry\.lock|uv\.lock|go\.mod|go\.sum|Cargo\.lock|Gemfile\.lock|composer\.lock)$' | sort > "$APP/dependency-files.txt" || true
-          cat > "$APP/project.json" <<EOF
-          {"project_id":"${{ matrix.project.id }}","name":"${{ matrix.project.name }}","repository":"${{ matrix.project.repo }}","requested_ref":"${{ matrix.project.ref }}"}
-          EOF
-          python - "$APP/default/reference.json" "${{ matrix.project.id }}" benchmark/ground-truth/expected-vulnerabilities.csv <<'PY'
-          import csv, json, sys
-          output, project_id, csv_path = sys.argv[1:]
-          with open(csv_path, newline="", encoding="utf-8") as f:
-              rows = [r for r in csv.DictReader(f) if r["project_id"] == project_id and r["status"].strip().lower() == "verified"]
-          payload = {
-              "project_id": project_id,
-              "reference_status": "verified_entries_present" if rows else "not_yet_adjudicated",
-              "note": "An empty list means no independently verified entries are currently curated; it does not mean the project has no vulnerable dependencies.",
-              "vulnerabilities": rows
-          }
-          with open(output, "w", encoding="utf-8") as f:
-              json.dump(payload, f, indent=2, ensure_ascii=False)
-              f.write("\n")
-          PY
 
-      - name: Install OSV-Scanner
+      - name: Install pinned OSV-Scanner v2.7.0
+        if: steps.upstream.outcome == 'success'
+        id: install_osv
+        continue-on-error: true
         run: |
-          curl -sSfL https://github.com/google/osv-scanner/releases/latest/download/osv-scanner_linux_amd64 -o osv-scanner
+          curl -sSfL --retry 3 https://github.com/google/osv-scanner/releases/download/v2.7.0/osv-scanner_linux_amd64 -o osv-scanner
           chmod +x osv-scanner
           sudo install osv-scanner /usr/local/bin/osv-scanner
-          osv-scanner --version | tee application/${{ matrix.project.name }}/osv/version.txt
+          osv-scanner --version > application/${{ matrix.project.name }}/osv/version.txt
 
-      - name: Run OSV-Scanner
+      - name: Run OSV-Scanner (dependency analysis only)
+        if: steps.install_osv.outcome == 'success'
         shell: bash
+        timeout-minutes: 15
         run: |
+          APP="application/${{ matrix.project.name }}/osv"
           set +e
-          osv-scanner scan source -r target-repo --format json --output-file application/${{ matrix.project.name }}/osv/result.json
+          osv-scanner scan source -r target-repo --no-call-analysis=go --format json --output-file "$APP/result.json" 2>"$APP/stderr.log"
           code=$?
           set -e
-          echo "$code" > application/${{ matrix.project.name }}/osv/exit-code.txt
-          test -s application/${{ matrix.project.name }}/osv/result.json || echo '{"results":[]}' > application/${{ matrix.project.name }}/osv/result.json
+          echo "$code" > "$APP/exit-code.txt"
+          echo "OSV exit code: $code (0=no findings, 1=findings, other=error)"
+          # Never invent an empty JSON report on failure.
 
-      - name: Install Grype
+      - name: Install pinned Grype v0.121.2
+        if: steps.upstream.outcome == 'success'
+        id: install_grype
+        continue-on-error: true
         run: |
-          curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
-          grype version | tee application/${{ matrix.project.name }}/grype/version.txt
+          curl -sSfL --retry 3 https://raw.githubusercontent.com/anchore/grype/v0.121.2/install.sh | sh -s -- -b /usr/local/bin v0.121.2
+          grype version > application/${{ matrix.project.name }}/grype/version.txt
 
       - name: Run Grype
+        if: steps.install_grype.outcome == 'success'
         shell: bash
+        timeout-minutes: 15
         run: |
+          APP="application/${{ matrix.project.name }}/grype"
           set +e
-          grype dir:target-repo -o json --file application/${{ matrix.project.name }}/grype/result.json
+          grype dir:target-repo -o json --file "$APP/result.json" 2>"$APP/stderr.log"
           code=$?
           set -e
-          echo "$code" > application/${{ matrix.project.name }}/grype/exit-code.txt
-          test -s application/${{ matrix.project.name }}/grype/result.json || echo '{"matches":[]}' > application/${{ matrix.project.name }}/grype/result.json
+          echo "$code" > "$APP/exit-code.txt"
+          echo "Grype exit code: $code (0=scan completed, other=error)"
+          # Do not replace failed/missing output with {"matches":[]}.
 
-      - name: Upload structured application evidence
+      - name: Upload evidence, including partial failures
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scan-${{ matrix.project.id }}-${{ matrix.project.name }}
           path: application/
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 30
 
   compare:
@@ -122,19 +143,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download per-application evidence
+      - name: Download per-project artifacts
         uses: actions/download-artifact@v4
         with:
           pattern: scan-*
           path: all-results
           merge-multiple: false
-      - name: Build the single SCA comparison table
+      - name: Build four comparison tables
         run: |
           python scripts/build_sca_table.py \
             --results-dir all-results \
+            --manifest projects/manifest.json \
             --ground-truth ground-truth/expected-vulnerabilities.csv \
             --output-dir comparison
-      - name: Upload SCA table and evidence index
+      - name: Prepare leads for independent ground-truth verification
+        run: |
+          python scripts/collect_candidates.py \
+            --results-dir all-results \
+            --manifest projects/manifest.json \
+            --output comparison/ground-truth-candidates.csv
+      - name: Upload four tables, evidence index and candidate list
         uses: actions/upload-artifact@v4
         with:
           name: sca-benchmark-comparison
