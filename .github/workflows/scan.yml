@@ -24,6 +24,15 @@ jobs:
           assert len({p['repo'].lower() for p in projects}) == 30, "Duplicate repositories"
           assert len({p['id'] for p in projects}) == 30, "Duplicate IDs"
           assert all(len(p.get('ref', '')) == 40 for p in projects), "Use pinned commit SHAs for every project"
+          import csv
+          with open("ground-truth/expected-vulnerabilities.csv", newline="", encoding="utf-8-sig") as stream:
+              reader = csv.DictReader(stream)
+              required = {"project_id", "package", "version", "ecosystem", "vulnerability_ids", "status", "evidence_url", "notes"}
+              assert required.issubset(set(reader.fieldnames or [])), "Malformed ground truth CSV header"
+              truth_rows = list(reader)
+          assert truth_rows, "Ground truth CSV has no rows"
+          assert all(row.get("status") in {"verified", "candidate", "unverified", "rejected"} for row in truth_rows), "Invalid ground truth status"
+          assert all(row.get("project_id") in {p["id"] for p in projects} for row in truth_rows), "Unknown ground truth project"
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
               out.write("matrix=" + json.dumps(projects, separators=(",", ":")) + "\n")
           PY
