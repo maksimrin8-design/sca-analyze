@@ -1,0 +1,20 @@
+{
+  "project_id": "P011",
+  "name": "pygoat",
+  "repository": "adeyosemanputra/pygoat",
+  "commit": "2aa4cc14f251e4a780e94e200aed6b36a5b15c21",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 354,
+    "only_osv": 90,
+    "only_grype": 2,
+    "total": 446,
+    "osv": 444,
+    "grype": 356
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

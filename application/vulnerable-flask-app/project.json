@@ -1,0 +1,17 @@
+{
+  "project_id": "P012",
+  "name": "vulnerable-flask-app",
+  "repository": "videvelopers/Vulnerable-Flask-App",
+  "commit": "155a9d4020cd6382e7cef2a4166a714c54af3441",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "total": 0,
+    "osv": 0,
+    "grype": 0
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

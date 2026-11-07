@@ -1,0 +1,19 @@
+{
+  "project_id": "P001",
+  "name": "osv-test",
+  "repository": "coder/osv-test",
+  "commit": "18c46d1b2a0119ff94e910e0b305819b763a4e79",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 2,
+    "verified": 2,
+    "total": 2,
+    "osv": 2,
+    "grype": 2
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

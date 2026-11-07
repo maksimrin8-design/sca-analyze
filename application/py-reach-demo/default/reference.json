@@ -1,0 +1,1423 @@
+{
+  "project_id": "P017",
+  "project": "py-reach-demo",
+  "repository": "Super-Vulnerable-Org/py-reach-demo",
+  "source_commit": "2b6434dccbf4f4fdd077a3e07bebff343674ef7f",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "only_osv": 2,
+    "both": 72,
+    "total": 74,
+    "osv": 74,
+    "grype": 72
+  },
+  "vulnerabilities": [
+    {
+      "package": "certifi",
+      "installed_version": "2026.7.22",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-6Q48-6C7W-9GW2",
+      "all_identifiers": "GHSA-6Q48-6C7W-9GW2;PYSEC-2026-4320",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6Q48-6C7W-9GW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flask",
+      "installed_version": "2.2.5",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-27205",
+      "all_identifiers": "CVE-2026-27205;GHSA-68RP-WP8R-4726;PYSEC-2026-2151",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-68RP-WP8R-4726",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.9.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX;PYSEC-2026-215",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112390",
+      "all_identifiers": "BIT-PILLOW-2026-112390;CVE-2026-112390;GHSA-22HG-R758-RRW9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-22HG-R758-RRW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112391",
+      "all_identifiers": "BIT-PILLOW-2026-112391;CVE-2026-112391;GHSA-254F-3936-288H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-254F-3936-288H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112392",
+      "all_identifiers": "BIT-PILLOW-2026-112392;CVE-2026-112392;GHSA-27H8-GF7J-V5HC;PYSEC-2026-4326",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27H8-GF7J-V5HC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112393",
+      "all_identifiers": "BIT-PILLOW-2026-112393;CVE-2026-112393;GHSA-332P-7HRC-92WF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-332P-7HRC-92WF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112394",
+      "all_identifiers": "BIT-PILLOW-2026-112394;CVE-2026-112394;GHSA-4558-3H8R-V8XP;PYSEC-2026-4327",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4558-3H8R-V8XP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112395",
+      "all_identifiers": "BIT-PILLOW-2026-112395;CVE-2026-112395;GHSA-462X-PGG6-55FP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-462X-PGG6-55FP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112397",
+      "all_identifiers": "BIT-PILLOW-2026-112397;CVE-2026-112397;GHSA-58R4-6RV3-GFH8;PYSEC-2026-4329",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-58R4-6RV3-GFH8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112398",
+      "all_identifiers": "BIT-PILLOW-2026-112398;CVE-2026-112398;GHSA-5X8W-8JJ5-Q52H;PYSEC-2026-4330",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X8W-8JJ5-Q52H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112399",
+      "all_identifiers": "BIT-PILLOW-2026-112399;CVE-2026-112399;GHSA-5XM2-6676-QCP9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5XM2-6676-QCP9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112400",
+      "all_identifiers": "BIT-PILLOW-2026-112400;CVE-2026-112400;GHSA-65QM-JVMH-6PQG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65QM-JVMH-6PQG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112401",
+      "all_identifiers": "BIT-PILLOW-2026-112401;CVE-2026-112401;GHSA-74R2-7FF9-MJJ2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-74R2-7FF9-MJJ2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112402",
+      "all_identifiers": "BIT-PILLOW-2026-112402;CVE-2026-112402;GHSA-7MWM-GHPF-9VRM;PYSEC-2026-4331",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7MWM-GHPF-9VRM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112403",
+      "all_identifiers": "BIT-PILLOW-2026-112403;CVE-2026-112403;GHSA-8G5G-8VMR-9782;PYSEC-2026-4332",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8G5G-8VMR-9782",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112404",
+      "all_identifiers": "BIT-PILLOW-2026-112404;CVE-2026-112404;GHSA-C6HW-5GRF-FF96",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C6HW-5GRF-FF96",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112406",
+      "all_identifiers": "BIT-PILLOW-2026-112406;CVE-2026-112406;GHSA-F2G6-542V-9J58",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F2G6-542V-9J58",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112891",
+      "all_identifiers": "BIT-PILLOW-2026-112891;CVE-2026-112891;GHSA-FC9G-5QG7-MF45",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FC9G-5QG7-MF45",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112892",
+      "all_identifiers": "BIT-PILLOW-2026-112892;CVE-2026-112892;GHSA-GG2R-WVFM-Q9RX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GG2R-WVFM-Q9RX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112893",
+      "all_identifiers": "BIT-PILLOW-2026-112893;CVE-2026-112893;GHSA-J4M9-6W36-PW47",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J4M9-6W36-PW47",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112894",
+      "all_identifiers": "BIT-PILLOW-2026-112894;CVE-2026-112894;GHSA-JG86-V3JV-HRPM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JG86-V3JV-HRPM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112895",
+      "all_identifiers": "BIT-PILLOW-2026-112895;CVE-2026-112895;GHSA-P4WG-P73J-C528",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P4WG-P73J-C528",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112896",
+      "all_identifiers": "BIT-PILLOW-2026-112896;CVE-2026-112896;GHSA-PCHR-8J38-3X4P;PYSEC-2026-4334",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PCHR-8J38-3X4P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112897",
+      "all_identifiers": "BIT-PILLOW-2026-112897;CVE-2026-112897;GHSA-Q45J-58J2-45RG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q45J-58J2-45RG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112898",
+      "all_identifiers": "BIT-PILLOW-2026-112898;CVE-2026-112898;GHSA-RFGQ-Q3W2-PMV2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFGQ-Q3W2-PMV2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112899",
+      "all_identifiers": "CVE-2026-112899;GHSA-VX6W-VV9F-6GVG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VX6W-VV9F-6GVG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112900",
+      "all_identifiers": "BIT-PILLOW-2026-112900;CVE-2026-112900;GHSA-W889-685W-C8FH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W889-685W-C8FH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112901",
+      "all_identifiers": "BIT-PILLOW-2026-112901;CVE-2026-112901;GHSA-XGH8-JP6Q-P5X8;PYSEC-2026-4335",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XGH8-JP6Q-P5X8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112902",
+      "all_identifiers": "CVE-2026-112902;GHSA-XVH5-G6GV-559V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XVH5-G6GV-559V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25990",
+      "all_identifiers": "BIT-PILLOW-2026-25990;CVE-2026-25990;GHSA-CFH3-3JMP-RVHC;PYSEC-2026-2249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CFH3-3JMP-RVHC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-40192",
+      "all_identifiers": "BIT-PILLOW-2026-40192;CVE-2026-40192;GHSA-WHJ4-6X5X-4V2J;PYSEC-2026-2250",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WHJ4-6X5X-4V2J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42308",
+      "all_identifiers": "BIT-PILLOW-2026-42308;CVE-2026-42308;GHSA-WJX4-4JCJ-G98J;PYSEC-2026-165",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJX4-4JCJ-G98J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42310",
+      "all_identifiers": "BIT-PILLOW-2026-42310;CVE-2026-42310;GHSA-R73J-PQJ5-W3X7;PYSEC-2026-2874",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R73J-PQJ5-W3X7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42311",
+      "all_identifiers": "BIT-PILLOW-2026-42311;CVE-2026-42311;GHSA-PWV6-VV43-88GR;PYSEC-2026-2252",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PWV6-VV43-88GR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54058",
+      "all_identifiers": "BIT-PILLOW-2026-54058;CVE-2026-54058;GHSA-62P4-GMF7-7G93;PYSEC-2026-3493",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-62P4-GMF7-7G93",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54059",
+      "all_identifiers": "BIT-PILLOW-2026-54059;CVE-2026-54059;GHSA-8V84-F9PQ-WR9X;PYSEC-2026-2253",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8V84-F9PQ-WR9X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54060",
+      "all_identifiers": "BIT-PILLOW-2026-54060;CVE-2026-54060;GHSA-5X94-69RX-G8H2;PYSEC-2026-2254",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X94-69RX-G8H2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55379",
+      "all_identifiers": "BIT-PILLOW-2026-55379;CVE-2026-55379;GHSA-45HQ-CXWH-F6VC;PYSEC-2026-2255",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-45HQ-CXWH-F6VC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55380",
+      "all_identifiers": "BIT-PILLOW-2026-55380;CVE-2026-55380;GHSA-PHJ9-MV4W-65PM;PYSEC-2026-2256",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PHJ9-MV4W-65PM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55798",
+      "all_identifiers": "BIT-PILLOW-2026-55798;CVE-2026-55798;GHSA-4X4J-2G7C-83W6;PYSEC-2026-2257",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4X4J-2G7C-83W6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59197",
+      "all_identifiers": "BIT-PILLOW-2026-59197;CVE-2026-59197;GHSA-XJ96-63GP-2GMR;PYSEC-2026-3454",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJ96-63GP-2GMR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59198",
+      "all_identifiers": "BIT-PILLOW-2026-59198;CVE-2026-59198;GHSA-FJ7V-R99M-22GQ;PYSEC-2026-3494",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FJ7V-R99M-22GQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59199",
+      "all_identifiers": "BIT-PILLOW-2026-59199;CVE-2026-59199;GHSA-6R8X-57C9-28J4;PYSEC-2026-3451",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6R8X-57C9-28J4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59200",
+      "all_identifiers": "BIT-PILLOW-2026-59200;CVE-2026-59200;GHSA-JJJ6-MW9F-P565;PYSEC-2026-3495",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJJ6-MW9F-P565",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59204",
+      "all_identifiers": "BIT-PILLOW-2026-59204;CVE-2026-59204;GHSA-VJC4-5QP5-M44J;PYSEC-2026-3496",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VJC4-5QP5-M44J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59205",
+      "all_identifiers": "BIT-PILLOW-2026-59205;CVE-2026-59205;GHSA-9HW9-CH79-4VH6;PYSEC-2026-3453",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HW9-CH79-4VH6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96636",
+      "all_identifiers": "BIT-PILLOW-2026-96636;CVE-2026-96636;GHSA-P8HX-V2P6-RP84;PYSEC-2026-4337",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P8HX-V2P6-RP84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96637",
+      "all_identifiers": "BIT-PILLOW-2026-96637;CVE-2026-96637;GHSA-G842-9RC4-69PW;PYSEC-2026-4338",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G842-9RC4-69PW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96638",
+      "all_identifiers": "BIT-PILLOW-2026-96638;CVE-2026-96638;GHSA-24RC-8HJ2-V98C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-24RC-8HJ2-V98C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96640",
+      "all_identifiers": "BIT-PILLOW-2026-96640;CVE-2026-96640;GHSA-MRFP-P49P-3HF2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MRFP-P49P-3HF2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96641",
+      "all_identifiers": "BIT-PILLOW-2026-96641;CVE-2026-96641;GHSA-4RM8-3HMM-39FG;PYSEC-2026-4340",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4RM8-3HMM-39FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96642",
+      "all_identifiers": "BIT-PILLOW-2026-96642;CVE-2026-96642;GHSA-3J72-P6QG-6XP7;PYSEC-2026-4341",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3J72-P6QG-6XP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96644",
+      "all_identifiers": "BIT-PILLOW-2026-96644;CVE-2026-96644;GHSA-9V9V-9QVF-H2HJ;PYSEC-2026-4343",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V9V-9QVF-H2HJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "10.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96778",
+      "all_identifiers": "BIT-PILLOW-2026-96778;CVE-2026-96778;GHSA-G7CR-3P24-7WF7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G7CR-3P24-7WF7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pygments",
+      "installed_version": "2.19.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-4539",
+      "all_identifiers": "CVE-2026-4539;GHSA-5239-WWWM-4PMQ;PYSEC-2026-2987",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5239-WWWM-4PMQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "python-dotenv",
+      "installed_version": "1.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-28684",
+      "all_identifiers": "CVE-2026-28684;GHSA-MF9W-MJ56-HR94;PYSEC-2026-2270",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MF9W-MJ56-HR94",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.32.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-47081",
+      "all_identifiers": "CVE-2024-47081;GHSA-9HJG-9R4M-MVJ7;PYSEC-2026-1872",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HJG-9R4M-MVJ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.32.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25645",
+      "all_identifiers": "CVE-2026-25645;GHSA-GC5V-M9X4-R6X2;PYSEC-2026-2275",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GC5V-M9X4-R6X2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-50181",
+      "all_identifiers": "CVE-2025-50181;GHSA-PQ67-6M6Q-MJ2V;PYSEC-2026-1999",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQ67-6M6Q-MJ2V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66418",
+      "all_identifiers": "CVE-2025-66418;GHSA-GM62-XV2J-4W53;PYSEC-2026-1998",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GM62-XV2J-4W53",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66471",
+      "all_identifiers": "CVE-2025-66471;GHSA-2XPW-W6GG-JR37;PYSEC-2026-1994",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2XPW-W6GG-JR37",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-21441",
+      "all_identifiers": "CVE-2026-21441;GHSA-38JV-5279-WG99;PYSEC-2026-1996",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-38JV-5279-WG99",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44431",
+      "all_identifiers": "CVE-2026-44431;GHSA-QCCP-GFCP-XXVC;PYSEC-2026-141",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QCCP-GFCP-XXVC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97687",
+      "all_identifiers": "CVE-2026-97687;GHSA-8988-9CW3-XX77;PYSEC-2026-4175",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8988-9CW3-XX77",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "1.26.20",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97689",
+      "all_identifiers": "CVE-2026-97689;GHSA-VXQ7-64XX-V4GW;PYSEC-2026-4177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXQ7-64XX-V4GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2023-46136",
+      "all_identifiers": "CVE-2023-46136;GHSA-HRFV-MQP8-Q5RW;PYSEC-2023-221",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HRFV-MQP8-Q5RW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-34069",
+      "all_identifiers": "CVE-2024-34069;GHSA-2G68-C3QC-8985;PYSEC-2026-2043",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2G68-C3QC-8985",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-49766",
+      "all_identifiers": "CVE-2024-49766;GHSA-F9VJ-2WH5-FJ8J;PYSEC-2026-2045",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F9VJ-2WH5-FJ8J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-49767",
+      "all_identifiers": "CVE-2024-49767;GHSA-Q34M-JH98-GWM2;PYSEC-2026-1860;PYSEC-2026-3417",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q34M-JH98-GWM2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-66221",
+      "all_identifiers": "CVE-2025-66221;GHSA-HGF8-39GV-G3F2;PYSEC-2026-2046",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HGF8-39GV-G3F2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102598",
+      "all_identifiers": "CVE-2026-102598;GHSA-G6X2-HCCM-HH4M;PYSEC-2026-4312",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G6X2-HCCM-HH4M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-21860",
+      "all_identifiers": "CVE-2026-21860;GHSA-87HC-H4R5-73F7;PYSEC-2026-2044",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-87HC-H4R5-73F7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "werkzeug",
+      "installed_version": "2.2.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-27199",
+      "all_identifiers": "CVE-2026-27199;GHSA-29VQ-49WR-VM6X;PYSEC-2026-2320",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-29VQ-49WR-VM6X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "grype_source": "https://github.com/Super-Vulnerable-Org/py-reach-demo/blob/2b6434dccbf4f4fdd077a3e07bebff343674ef7f/requirements.txt",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ]
+}

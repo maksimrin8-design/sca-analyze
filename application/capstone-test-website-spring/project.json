@@ -1,0 +1,18 @@
+{
+  "project_id": "P018",
+  "name": "capstone-test-website-spring",
+  "repository": "vurs/capstone-test-website-spring",
+  "commit": "7cea291b69e156a35588a6ab1c661e9cad73d423",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 99,
+    "total": 99,
+    "osv": 99,
+    "grype": 0
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

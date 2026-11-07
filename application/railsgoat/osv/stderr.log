@@ -1,0 +1,5 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/vendor/assets file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/Gemfile.lock file and found 197 packages
+End status: 80 dirs visited, 381 inodes visited, 2 Extract calls, 151.969861ms elapsed, 151.969982ms wall time

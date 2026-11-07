@@ -1,0 +1,19 @@
+{
+  "project_id": "P027",
+  "name": "cycode-cli",
+  "repository": "cycodehq/cycode-cli",
+  "commit": "0d44b695dd0300040b31a9216fe9cacf278145da",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_grype": 1,
+    "both": 58,
+    "total": 59,
+    "osv": 58,
+    "grype": 59
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

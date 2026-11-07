@@ -1,0 +1,234 @@
+{
+  "project_id": "P006",
+  "project": "koa",
+  "repository": "koajs/koa",
+  "source_commit": "b7ead6f7a2bb56e2948b1c5e1cca77483e89c885",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "only_osv": 12,
+    "total": 12,
+    "osv": 12,
+    "grype": 0
+  },
+  "vulnerabilities": [
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.18",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102276",
+      "all_identifiers": "CVE-2026-102276;GHSA-6J4F-FJ2G-MC7P",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6J4F-FJ2G-MC7P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.18",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102277",
+      "all_identifiers": "CVE-2026-102277;GHSA-Q2HR-2G5M-VWHR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2HR-2G5M-VWHR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "1.1.18",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102278",
+      "all_identifiers": "CVE-2026-102278;GHSA-QHR7-859C-M2P7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QHR7-859C-M2P7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "5.0.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102276",
+      "all_identifiers": "CVE-2026-102276;GHSA-6J4F-FJ2G-MC7P",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6J4F-FJ2G-MC7P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "5.0.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102277",
+      "all_identifiers": "CVE-2026-102277;GHSA-Q2HR-2G5M-VWHR",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2HR-2G5M-VWHR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "brace-expansion",
+      "installed_version": "5.0.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-102278",
+      "all_identifiers": "CVE-2026-102278;GHSA-QHR7-859C-M2P7",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QHR7-859C-M2P7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "glob",
+      "installed_version": "13.0.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118773",
+      "all_identifiers": "CVE-2026-118773;GHSA-3G3M-2FJR-6PW4",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3G3M-2FJR-6PW4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "js-yaml",
+      "installed_version": "4.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84375",
+      "all_identifiers": "CVE-2026-84375;GHSA-2883-XCG3-V3HH",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2883-XCG3-V3HH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "10.2.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118764",
+      "all_identifiers": "CVE-2026-118764;GHSA-G3HV-75WG-M249",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3HV-75WG-M249",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.15.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110816",
+      "all_identifiers": "CVE-2026-110816;GHSA-6PQ8-JHM2-2VCW",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6PQ8-JHM2-2VCW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.15.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-82417",
+      "all_identifiers": "CVE-2026-82417;GHSA-4MJR-XMP4-GH2G",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4MJR-XMP4-GH2G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "qs",
+      "installed_version": "6.15.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-82562",
+      "all_identifiers": "CVE-2026-82562;GHSA-X5FP-WJ9C-MXMX",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X5FP-WJ9C-MXMX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/koajs/koa/blob/b7ead6f7a2bb56e2948b1c5e1cca77483e89c885/package-lock.json",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ]
+}

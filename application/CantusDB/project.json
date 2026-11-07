@@ -1,0 +1,18 @@
+{
+  "project_id": "P025",
+  "name": "CantusDB",
+  "repository": "DDMAL/CantusDB",
+  "commit": "ae827fcd0ed68262c89ed478bfa0bec676337ce1",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 11,
+    "total": 11,
+    "osv": 11,
+    "grype": 11
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

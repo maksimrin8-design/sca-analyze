@@ -1,0 +1,19 @@
+{
+  "project_id": "P026",
+  "name": "CoPeP",
+  "repository": "chandar-lab/CoPeP",
+  "commit": "7cceddc3a08781b23d852b8bb4bfe047097698f2",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 174,
+    "only_osv": 2,
+    "total": 176,
+    "osv": 176,
+    "grype": 174
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

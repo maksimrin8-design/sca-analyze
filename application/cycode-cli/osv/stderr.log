@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/poetry.lock file and found 85 packages
+End status: 105 dirs visited, 519 inodes visited, 1 Extract calls, 12.386662ms elapsed, 12.386742ms wall time

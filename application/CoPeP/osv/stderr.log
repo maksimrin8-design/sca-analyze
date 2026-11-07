@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/uv.lock file and found 140 packages
+End status: 55 dirs visited, 204 inodes visited, 1 Extract calls, 13.727037ms elapsed, 13.727148ms wall time

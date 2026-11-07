@@ -1,0 +1,20 @@
+{
+  "project_id": "P022",
+  "name": "grafana",
+  "repository": "grafana/grafana",
+  "commit": "2548988415a97215f3df967d5eb305f88774eeca",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 2,
+    "only_grype": 16,
+    "both": 58,
+    "total": 76,
+    "osv": 60,
+    "grype": 74
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

@@ -1,0 +1,948 @@
+{
+  "project_id": "P030",
+  "project": "pypi-browser",
+  "repository": "chriskuehl/pypi-browser",
+  "source_commit": "473dfd752836d35162cef73c46d65c9e6c114ed3",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "reference_type": "union_of_OSV_and_Grype_findings",
+  "is_independent_ground_truth": false,
+  "warning": "Составной предварительный эталон. Список образован объединением двух сканеров, поэтому не включает неизвестные находки, пропущенные ОБОИМИ. Без внешней проверки не годится для объективного precision/recall.",
+  "counts": {
+    "only_grype": 2,
+    "both": 47,
+    "total": 49,
+    "osv": 47,
+    "grype": 49
+  },
+  "vulnerabilities": [
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "installed_version": "release/v1",
+      "ecosystem": "github-action",
+      "vulnerability_id": "GHSA-5XJX-3W67-W9X9",
+      "all_identifiers": "GHSA-5XJX-3W67-W9X9",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5XJX-3W67-W9X9",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/.github/workflows/publish.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "installed_version": "release/v1",
+      "ecosystem": "github-action",
+      "vulnerability_id": "GHSA-VXMW-7H4F-HQXH",
+      "all_identifiers": "GHSA-VXMW-7H4F-HQXH",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXMW-7H4F-HQXH",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/.github/workflows/publish.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "anyio",
+      "installed_version": "4.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-63374",
+      "all_identifiers": "CVE-2026-63374;GHSA-82R6-8W77-94W6;PYSEC-2026-4025",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-82R6-8W77-94W6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "anyio",
+      "installed_version": "4.3.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-64847",
+      "all_identifiers": "CVE-2026-64847;GHSA-5P39-CFHJ-2XMP;PYSEC-2026-4024",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5P39-CFHJ-2XMP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2024.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-39689",
+      "all_identifiers": "CVE-2024-39689;GHSA-248V-346W-9CWC;PYSEC-2024-230",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-248V-346W-9CWC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2024.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-6Q48-6C7W-9GW2",
+      "all_identifiers": "GHSA-6Q48-6C7W-9GW2;PYSEC-2026-4320",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6Q48-6C7W-9GW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-68146",
+      "all_identifiers": "CVE-2025-68146;GHSA-W853-JP5J-5J7F;PYSEC-2026-1375",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W853-JP5J-5J7F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112909",
+      "all_identifiers": "CVE-2026-112909;GHSA-69HJ-F68J-2879",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-69HJ-F68J-2879",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112910",
+      "all_identifiers": "CVE-2026-112910;GHSA-8MX5-7M5M-R77G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8MX5-7M5M-R77G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-22701",
+      "all_identifiers": "CVE-2026-22701;GHSA-QMGC-5H2G-MVRW;PYSEC-2026-1374",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QMGC-5H2G-MVRW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "h11",
+      "installed_version": "0.14.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-43859",
+      "all_identifiers": "CVE-2025-43859;GHSA-VQFR-H8MV-GHFJ;PYSEC-2026-348",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VQFR-H8MV-GHFJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.7",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX;PYSEC-2026-215",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-56201",
+      "all_identifiers": "CVE-2024-56201;GHSA-GMJ6-6F8F-6699;PYSEC-2026-1472",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GMJ6-6F8F-6699",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-56326",
+      "all_identifiers": "CVE-2024-56326;GHSA-Q2X7-8RV6-6Q7H;PYSEC-2026-1475",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q2X7-8RV6-6Q7H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "jinja2",
+      "installed_version": "3.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-27516",
+      "all_identifiers": "CVE-2025-27516;GHSA-CPWX-VRP4-4PQ7;PYSEC-2026-1471",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CPWX-VRP4-4PQ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "lxml",
+      "installed_version": "5.2.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-41066",
+      "all_identifiers": "CVE-2026-41066;GHSA-VFMQ-68HX-4JFW;PYSEC-2026-87",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VFMQ-68HX-4JFW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pygments",
+      "installed_version": "2.18.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-4539",
+      "all_identifiers": "CVE-2026-4539;GHSA-5239-WWWM-4PMQ;PYSEC-2026-2987",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5239-WWWM-4PMQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pytest",
+      "installed_version": "8.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-71176",
+      "all_identifiers": "CVE-2025-71176;GHSA-6W46-J5RX-G56G;PYSEC-2026-1845",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6W46-J5RX-G56G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "69.5.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-6345",
+      "all_identifiers": "BIT-SETUPTOOLS-2024-6345;CVE-2024-6345;GHSA-CX63-2MW6-8HW5;PYSEC-2026-1918",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CX63-2MW6-8HW5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "69.5.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-47273",
+      "all_identifiers": "BIT-SETUPTOOLS-2025-47273;CVE-2025-47273;GHSA-5RJG-FVGR-3XXF;PYSEC-2025-49",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5RJG-FVGR-3XXF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "69.5.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59890",
+      "all_identifiers": "BIT-SETUPTOOLS-2026-59890;CVE-2026-59890;GHSA-H35F-9H28-MQ5C;PYSEC-2026-3447",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H35F-9H28-MQ5C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "69.5.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-XMJ3-9GF7-H52W",
+      "all_identifiers": "GHSA-XMJ3-9GF7-H52W",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XMJ3-9GF7-H52W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-47874",
+      "all_identifiers": "CVE-2024-47874;GHSA-F96H-PMFR-66VW;PYSEC-2026-1943",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F96H-PMFR-66VW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-54121",
+      "all_identifiers": "CVE-2025-54121;GHSA-2C2J-9GV5-CJ73;PYSEC-2026-1941",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2C2J-9GV5-CJ73",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48710",
+      "all_identifiers": "CVE-2026-48710;GHSA-86QP-5C8J-P5MR;PYSEC-2026-161;X41-2026-002",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-86QP-5C8J-P5MR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48817",
+      "all_identifiers": "CVE-2026-48817;GHSA-X746-7M8F-X49C;PYSEC-2026-2280",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X746-7M8F-X49C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-48818",
+      "all_identifiers": "CVE-2026-48818;GHSA-WQP7-X3PW-XC5R;PYSEC-2026-2281",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WQP7-X3PW-XC5R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54282",
+      "all_identifiers": "CVE-2026-54282;GHSA-JP82-JPQV-5VV3;PYSEC-2026-248",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JP82-JPQV-5VV3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "starlette",
+      "installed_version": "0.37.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54283",
+      "all_identifiers": "CVE-2026-54283;GHSA-82W8-QH3P-5JFQ;PYSEC-2026-249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-82W8-QH3P-5JFQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2024-53899",
+      "all_identifiers": "BIT-VIRTUALENV-2024-53899;CVE-2024-53899;GHSA-RQC4-2HC7-8C8V;PYSEC-2024-187",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RQC4-2HC7-8C8V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102925",
+      "all_identifiers": "BIT-VIRTUALENV-2026-102925;CVE-2026-102925;GHSA-P58F-9548-MPM2;PYSEC-2026-4013",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P58F-9548-MPM2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102930",
+      "all_identifiers": "BIT-VIRTUALENV-2026-102930;CVE-2026-102930;GHSA-94P9-XGH2-XP45;PYSEC-2026-4011",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-94P9-XGH2-XP45",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102937",
+      "all_identifiers": "BIT-VIRTUALENV-2026-102937;CVE-2026-102937;GHSA-X78J-V8H9-3J2Q;PYSEC-2026-4014",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X78J-V8H9-3J2Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-102938",
+      "all_identifiers": "BIT-VIRTUALENV-2026-102938;CVE-2026-102938;GHSA-9H9J-4VRJ-GF7G;PYSEC-2026-4012",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9H9J-4VRJ-GF7G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113714",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113714;CVE-2026-113714;GHSA-494P-63J8-28P3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-494P-63J8-28P3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113715",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113715;CVE-2026-113715;GHSA-QMX5-4P3X-WVQF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QMX5-4P3X-WVQF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113716",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113716;CVE-2026-113716;GHSA-CW65-GX24-RC82",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CW65-GX24-RC82",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113717",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113717;CVE-2026-113717;GHSA-CX28-75Q4-X26Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CX28-75Q4-X26Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113718",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113718;CVE-2026-113718;GHSA-394H-QWMC-48PF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-394H-QWMC-48PF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113719",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113719;CVE-2026-113719;GHSA-HHXQ-47XX-J5XX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HHXQ-47XX-J5XX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113720",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113720;CVE-2026-113720;GHSA-FC2G-4W5P-6WHM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FC2G-4W5P-6WHM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113721",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113721;CVE-2026-113721;GHSA-558C-9HV2-4PRJ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-558C-9HV2-4PRJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113722",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113722;CVE-2026-113722;GHSA-C978-59M8-C77V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C978-59M8-C77V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113723",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113723;CVE-2026-113723;GHSA-6W3R-XR62-4XCP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6W3R-XR62-4XCP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113724",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113724;CVE-2026-113724;GHSA-43MP-35Q3-X3FQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-43MP-35Q3-X3FQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113725",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113725;CVE-2026-113725;GHSA-VXJ4-Q4G9-CRJ7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXJ4-Q4G9-CRJ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113726",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113726;CVE-2026-113726;GHSA-5VJQ-RRRF-7H2Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5VJQ-RRRF-7H2Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-113732",
+      "all_identifiers": "BIT-VIRTUALENV-2026-113732;CVE-2026-113732;GHSA-C947-3PG5-GM8Q",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C947-3PG5-GM8Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "virtualenv",
+      "installed_version": "20.26.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-22702",
+      "all_identifiers": "BIT-VIRTUALENV-2026-22702;CVE-2026-22702;GHSA-597G-3PHW-6986;PYSEC-2026-2009",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-597G-3PHW-6986",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "grype_source": "https://github.com/chriskuehl/pypi-browser/blob/473dfd752836d35162cef73c46d65c9e6c114ed3/poetry.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ]
+}

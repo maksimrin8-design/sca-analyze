@@ -1,0 +1,7 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/package-lock.json file and found 1091 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/app/assets/vendor/bootstrap file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/app/assets/vendor/chart file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/app/assets/vendor/theme file and found 0 packages
+End status: 42 dirs visited, 179 inodes visited, 4 Extract calls, 3.184432107s elapsed, 3.184432231s wall time

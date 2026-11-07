@@ -1,0 +1,19 @@
+{
+  "project_id": "P021",
+  "name": "hugo",
+  "repository": "gohugoio/hugo",
+  "commit": "7ff95e046daa1bc6b132ac582c9517ff9f24b204",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_grype": 1,
+    "both": 3,
+    "total": 4,
+    "osv": 3,
+    "grype": 4
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

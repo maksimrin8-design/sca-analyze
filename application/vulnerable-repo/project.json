@@ -1,0 +1,19 @@
+{
+  "project_id": "P019",
+  "name": "vulnerable-repo",
+  "repository": "tobiasbruss/vulnerable-repo",
+  "commit": "2f427ec833bf763ea7d2a12165ae3fddd2d9dd33",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 97,
+    "both": 10,
+    "total": 107,
+    "osv": 107,
+    "grype": 10
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

@@ -1,0 +1,4 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/requirements.txt file and found 7 packages
+End status: 15 dirs visited, 44 inodes visited, 1 Extract calls, 719.743µs elapsed, 719.864µs wall time

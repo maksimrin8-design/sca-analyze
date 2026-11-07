@@ -1,0 +1,7 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/actionpack/test/controller/controller_fixtures/vendor/plugins file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/yarn.lock file and found 762 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/Gemfile.lock file and found 269 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/tools/releaser/Gemfile.lock file and found 13 packages
+End status: 1116 dirs visited, 6172 inodes visited, 4 Extract calls, 411.369234ms elapsed, 411.369324ms wall time

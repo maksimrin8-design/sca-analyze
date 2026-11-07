@@ -1,0 +1,19 @@
+{
+  "project_id": "P007",
+  "name": "webgoat",
+  "repository": "WebGoat/WebGoat",
+  "commit": "be2c186b94201bcbdfa46c3a6f5f53dd83262d6a",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 19,
+    "both": 36,
+    "total": 55,
+    "osv": 55,
+    "grype": 36
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

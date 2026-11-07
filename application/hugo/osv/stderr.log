@@ -1,0 +1,9 @@
+Scanning dir target-repo
+Starting filesystem walk for root: /
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/docs/go.mod file and found 1 package
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/internal/warpc/deps/parson file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/internal/warpc/genwebp/deps/clib file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/internal/warpc/genwebp/go.mod file and found 0 packages
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/internal/warpc/genavif/go.mod file and found 1 package
+Scanned /home/runner/work/sca-analyze/sca-analyze/target-repo/go.mod file and found 180 packages
+End status: 452 dirs visited, 3084 inodes visited, 6 Extract calls, 421.552404ms elapsed, 421.552514ms wall time

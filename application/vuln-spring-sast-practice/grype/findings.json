@@ -1,0 +1,11 @@
+{
+  "project_id": "P015",
+  "project": "vuln-spring-sast-practice",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 0,
+  "normalized_findings": [],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

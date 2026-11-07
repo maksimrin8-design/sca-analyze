@@ -1,0 +1,19 @@
+{
+  "project_id": "P009",
+  "name": "railsgoat",
+  "repository": "OWASP/railsgoat",
+  "commit": "f5951f13089d85c979de09e7da3c8c0fb982f94a",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "both": 74,
+    "only_grype": 112,
+    "total": 186,
+    "osv": 74,
+    "grype": 186
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

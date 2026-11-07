@@ -1,0 +1,19 @@
+{
+  "project_id": "P030",
+  "name": "pypi-browser",
+  "repository": "chriskuehl/pypi-browser",
+  "commit": "473dfd752836d35162cef73c46d65c9e6c114ed3",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_grype": 2,
+    "both": 47,
+    "total": 49,
+    "osv": 47,
+    "grype": 49
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

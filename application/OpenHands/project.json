@@ -1,0 +1,19 @@
+{
+  "project_id": "P028",
+  "name": "OpenHands",
+  "repository": "OpenHands/OpenHands",
+  "commit": "9e8ba84f75470cbf28494105c9c6d1d2a96fc8a9",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "counts": {
+    "only_osv": 109,
+    "both": 43,
+    "total": 152,
+    "osv": 152,
+    "grype": 43
+  },
+  "directories": [
+    "osv",
+    "grype",
+    "default"
+  ]
+}

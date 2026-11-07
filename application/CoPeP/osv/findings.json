@@ -1,0 +1,3354 @@
+{
+  "project_id": "P026",
+  "project": "CoPeP",
+  "scanner": "osv",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 176,
+  "normalized_findings": [
+    {
+      "package": "accelerate",
+      "installed_version": "1.12.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69112",
+      "all_identifiers": "CVE-2026-69112;GHSA-4J2P-28Q2-5M79;PYSEC-2026-3804",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4J2P-28Q2-5M79",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111063",
+      "all_identifiers": "CVE-2026-111063;GHSA-494J-54XM-RWP3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-494J-54XM-RWP3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111064",
+      "all_identifiers": "CVE-2026-111064;GHSA-5WR8-GCQF-GQF3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5WR8-GCQF-GQF3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111065",
+      "all_identifiers": "CVE-2026-111065;GHSA-6CJC-53GC-5RQM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6CJC-53GC-5RQM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111066",
+      "all_identifiers": "CVE-2026-111066;GHSA-9XW5-W5JJ-PVCG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9XW5-W5JJ-PVCG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111748",
+      "all_identifiers": "CVE-2026-111748;GHSA-F9XW-JH8M-3MWQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F9XW-JH8M-3MWQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111749",
+      "all_identifiers": "CVE-2026-111749;GHSA-GX76-C99X-2C96",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GX76-C99X-2C96",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-111750",
+      "all_identifiers": "CVE-2026-111750;GHSA-PQXQ-W44R-73XW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PQXQ-W44R-73XW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-22815",
+      "all_identifiers": "CVE-2026-22815;GHSA-W2FM-2CPV-W7V5;PYSEC-2026-2094",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W2FM-2CPV-W7V5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34513",
+      "all_identifiers": "CVE-2026-34513;GHSA-HCC4-C3V8-RX92;PYSEC-2026-2095",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HCC4-C3V8-RX92",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34514",
+      "all_identifiers": "CVE-2026-34514;GHSA-2VRM-GR82-F7M5;PYSEC-2026-2096",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2VRM-GR82-F7M5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34515",
+      "all_identifiers": "CVE-2026-34515;GHSA-P998-JP59-783M;PYSEC-2026-2097",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P998-JP59-783M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34516",
+      "all_identifiers": "CVE-2026-34516;GHSA-M5QP-6W8W-W647;PYSEC-2026-2098",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M5QP-6W8W-W647",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34517",
+      "all_identifiers": "CVE-2026-34517;GHSA-3WQ7-RQQ7-WX6J;PYSEC-2026-2099",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WQ7-RQQ7-WX6J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34518",
+      "all_identifiers": "CVE-2026-34518;GHSA-966J-VMVW-G2G9;PYSEC-2026-2100",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-966J-VMVW-G2G9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34519",
+      "all_identifiers": "CVE-2026-34519;GHSA-MWH4-6H8G-PG8W;PYSEC-2026-2101",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MWH4-6H8G-PG8W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34520",
+      "all_identifiers": "CVE-2026-34520;GHSA-63HF-3VF5-4WQF;PYSEC-2026-2102",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-63HF-3VF5-4WQF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34525",
+      "all_identifiers": "CVE-2026-34525;GHSA-C427-H43C-VF67;PYSEC-2026-2103",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C427-H43C-VF67",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-34993",
+      "all_identifiers": "CVE-2026-34993;GHSA-JG22-MG44-37J8;PYSEC-2026-2104",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JG22-MG44-37J8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-47265",
+      "all_identifiers": "CVE-2026-47265;GHSA-HG6J-4RV6-33PG;PYSEC-2026-2105",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HG6J-4RV6-33PG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-50269",
+      "all_identifiers": "CVE-2026-50269;GHSA-M6QW-4CW2-HM4M;PYSEC-2026-2106",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M6QW-4CW2-HM4M",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54273",
+      "all_identifiers": "CVE-2026-54273;GHSA-4FVR-RGM6-GQMC;PYSEC-2026-2107",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4FVR-RGM6-GQMC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54274",
+      "all_identifiers": "CVE-2026-54274;GHSA-XCGM-R5H9-7989;PYSEC-2026-2108",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XCGM-R5H9-7989",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54275",
+      "all_identifiers": "CVE-2026-54275;GHSA-4M7W-QMGQ-4WJ5;PYSEC-2026-237",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4M7W-QMGQ-4WJ5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54276",
+      "all_identifiers": "CVE-2026-54276;GHSA-HPJ7-WQ8M-9HGP;PYSEC-2026-2109",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HPJ7-WQ8M-9HGP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54277",
+      "all_identifiers": "CVE-2026-54277;GHSA-63HW-FMQ6-XXG2;PYSEC-2026-2110",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-63HW-FMQ6-XXG2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54278",
+      "all_identifiers": "CVE-2026-54278;GHSA-G3CQ-J2XW-WF74;PYSEC-2026-2111",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3CQ-J2XW-WF74",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54279",
+      "all_identifiers": "CVE-2026-54279;GHSA-2FQR-MR3J-6WP8;PYSEC-2026-2112",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2FQR-MR3J-6WP8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54280",
+      "all_identifiers": "CVE-2026-54280;GHSA-9X8Q-7H8H-WCW9;PYSEC-2026-2113",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9X8Q-7H8H-WCW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59881",
+      "all_identifiers": "CVE-2026-59881;GHSA-MQ44-7P77-Q5H7;PYSEC-2026-3547",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MQ44-7P77-Q5H7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69243",
+      "all_identifiers": "CVE-2026-69243;GHSA-MFX4-HV73-Q22V;PYSEC-2026-3546",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MFX4-HV73-Q22V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69244",
+      "all_identifiers": "CVE-2026-69244;GHSA-CQ5V-8Q36-5273;PYSEC-2026-3545",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CQ5V-8Q36-5273",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "aiohttp",
+      "installed_version": "3.13.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-2G87-PP6C-29X5",
+      "all_identifiers": "GHSA-2G87-PP6C-29X5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2G87-PP6C-29X5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "anyio",
+      "installed_version": "4.12.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-63374",
+      "all_identifiers": "CVE-2026-63374;GHSA-82R6-8W77-94W6;PYSEC-2026-4025",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-82R6-8W77-94W6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "anyio",
+      "installed_version": "4.12.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-64847",
+      "all_identifiers": "CVE-2026-64847;GHSA-5P39-CFHJ-2XMP;PYSEC-2026-4024",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5P39-CFHJ-2XMP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "certifi",
+      "installed_version": "2026.1.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-6Q48-6C7W-9GW2",
+      "all_identifiers": "GHSA-6Q48-6C7W-9GW2;PYSEC-2026-4320",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6Q48-6C7W-9GW2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "datasets",
+      "installed_version": "4.5.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-66007",
+      "all_identifiers": "CVE-2026-66007;GHSA-379C-QX7V-6H59;PYSEC-2026-3716",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-379C-QX7V-6H59",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.20.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112909",
+      "all_identifiers": "CVE-2026-112909;GHSA-69HJ-F68J-2879",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-69HJ-F68J-2879",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "filelock",
+      "installed_version": "3.20.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112910",
+      "all_identifiers": "CVE-2026-112910;GHSA-8MX5-7M5M-R77G",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8MX5-7M5M-R77G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "flash-attn",
+      "installed_version": "2.8.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-31253",
+      "all_identifiers": "CVE-2026-31253;GHSA-7G5W-PQ96-8C5W;PYSEC-2026-2477",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7G5W-PQ96-8C5W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "fsspec",
+      "installed_version": "2025.10.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-104851",
+      "all_identifiers": "CVE-2026-104851;GHSA-27VJ-QCQG-25RC;PYSEC-2026-4217",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27VJ-QCQG-25RC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-100689",
+      "all_identifiers": "CVE-2026-100689;GHSA-59CR-6R3X-644W",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-59CR-6R3X-644W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110855",
+      "all_identifiers": "CVE-2026-110855;GHSA-FX3J-RWGX-FR94",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FX3J-RWGX-FR94",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110856",
+      "all_identifiers": "CVE-2026-110856;GHSA-M64X-33Q8-M5H7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M64X-33Q8-M5H7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110857",
+      "all_identifiers": "CVE-2026-110857;GHSA-W8JC-G24H-CRHW",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W8JC-G24H-CRHW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110858",
+      "all_identifiers": "CVE-2026-110858;GHSA-F9J4-QGGQ-H239",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F9J4-QGGQ-H239",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110859",
+      "all_identifiers": "CVE-2026-110859;GHSA-23MF-XHV8-69C2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-23MF-XHV8-69C2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-110860",
+      "all_identifiers": "CVE-2026-110860;GHSA-GQ48-PQFC-9P58",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GQ48-PQFC-9P58",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-114145",
+      "all_identifiers": "CVE-2026-114145;GHSA-83VG-56QC-22M7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-83VG-56QC-22M7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42215",
+      "all_identifiers": "CVE-2026-42215;GHSA-RPM5-65CW-6HJ4;PYSEC-2026-2160",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RPM5-65CW-6HJ4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42284",
+      "all_identifiers": "CVE-2026-42284;GHSA-X2QX-6953-8485;PYSEC-2026-2161",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X2QX-6953-8485",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44243",
+      "all_identifiers": "CVE-2026-44243;GHSA-7545-FCXQ-7J24;PYSEC-2026-2162",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7545-FCXQ-7J24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44244",
+      "all_identifiers": "CVE-2026-44244;GHSA-V87R-6Q3F-2J67;PYSEC-2026-2163",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V87R-6Q3F-2J67",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-67322",
+      "all_identifiers": "CVE-2026-67322;GHSA-RWJ8-PGH3-R573;PYSEC-2026-3842",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RWJ8-PGH3-R573",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-67323",
+      "all_identifiers": "CVE-2026-67323;GHSA-956X-8GVW-WG5V;PYSEC-2026-3839",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-956X-8GVW-WG5V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-67325",
+      "all_identifiers": "CVE-2026-67325;GHSA-2F96-G7MH-G2HX;PYSEC-2026-3836",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2F96-G7MH-G2HX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-67326",
+      "all_identifiers": "CVE-2026-67326;GHSA-MV93-W799-CJ2W;PYSEC-2026-3980",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MV93-W799-CJ2W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-69097",
+      "all_identifiers": "CVE-2026-69097;GHSA-3RP5-JJMW-4WV2;PYSEC-2026-3981",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3RP5-JJMW-4WV2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73619",
+      "all_identifiers": "CVE-2026-73619;GHSA-539M-9XH6-Q6RR;PYSEC-2026-3948",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-539M-9XH6-Q6RR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73620",
+      "all_identifiers": "CVE-2026-73620;GHSA-3F7W-8RR8-F37F;PYSEC-2026-3949",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3F7W-8RR8-F37F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73621",
+      "all_identifiers": "CVE-2026-73621;GHSA-P538-C434-8V24;PYSEC-2026-3950",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P538-C434-8V24",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73622",
+      "all_identifiers": "CVE-2026-73622;GHSA-94P4-4CQ8-9G67;PYSEC-2026-3951",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-94P4-4CQ8-9G67",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73623",
+      "all_identifiers": "CVE-2026-73623;GHSA-6P8H-3WGX-97GF;PYSEC-2026-3952",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6P8H-3WGX-97GF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73624",
+      "all_identifiers": "CVE-2026-73624;GHSA-FJR4-X663-MWXC;PYSEC-2026-3995",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FJR4-X663-MWXC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-73625",
+      "all_identifiers": "CVE-2026-73625;GHSA-R9MR-M37C-5FR3;PYSEC-2026-3953",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R9MR-M37C-5FR3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76217",
+      "all_identifiers": "CVE-2026-76217;GHSA-HH9P-6WH2-4MFC;PYSEC-2026-3841",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HH9P-6WH2-4MFC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76218",
+      "all_identifiers": "CVE-2026-76218;GHSA-9RJ7-RF2P-W77R;PYSEC-2026-3840",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9RJ7-RF2P-W77R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76219",
+      "all_identifiers": "CVE-2026-76219;GHSA-4GMW-GG2M-W46P;PYSEC-2026-3838",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4GMW-GG2M-W46P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76220",
+      "all_identifiers": "CVE-2026-76220;GHSA-WVPP-8HX9-P66J;PYSEC-2026-3843",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WVPP-8HX9-P66J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76221",
+      "all_identifiers": "CVE-2026-76221;GHSA-JM78-9FVV-MHGR;PYSEC-2026-3783",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JM78-9FVV-MHGR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-76222",
+      "all_identifiers": "CVE-2026-76222;GHSA-HMQ2-W58F-27JC;PYSEC-2026-3784",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-HMQ2-W58F-27JC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-78675",
+      "all_identifiers": "CVE-2026-78675;GHSA-7833-FR7J-V32Q;PYSEC-2026-3785",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7833-FR7J-V32Q",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-78676",
+      "all_identifiers": "CVE-2026-78676;GHSA-284H-M62Q-GF8W;PYSEC-2026-3786",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-284H-M62Q-GF8W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-78677",
+      "all_identifiers": "CVE-2026-78677;GHSA-8MCC-HRX5-HVXC;PYSEC-2026-3787",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8MCC-HRX5-HVXC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-78678",
+      "all_identifiers": "CVE-2026-78678;GHSA-5XXX-QHH7-9287;PYSEC-2026-3788",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5XXX-QHH7-9287",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-78679",
+      "all_identifiers": "CVE-2026-78679;GHSA-3WXW-XV34-2FRG;PYSEC-2026-3837",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WXW-XV34-2FRG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-87817",
+      "all_identifiers": "CVE-2026-87817;GHSA-239G-WHFQ-7XJ9;PYSEC-2026-3982",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-239G-WHFQ-7XJ9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "gitpython",
+      "installed_version": "3.1.46",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-87819",
+      "all_identifiers": "CVE-2026-87819;GHSA-G5VV-9GXW-82HX;PYSEC-2026-3984",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G5VV-9GXW-82HX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "hydra-core",
+      "installed_version": "1.3.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-106441",
+      "all_identifiers": "CVE-2026-106441;GHSA-C3WX-C55W-PXJQ;PYSEC-2026-4221",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C3WX-C55W-PXJQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "hydra-core",
+      "installed_version": "1.3.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-68508",
+      "all_identifiers": "CVE-2026-68508;GHSA-2CP2-2R3C-7P7R;PYSEC-2026-3850",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2CP2-2R3C-7P7R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "idna",
+      "installed_version": "3.11",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-45409",
+      "all_identifiers": "CVE-2026-45409;GHSA-65PC-FJ4G-8RJX;PYSEC-2026-215",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65PC-FJ4G-8RJX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "lightning",
+      "installed_version": "2.6.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-58659",
+      "all_identifiers": "CVE-2026-58659;GHSA-QQMF-GPG7-G8GW;PYSEC-2026-3624;PYSEC-2026-3967",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QQMF-GPG7-G8GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "msgpack",
+      "installed_version": "1.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-114613",
+      "all_identifiers": "CVE-2026-114613;GHSA-J586-36CW-2GC2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J586-36CW-2GC2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "msgpack",
+      "installed_version": "1.1.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-57585",
+      "all_identifiers": "CVE-2026-57585;GHSA-6V7P-G79W-8964;PYSEC-2026-3625",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6V7P-G79W-8964",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "multidict",
+      "installed_version": "6.7.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-104874",
+      "all_identifiers": "CVE-2026-104874;GHSA-54P9-H82J-F925;PYSEC-2026-4244",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-54P9-H82J-F925",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112390",
+      "all_identifiers": "BIT-PILLOW-2026-112390;CVE-2026-112390;GHSA-22HG-R758-RRW9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-22HG-R758-RRW9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112391",
+      "all_identifiers": "BIT-PILLOW-2026-112391;CVE-2026-112391;GHSA-254F-3936-288H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-254F-3936-288H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112392",
+      "all_identifiers": "BIT-PILLOW-2026-112392;CVE-2026-112392;GHSA-27H8-GF7J-V5HC;PYSEC-2026-4326",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27H8-GF7J-V5HC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112393",
+      "all_identifiers": "BIT-PILLOW-2026-112393;CVE-2026-112393;GHSA-332P-7HRC-92WF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-332P-7HRC-92WF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112394",
+      "all_identifiers": "BIT-PILLOW-2026-112394;CVE-2026-112394;GHSA-4558-3H8R-V8XP;PYSEC-2026-4327",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4558-3H8R-V8XP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112395",
+      "all_identifiers": "BIT-PILLOW-2026-112395;CVE-2026-112395;GHSA-462X-PGG6-55FP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-462X-PGG6-55FP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112396",
+      "all_identifiers": "BIT-PILLOW-2026-112396;CVE-2026-112396;GHSA-4RR5-89J8-MWWM;PYSEC-2026-4328",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4RR5-89J8-MWWM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112397",
+      "all_identifiers": "BIT-PILLOW-2026-112397;CVE-2026-112397;GHSA-58R4-6RV3-GFH8;PYSEC-2026-4329",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-58R4-6RV3-GFH8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112398",
+      "all_identifiers": "BIT-PILLOW-2026-112398;CVE-2026-112398;GHSA-5X8W-8JJ5-Q52H;PYSEC-2026-4330",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X8W-8JJ5-Q52H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112399",
+      "all_identifiers": "BIT-PILLOW-2026-112399;CVE-2026-112399;GHSA-5XM2-6676-QCP9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5XM2-6676-QCP9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112400",
+      "all_identifiers": "BIT-PILLOW-2026-112400;CVE-2026-112400;GHSA-65QM-JVMH-6PQG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-65QM-JVMH-6PQG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112401",
+      "all_identifiers": "BIT-PILLOW-2026-112401;CVE-2026-112401;GHSA-74R2-7FF9-MJJ2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-74R2-7FF9-MJJ2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112402",
+      "all_identifiers": "BIT-PILLOW-2026-112402;CVE-2026-112402;GHSA-7MWM-GHPF-9VRM;PYSEC-2026-4331",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-7MWM-GHPF-9VRM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112403",
+      "all_identifiers": "BIT-PILLOW-2026-112403;CVE-2026-112403;GHSA-8G5G-8VMR-9782;PYSEC-2026-4332",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8G5G-8VMR-9782",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112404",
+      "all_identifiers": "BIT-PILLOW-2026-112404;CVE-2026-112404;GHSA-C6HW-5GRF-FF96",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C6HW-5GRF-FF96",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112405",
+      "all_identifiers": "BIT-PILLOW-2026-112405;CVE-2026-112405;GHSA-CP9V-662Q-VVX9;PYSEC-2026-4333",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CP9V-662Q-VVX9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112406",
+      "all_identifiers": "BIT-PILLOW-2026-112406;CVE-2026-112406;GHSA-F2G6-542V-9J58",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F2G6-542V-9J58",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112891",
+      "all_identifiers": "BIT-PILLOW-2026-112891;CVE-2026-112891;GHSA-FC9G-5QG7-MF45",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FC9G-5QG7-MF45",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112892",
+      "all_identifiers": "BIT-PILLOW-2026-112892;CVE-2026-112892;GHSA-GG2R-WVFM-Q9RX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GG2R-WVFM-Q9RX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112893",
+      "all_identifiers": "BIT-PILLOW-2026-112893;CVE-2026-112893;GHSA-J4M9-6W36-PW47",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-J4M9-6W36-PW47",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112894",
+      "all_identifiers": "BIT-PILLOW-2026-112894;CVE-2026-112894;GHSA-JG86-V3JV-HRPM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JG86-V3JV-HRPM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112895",
+      "all_identifiers": "BIT-PILLOW-2026-112895;CVE-2026-112895;GHSA-P4WG-P73J-C528",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P4WG-P73J-C528",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112896",
+      "all_identifiers": "BIT-PILLOW-2026-112896;CVE-2026-112896;GHSA-PCHR-8J38-3X4P;PYSEC-2026-4334",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PCHR-8J38-3X4P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112897",
+      "all_identifiers": "BIT-PILLOW-2026-112897;CVE-2026-112897;GHSA-Q45J-58J2-45RG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q45J-58J2-45RG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112898",
+      "all_identifiers": "BIT-PILLOW-2026-112898;CVE-2026-112898;GHSA-RFGQ-Q3W2-PMV2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFGQ-Q3W2-PMV2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112899",
+      "all_identifiers": "CVE-2026-112899;GHSA-VX6W-VV9F-6GVG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VX6W-VV9F-6GVG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112900",
+      "all_identifiers": "BIT-PILLOW-2026-112900;CVE-2026-112900;GHSA-W889-685W-C8FH",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W889-685W-C8FH",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112901",
+      "all_identifiers": "BIT-PILLOW-2026-112901;CVE-2026-112901;GHSA-XGH8-JP6Q-P5X8;PYSEC-2026-4335",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XGH8-JP6Q-P5X8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-112902",
+      "all_identifiers": "CVE-2026-112902;GHSA-XVH5-G6GV-559V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XVH5-G6GV-559V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-114501",
+      "all_identifiers": "BIT-PILLOW-2026-114501;CVE-2026-114501;GHSA-654X-CWWV-5J9C;PYSEC-2026-4336",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-654X-CWWV-5J9C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25990",
+      "all_identifiers": "BIT-PILLOW-2026-25990;CVE-2026-25990;GHSA-CFH3-3JMP-RVHC;PYSEC-2026-2249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CFH3-3JMP-RVHC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-40192",
+      "all_identifiers": "BIT-PILLOW-2026-40192;CVE-2026-40192;GHSA-WHJ4-6X5X-4V2J;PYSEC-2026-2250",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WHJ4-6X5X-4V2J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42308",
+      "all_identifiers": "BIT-PILLOW-2026-42308;CVE-2026-42308;GHSA-WJX4-4JCJ-G98J;PYSEC-2026-165",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJX4-4JCJ-G98J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42309",
+      "all_identifiers": "BIT-PILLOW-2026-42309;CVE-2026-42309;GHSA-5XMW-VC9V-4WF2;PYSEC-2026-2251",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5XMW-VC9V-4WF2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42310",
+      "all_identifiers": "BIT-PILLOW-2026-42310;CVE-2026-42310;GHSA-R73J-PQJ5-W3X7;PYSEC-2026-2874",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R73J-PQJ5-W3X7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-42311",
+      "all_identifiers": "BIT-PILLOW-2026-42311;CVE-2026-42311;GHSA-PWV6-VV43-88GR;PYSEC-2026-2252",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PWV6-VV43-88GR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54058",
+      "all_identifiers": "BIT-PILLOW-2026-54058;CVE-2026-54058;GHSA-62P4-GMF7-7G93;PYSEC-2026-3493",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-62P4-GMF7-7G93",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54059",
+      "all_identifiers": "BIT-PILLOW-2026-54059;CVE-2026-54059;GHSA-8V84-F9PQ-WR9X;PYSEC-2026-2253",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8V84-F9PQ-WR9X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-54060",
+      "all_identifiers": "BIT-PILLOW-2026-54060;CVE-2026-54060;GHSA-5X94-69RX-G8H2;PYSEC-2026-2254",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5X94-69RX-G8H2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55379",
+      "all_identifiers": "BIT-PILLOW-2026-55379;CVE-2026-55379;GHSA-45HQ-CXWH-F6VC;PYSEC-2026-2255",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-45HQ-CXWH-F6VC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55380",
+      "all_identifiers": "BIT-PILLOW-2026-55380;CVE-2026-55380;GHSA-PHJ9-MV4W-65PM;PYSEC-2026-2256",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PHJ9-MV4W-65PM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-55798",
+      "all_identifiers": "BIT-PILLOW-2026-55798;CVE-2026-55798;GHSA-4X4J-2G7C-83W6;PYSEC-2026-2257",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4X4J-2G7C-83W6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59197",
+      "all_identifiers": "BIT-PILLOW-2026-59197;CVE-2026-59197;GHSA-XJ96-63GP-2GMR;PYSEC-2026-3454",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJ96-63GP-2GMR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59198",
+      "all_identifiers": "BIT-PILLOW-2026-59198;CVE-2026-59198;GHSA-FJ7V-R99M-22GQ;PYSEC-2026-3494",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FJ7V-R99M-22GQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59199",
+      "all_identifiers": "BIT-PILLOW-2026-59199;CVE-2026-59199;GHSA-6R8X-57C9-28J4;PYSEC-2026-3451",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-6R8X-57C9-28J4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59200",
+      "all_identifiers": "BIT-PILLOW-2026-59200;CVE-2026-59200;GHSA-JJJ6-MW9F-P565;PYSEC-2026-3495",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JJJ6-MW9F-P565",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59203",
+      "all_identifiers": "BIT-PILLOW-2026-59203;CVE-2026-59203;GHSA-PG7V-JWJ7-P798;PYSEC-2026-3452",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PG7V-JWJ7-P798",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59204",
+      "all_identifiers": "BIT-PILLOW-2026-59204;CVE-2026-59204;GHSA-VJC4-5QP5-M44J;PYSEC-2026-3496",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VJC4-5QP5-M44J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59205",
+      "all_identifiers": "BIT-PILLOW-2026-59205;CVE-2026-59205;GHSA-9HW9-CH79-4VH6;PYSEC-2026-3453",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9HW9-CH79-4VH6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96636",
+      "all_identifiers": "BIT-PILLOW-2026-96636;CVE-2026-96636;GHSA-P8HX-V2P6-RP84;PYSEC-2026-4337",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P8HX-V2P6-RP84",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96637",
+      "all_identifiers": "BIT-PILLOW-2026-96637;CVE-2026-96637;GHSA-G842-9RC4-69PW;PYSEC-2026-4338",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G842-9RC4-69PW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96638",
+      "all_identifiers": "BIT-PILLOW-2026-96638;CVE-2026-96638;GHSA-24RC-8HJ2-V98C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-24RC-8HJ2-V98C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96639",
+      "all_identifiers": "BIT-PILLOW-2026-96639;CVE-2026-96639;GHSA-V9PV-5GC8-W2M6;PYSEC-2026-4339",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-V9PV-5GC8-W2M6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96640",
+      "all_identifiers": "BIT-PILLOW-2026-96640;CVE-2026-96640;GHSA-MRFP-P49P-3HF2",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MRFP-P49P-3HF2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96641",
+      "all_identifiers": "BIT-PILLOW-2026-96641;CVE-2026-96641;GHSA-4RM8-3HMM-39FG;PYSEC-2026-4340",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4RM8-3HMM-39FG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96642",
+      "all_identifiers": "BIT-PILLOW-2026-96642;CVE-2026-96642;GHSA-3J72-P6QG-6XP7;PYSEC-2026-4341",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3J72-P6QG-6XP7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96643",
+      "all_identifiers": "BIT-PILLOW-2026-96643;CVE-2026-96643;GHSA-G4QV-2JXX-769H;PYSEC-2026-4342",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G4QV-2JXX-769H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96644",
+      "all_identifiers": "BIT-PILLOW-2026-96644;CVE-2026-96644;GHSA-9V9V-9QVF-H2HJ;PYSEC-2026-4343",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9V9V-9QVF-H2HJ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-96778",
+      "all_identifiers": "BIT-PILLOW-2026-96778;CVE-2026-96778;GHSA-G7CR-3P24-7WF7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G7CR-3P24-7WF7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pillow",
+      "installed_version": "12.1.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-78G4-XQWV-Q3G8",
+      "all_identifiers": "GHSA-78G4-XQWV-Q3G8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-78G4-XQWV-Q3G8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pyarrow",
+      "installed_version": "23.0.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25087",
+      "all_identifiers": "CVE-2026-25087;GHSA-RGXP-2HWP-JWGG;PYSEC-2026-113",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RGXP-2HWP-JWGG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pygments",
+      "installed_version": "2.19.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-4539",
+      "all_identifiers": "CVE-2026-4539;GHSA-5239-WWWM-4PMQ;PYSEC-2026-2987",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5239-WWWM-4PMQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "pytorch-lightning",
+      "installed_version": "2.6.1",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-58659",
+      "all_identifiers": "CVE-2026-58659;GHSA-QQMF-GPG7-G8GW;PYSEC-2026-3624;PYSEC-2026-3967",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QQMF-GPG7-G8GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "requests",
+      "installed_version": "2.32.5",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-25645",
+      "all_identifiers": "CVE-2026-25645;GHSA-GC5V-M9X4-R6X2;PYSEC-2026-2275",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GC5V-M9X4-R6X2",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "80.10.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-59890",
+      "all_identifiers": "BIT-SETUPTOOLS-2026-59890;CVE-2026-59890;GHSA-H35F-9H28-MQ5C;PYSEC-2026-3447",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-H35F-9H28-MQ5C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "setuptools",
+      "installed_version": "80.10.2",
+      "ecosystem": "pypi",
+      "vulnerability_id": "GHSA-XMJ3-9GF7-H52W",
+      "all_identifiers": "GHSA-XMJ3-9GF7-H52W",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XMJ3-9GF7-H52W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "torch",
+      "installed_version": "2.10.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2025-3000",
+      "all_identifiers": "BIT-PYTORCH-2025-3000;CVE-2025-3000;GHSA-RRMF-RVHW-RF47;PYSEC-2025-194",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RRMF-RVHW-RF47",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "torch",
+      "installed_version": "2.10.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-4538",
+      "all_identifiers": "BIT-PYTORCH-2026-4538;CVE-2026-4538;PYSEC-2026-139",
+      "detected_by": [
+        "osv"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Не найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4538",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-103261",
+      "all_identifiers": "CVE-2026-103261;GHSA-3HV7-MJH2-FV65",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3HV7-MJH2-FV65",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-103262",
+      "all_identifiers": "CVE-2026-103262;GHSA-CHX6-46F5-W4VP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CHX6-46F5-W4VP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-103263",
+      "all_identifiers": "CVE-2026-103263;GHSA-C2M8-H5V5-343R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-C2M8-H5V5-343R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-115927",
+      "all_identifiers": "CVE-2026-115927;GHSA-R4J5-9XPP-3985",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R4J5-9XPP-3985",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-116577",
+      "all_identifiers": "CVE-2026-116577;GHSA-PCG2-G6CJ-Q92C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PCG2-G6CJ-Q92C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-116578",
+      "all_identifiers": "CVE-2026-116578;GHSA-PW9P-V7R6-GX4P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PW9P-V7R6-GX4P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-31958",
+      "all_identifiers": "CVE-2026-31958;GHSA-QJXF-F2MG-C6MC;PYSEC-2026-140",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QJXF-F2MG-C6MC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-35536",
+      "all_identifiers": "CVE-2026-35536;GHSA-78CV-MQJ4-43F7;GHSA-FQWM-6JPJ-5WXC;PYSEC-2026-2287",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-78CV-MQJ4-43F7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-49853",
+      "all_identifiers": "CVE-2026-49853;GHSA-3X9G-8VMP-WQVF;PYSEC-2026-3387",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3X9G-8VMP-WQVF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-49854",
+      "all_identifiers": "CVE-2026-49854;GHSA-CX3H-4QPV-8HC9;PYSEC-2026-3388",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-CX3H-4QPV-8HC9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-49855",
+      "all_identifiers": "CVE-2026-49855;GHSA-MGF9-4VPG-HJ56;PYSEC-2026-3389",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MGF9-4VPG-HJ56",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-82397",
+      "all_identifiers": "CVE-2026-82397;GHSA-MPF4-983Q-P7J4;PYSEC-2026-3928",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MPF4-983Q-P7J4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-91990",
+      "all_identifiers": "CVE-2026-91990;GHSA-8423-8FGW-73VQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8423-8FGW-73VQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "tornado",
+      "installed_version": "6.5.4",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-91992",
+      "all_identifiers": "CVE-2026-91992;GHSA-PW6J-QG29-8W7F",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PW6J-QG29-8W7F",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "transformers",
+      "installed_version": "5.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-4372",
+      "all_identifiers": "CVE-2026-4372;GHSA-29PF-2H5F-8G72;PYSEC-2026-2289",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-29PF-2H5F-8G72",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "transformers",
+      "installed_version": "5.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-5241",
+      "all_identifiers": "CVE-2026-5241;GHSA-FGCW-684Q-JJ6R;PYSEC-2026-2290",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FGCW-684Q-JJ6R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "transformers",
+      "installed_version": "5.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-80047",
+      "all_identifiers": "CVE-2026-80047;GHSA-X9R9-C232-4Q39;PYSEC-2026-4174",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-X9R9-C232-4Q39",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "transformers",
+      "installed_version": "5.2.0",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-9856",
+      "all_identifiers": "CVE-2026-9856;GHSA-XRQW-3RRV-VX5W;PYSEC-2026-3929",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XRQW-3RRV-VX5W",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "2.6.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44431",
+      "all_identifiers": "CVE-2026-44431;GHSA-QCCP-GFCP-XXVC;PYSEC-2026-141",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QCCP-GFCP-XXVC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "2.6.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-44432",
+      "all_identifiers": "CVE-2026-44432;GHSA-MF9V-MFXR-J63J;PYSEC-2026-142",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MF9V-MFXR-J63J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "2.6.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97687",
+      "all_identifiers": "CVE-2026-97687;GHSA-8988-9CW3-XX77;PYSEC-2026-4175",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8988-9CW3-XX77",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "2.6.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97688",
+      "all_identifiers": "CVE-2026-97688;GHSA-GH4C-6FX4-QH6G;PYSEC-2026-4176",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GH4C-6FX4-QH6G",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "urllib3",
+      "installed_version": "2.6.3",
+      "ecosystem": "pypi",
+      "vulnerability_id": "CVE-2026-97689",
+      "all_identifiers": "CVE-2026-97689;GHSA-VXQ7-64XX-V4GW;PYSEC-2026-4177",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VXQ7-64XX-V4GW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "grype_source": "https://github.com/chandar-lab/CoPeP/blob/7cceddc3a08781b23d852b8bb4bfe047097698f2/uv.lock",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}

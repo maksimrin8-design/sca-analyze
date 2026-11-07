@@ -1,0 +1,1402 @@
+{
+  "project_id": "P022",
+  "project": "grafana",
+  "scanner": "grype",
+  "source_run": "https://github.com/maksimrin8-design/sca-analyze/actions/runs/42363667019",
+  "scan_status": "ok",
+  "count": 74,
+  "normalized_findings": [
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100347",
+      "all_identifiers": "CVE-2026-100347;GHSA-FH4F-47MF-F2GJ",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FH4F-47MF-F2GJ",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100348",
+      "all_identifiers": "CVE-2026-100348;GHSA-MH7X-F8WQ-4JHX",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MH7X-F8WQ-4JHX",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100349",
+      "all_identifiers": "CVE-2026-100349;GHSA-74VM-87HJ-R66F",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-74VM-87HJ-R66F",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100352",
+      "all_identifiers": "CVE-2026-100352;GHSA-RJ39-CV6W-8WV7",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RJ39-CV6W-8WV7",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100353",
+      "all_identifiers": "CVE-2026-100353;GHSA-VRCC-3CH7-HPPW",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VRCC-3CH7-HPPW",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100354",
+      "all_identifiers": "CVE-2026-100354;GHSA-G8CF-RCJF-C8CF",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8CF-RCJF-C8CF",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-73502",
+      "all_identifiers": "CVE-2026-73502;GHSA-JPCW-4WR7-C3VQ",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-JPCW-4WR7-C3VQ",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-76905",
+      "all_identifiers": "CVE-2026-76905;GHSA-MMFR-PMJX-HW9W",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MMFR-PMJX-HW9W",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-77354",
+      "all_identifiers": "CVE-2026-77354;GHSA-XHJ3-7XW9-VR34",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XHJ3-7XW9-VR34",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-97394",
+      "all_identifiers": "CVE-2026-97394;GHSA-P6WJ-QRR4-PGH5",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P6WJ-QRR4-PGH5",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.139.0",
+      "ecosystem": "go",
+      "vulnerability_id": "GHSA-R277-6W6Q-XMQW",
+      "all_identifiers": "GHSA-R277-6W6Q-XMQW",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R277-6W6Q-XMQW",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.146.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100351",
+      "all_identifiers": "CVE-2026-100351;GHSA-23VG-4CJM-66Q5;GO-2026-6769",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-23VG-4CJM-66Q5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.146.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100352",
+      "all_identifiers": "CVE-2026-100352;GHSA-RJ39-CV6W-8WV7;GO-2026-6795",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RJ39-CV6W-8WV7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.146.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100353",
+      "all_identifiers": "CVE-2026-100353;GHSA-VRCC-3CH7-HPPW;GO-2026-6800",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-VRCC-3CH7-HPPW",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/getkin/kin-openapi",
+      "installed_version": "0.146.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-100354",
+      "all_identifiers": "CVE-2026-100354;GHSA-G8CF-RCJF-C8CF;GO-2026-6785",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G8CF-RCJF-C8CF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/grafana/tempo",
+      "installed_version": "1.5.1-0.20260427112133-525d1bab07e0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-21728",
+      "all_identifiers": "CVE-2026-21728;GHSA-P4R4-XVRQ-GVMC;GO-2026-5528",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-P4R4-XVRQ-GVMC",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/grafana/tempo",
+      "installed_version": "1.5.1-0.20260427112133-525d1bab07e0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-28377",
+      "all_identifiers": "CVE-2026-28377;GHSA-FFQX-Q65F-36JF;GO-2026-5359",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FFQX-Q65F-36JF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/klauspost/compress",
+      "installed_version": "1.18.7",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-116591",
+      "all_identifiers": "CVE-2026-116591;GHSA-FPMH-FRQ8-7RJ8;GO-2026-6865",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FPMH-FRQ8-7RJ8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/devenv/docker/blocks/prometheus_high_card/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/devenv/docker/blocks/prometheus_utf8/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/devenv/docker/blocks/prometheus_high_card/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/devenv/docker/blocks/prometheus_utf8/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "github.com/klauspost/compress",
+      "installed_version": "1.19.1",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-116591",
+      "all_identifiers": "CVE-2026-116591;GHSA-FPMH-FRQ8-7RJ8;GO-2026-6865",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-FPMH-FRQ8-7RJ8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pkg/plugins/manager/testdata/test-app-with-backend/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "go.etcd.io/etcd/server/v3",
+      "installed_version": "3.7.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-73499",
+      "all_identifiers": "CVE-2026-73499;GHSA-XG4H-6GFC-H4M8;GO-2026-6114",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XG4H-6GFC-H4M8",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/advisor/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/alerting/notifications/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/plugins/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "installed_version": "0.58.0",
+      "ecosystem": "go",
+      "vulnerability_id": "GO-2026-5932",
+      "all_identifiers": "GO-2026-5932",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://osv.dev/vulnerability/GO-2026-5932",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/swagger/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/advisor/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/dashvalidator/go.mod",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/swagger/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/advisor/go.mod;https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/apps/alerting/notifications/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/image",
+      "installed_version": "0.42.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-46601",
+      "all_identifiers": "CVE-2026-46601;GO-2026-5061",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46601",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/image",
+      "installed_version": "0.42.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-46602",
+      "all_identifiers": "CVE-2026-46602;GO-2026-5062",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46602",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/image",
+      "installed_version": "0.42.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-46603",
+      "all_identifiers": "CVE-2026-46603;GO-2026-6222",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46603",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "golang.org/x/image",
+      "installed_version": "0.42.0",
+      "ecosystem": "go",
+      "vulnerability_id": "CVE-2026-46604",
+      "all_identifiers": "CVE-2026-46604;GO-2026-5066",
+      "detected_by": [
+        "grype"
+      ],
+      "osv_status": "Не найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46604",
+      "verified_evidence_url": "",
+      "osv_source": "",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/.citools/src/air/go.mod",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "@vitest/mocker",
+      "installed_version": "3.2.4",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-112949",
+      "all_identifiers": "CVE-2026-112949;GHSA-QXG6-89MG-RQV8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QXG6-89MG-RQV8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "@vitest/mocker",
+      "installed_version": "3.2.4",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84373",
+      "all_identifiers": "CVE-2026-84373;GHSA-82FW-GWWQ-J7X9",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-82FW-GWWQ-J7X9",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "@vitest/mocker",
+      "installed_version": "4.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-112949",
+      "all_identifiers": "CVE-2026-112949;GHSA-QXG6-89MG-RQV8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QXG6-89MG-RQV8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "@vitest/mocker",
+      "installed_version": "4.1.11",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-112950",
+      "all_identifiers": "CVE-2026-112950;GHSA-XP26-3454-MJGP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XP26-3454-MJGP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "body-parser",
+      "installed_version": "2.3.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-111181",
+      "all_identifiers": "CVE-2026-111181;GHSA-27R3-JXMH-P828",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-27R3-JXMH-P828",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "csv-parse",
+      "installed_version": "4.16.3",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85063",
+      "all_identifiers": "CVE-2026-85063;GHSA-8CW4-87C7-C6XX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8CW4-87C7-C6XX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "deepmerge",
+      "installed_version": "4.3.1",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-93753",
+      "all_identifiers": "CVE-2026-93753;GHSA-GCQX-W48M-W2H4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-GCQX-W48M-W2H4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "esbuild",
+      "installed_version": "0.27.7",
+      "ecosystem": "npm",
+      "vulnerability_id": "GHSA-G7R4-M6W7-QQQR",
+      "all_identifiers": "GHSA-G7R4-M6W7-QQQR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G7R4-M6W7-QQQR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "fast-uri",
+      "installed_version": "3.1.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110095",
+      "all_identifiers": "CVE-2026-110095;GHSA-XHQ7-XMQJ-769H",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XHQ7-XMQJ-769H",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "fast-uri",
+      "installed_version": "3.1.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110180",
+      "all_identifiers": "CVE-2026-110180;GHSA-WJR9-J795-JXCR",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WJR9-J795-JXCR",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "fast-uri",
+      "installed_version": "3.1.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110306",
+      "all_identifiers": "CVE-2026-110306;GHSA-W74X-V6F9-J3XG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W74X-V6F9-J3XG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "fast-uri",
+      "installed_version": "3.1.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-110725",
+      "all_identifiers": "CVE-2026-110725;GHSA-333X-W4R6-6CRP",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-333X-W4R6-6CRP",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "file-type",
+      "installed_version": "16.5.4",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-31808",
+      "all_identifiers": "CVE-2026-31808;GHSA-5V7R-6R5C-R473",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-5V7R-6R5C-R473",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "follow-redirects",
+      "installed_version": "1.16.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-111755",
+      "all_identifiers": "CVE-2026-111755;GHSA-8R9P-F939-6H3C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8R9P-F939-6H3C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "follow-redirects",
+      "installed_version": "1.16.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-111756",
+      "all_identifiers": "CVE-2026-111756;GHSA-Q3JH-WRC6-JGQ8",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-Q3JH-WRC6-JGQ8",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "follow-redirects",
+      "installed_version": "1.16.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-116689",
+      "all_identifiers": "CVE-2026-116689;GHSA-MRWP-F3Q8-3G9P",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MRWP-F3Q8-3G9P",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "glob",
+      "installed_version": "10.5.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118773",
+      "all_identifiers": "CVE-2026-118773;GHSA-3G3M-2FJR-6PW4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3G3M-2FJR-6PW4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "glob",
+      "installed_version": "11.1.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118773",
+      "all_identifiers": "CVE-2026-118773;GHSA-3G3M-2FJR-6PW4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3G3M-2FJR-6PW4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "glob",
+      "installed_version": "13.0.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118773",
+      "all_identifiers": "CVE-2026-118773;GHSA-3G3M-2FJR-6PW4",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3G3M-2FJR-6PW4",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "joi",
+      "installed_version": "17.13.8",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118772",
+      "all_identifiers": "CVE-2026-118772;GHSA-4528-X5FX-H6HG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4528-X5FX-H6HG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "joi",
+      "installed_version": "18.2.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118772",
+      "all_identifiers": "CVE-2026-118772;GHSA-4528-X5FX-H6HG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4528-X5FX-H6HG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "katex",
+      "installed_version": "0.16.47",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-103923",
+      "all_identifiers": "CVE-2026-103923;GHSA-238P-PMPM-9MQ7",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-238P-PMPM-9MQ7",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "10.2.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118764",
+      "all_identifiers": "CVE-2026-118764;GHSA-G3HV-75WG-M249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3HV-75WG-M249",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "10.2.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118764",
+      "all_identifiers": "CVE-2026-118764;GHSA-G3HV-75WG-M249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3HV-75WG-M249",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "minimatch",
+      "installed_version": "9.0.9",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-118764",
+      "all_identifiers": "CVE-2026-118764;GHSA-G3HV-75WG-M249",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-G3HV-75WG-M249",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "postcss-selector-parser",
+      "installed_version": "6.1.4",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-104844",
+      "all_identifiers": "CVE-2026-104844;GHSA-RJ75-HQRM-R3GF",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RJ75-HQRM-R3GF",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "react-router",
+      "installed_version": "6.30.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-53666",
+      "all_identifiers": "CVE-2026-53666;GHSA-337J-9HXR-RHXG",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-337J-9HXR-RHXG",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "react-router",
+      "installed_version": "6.30.6",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-53669",
+      "all_identifiers": "CVE-2026-53669;GHSA-WRJC-X8RR-H8H6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-WRJC-X8RR-H8H6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "serialize-javascript",
+      "installed_version": "7.0.5",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-115754",
+      "all_identifiers": "CVE-2026-115754;CVE-2026-115897;GHSA-M5MM-P8H7-M29V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-M5MM-P8H7-M29V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109383",
+      "all_identifiers": "CVE-2026-109383;GHSA-2M5V-PCH6-74HX",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2M5V-PCH6-74HX",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109829",
+      "all_identifiers": "CVE-2026-109829;GHSA-4W7W-5XRC-9H26",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4W7W-5XRC-9H26",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109841",
+      "all_identifiers": "CVE-2026-109841;GHSA-F72V-6W45-Q472",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-F72V-6W45-Q472",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109869",
+      "all_identifiers": "CVE-2026-109869;GHSA-XJJ6-F33Q-929C",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-XJJ6-F33Q-929C",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109924",
+      "all_identifiers": "CVE-2026-109924;GHSA-4QV8-2P9J-2685",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-4QV8-2P9J-2685",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-109932",
+      "all_identifiers": "CVE-2026-109932;GHSA-9FM3-97PX-RJF6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-9FM3-97PX-RJF6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-18149",
+      "all_identifiers": "CVE-2026-18149;GHSA-PMJH-FQ2X-6V4X",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-PMJH-FQ2X-6V4X",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-18540",
+      "all_identifiers": "CVE-2026-18540;GHSA-R53P-7PC4-XJ5R",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-R53P-7PC4-XJ5R",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-19534",
+      "all_identifiers": "CVE-2026-19534;GHSA-RFGV-XXQX-MFG5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RFGV-XXQX-MFG5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84890",
+      "all_identifiers": "CVE-2026-84890;GHSA-3XPG-4RPP-HHHM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3XPG-4RPP-HHHM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84933",
+      "all_identifiers": "CVE-2026-84933;GHSA-2JFJ-6HJV-FM6J",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2JFJ-6HJV-FM6J",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84947",
+      "all_identifiers": "CVE-2026-84947;GHSA-2GQQ-GQF2-X968",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-2GQQ-GQF2-X968",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-84961",
+      "all_identifiers": "CVE-2026-84961;GHSA-W293-VG96-WGC3",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W293-VG96-WGC3",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85008",
+      "all_identifiers": "CVE-2026-85008;GHSA-8436-99HF-9MMV",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-8436-99HF-9MMV",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85014",
+      "all_identifiers": "CVE-2026-85014;GHSA-RX4F-C7P8-82VQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-RX4F-C7P8-82VQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-85024",
+      "all_identifiers": "CVE-2026-85024;GHSA-3WWX-PV8P-Q78V",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-3WWX-PV8P-Q78V",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-87018",
+      "all_identifiers": "CVE-2026-87018;GHSA-QRXM-FQHP-JWVM",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-QRXM-FQHP-JWVM",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "undici",
+      "installed_version": "7.29.0",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-87029",
+      "all_identifiers": "CVE-2026-87029;GHSA-55WC-3PG8-JFW6",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-55WC-3PG8-JFW6",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "uuid",
+      "installed_version": "8.3.2",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2026-41907",
+      "all_identifiers": "CVE-2026-41907;CVE-2026-41988;GHSA-W5HQ-G745-H8PQ",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-W5HQ-G745-H8PQ",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    },
+    {
+      "package": "zod",
+      "installed_version": "3.25.76",
+      "ecosystem": "npm",
+      "vulnerability_id": "CVE-2023-54404",
+      "all_identifiers": "CVE-2023-54404;GHSA-MRHX-C7XC-M3W5",
+      "detected_by": [
+        "osv",
+        "grype"
+      ],
+      "osv_status": "Найдено",
+      "grype_status": "Найдено",
+      "reference_status": "provisional_scanner_union",
+      "advisory_url": "https://github.com/advisories/GHSA-MRHX-C7XC-M3W5",
+      "verified_evidence_url": "",
+      "osv_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "grype_source": "https://github.com/grafana/grafana/blob/2548988415a97215f3df967d5eb305f88774eeca/pnpm-lock.yaml",
+      "notes": "Требуется независимая проверка пакета, версии и advisory; находки сканеров не являются эталоном."
+    }
+  ],
+  "raw_json": "result.json",
+  "note": "Original scanner JSON is in result.json; normalized CVE/GHSA aliases are grouped in findings.json"
+}
