@@ -252,13 +252,28 @@ def main():
         scans = {tool: scan_info(root, tool) if root is not None else {"state": "missing_artifact", "detail": "Нет артефакта проекта", "findings": []} for tool in SCANNERS}
         statuses = {tool: Counter() for tool in SCANNERS}
         for x in truth.get(project_id, []):
-            row = {"project_id": project_id, "project": project["name"], "package": x["package"], "version": x["version"], "ecosystem": x.get("ecosystem", ""), "vulnerability_ids": x["vulnerability_ids"], "evidence_url": x.get("evidence_url", "")}
+            row = {"project_id": project_id, "project": project["name"], "package": x["package"], "version": x["version"], "ecosystem": x.get("ecosystem", ""), "vulnerability_ids": x["vulnerability_ids"], "evidence_url": x.get("evidence_url", ""), "reference_status": "verified"}
             for tool in SCANNERS:
                 result, note = assess(x, scans[tool]["findings"], scans[tool]["state"])
                 row[f"{tool}_status"] = result
                 row[f"{tool}_comment"] = note
                 statuses[tool][result] += 1
             reference_rows.append(row)
+        if not truth.get(project_id):
+            reference_rows.append({
+                "project_id": project_id,
+                "project": project["name"],
+                "package": "",
+                "version": "",
+                "ecosystem": "",
+                "vulnerability_ids": "",
+                "reference_status": "not_yet_adjudicated",
+                "evidence_url": "",
+                "osv_status": "Не оценивалось",
+                "osv_comment": "Эталон не подтверждён; состояние отчёта: " + scans["osv"]["state"],
+                "grype_status": "Не оценивалось",
+                "grype_comment": "Эталон не подтверждён; состояние отчёта: " + scans["grype"]["state"],
+            })
         active = all(scans[t]["state"] == "ok" for t in SCANNERS)
         combos = disparities(scans["osv"]["findings"], scans["grype"]["findings"]) if active else []
         count_by_type = Counter()
@@ -289,23 +304,36 @@ def main():
     ]:
         metric_rows.append({"metric": name, "value": value, "note": note})
 
-    emit_csv(out / "01-reference-comparison.csv", list(reference_rows[0]) if reference_rows else ["project_id", "project", "package", "version", "ecosystem", "vulnerability_ids", "osv_status", "osv_comment", "grype_status", "grype_comment"], reference_rows)
-    emit_csv(out / "02-project-summary.csv", list(project_rows[0]) if project_rows else ["project_id"], project_rows)
-    emit_csv(out / "03-scanner-differences.csv", list(difference_rows[0]) if difference_rows else ["project_id", "project", "package", "version", "ecosystem", "vulnerability_id", "all_ids", "presence", "status", "note"], difference_rows)
-    emit_csv(out / "04-benchmark-metrics.csv", ["metric", "value", "note"], metric_rows)
+    # One final SCA comparison table (CSV + Markdown representations).
+    columns = [
+        "project_id", "project", "package", "version", "ecosystem",
+        "vulnerability_ids", "reference_status", "evidence_url",
+        "osv_status", "osv_comment", "grype_status", "grype_comment",
+    ]
+    emit_csv(out / "sca-comparison.csv", columns, reference_rows)
+    concise = []
+    for r in reference_rows:
+        expected = (
+            f'{r["package"]}@{r["version"]} ({r["vulnerability_ids"]})'
+            if r["reference_status"] == "verified"
+            else "Эталон не подготовлен (не означает, что уязвимостей нет)"
+        )
+        concise.append({
+            "Проект": f'{r["project_id"]}: {r["project"]}',
+            "Эталонная уязвимость": expected,
+            "OSV-Scanner": r["osv_status"] + ". " + r["osv_comment"],
+            "Grype": r["grype_status"] + ". " + r["grype_comment"],
+        })
+    emit_md(
+        out / "sca-comparison.md",
+        "Сравнительная таблица SCA: OSV-Scanner и Grype",
+        "Каждая подтверждённая уязвимость — отдельная строка. "
+        "Проекты без проверенного эталона также перечислены, но не оцениваются. "
+        "Пустой эталон не означает отсутствия уязвимостей.",
+        ["Проект", "Эталонная уязвимость", "OSV-Scanner", "Grype"],
+        concise,
+    )
 
-    concise = [{"Проект": r["project"], "Эталон": f'{r["package"]}@{r["version"]} ({r["vulnerability_ids"]})', "OSV-Scanner": r["osv_status"] + ": " + r["osv_comment"], "Grype": r["grype_status"] + ": " + r["grype_comment"]} for r in reference_rows]
-    emit_md(out / "01-reference-comparison.md", "1. Проверка по независимому эталону", "Учитываются только `status=verified`. Пустой эталон не означает отсутствия уязвимостей.", ["Проект", "Эталон", "OSV-Scanner", "Grype"], concise)
-    summary = [{"Проект": r["project"], "Эталон": r["verified_reference"], "OSV": f'{r["osv_scan"]} / {r["osv_vulns"]}', "Grype": f'{r["grype_scan"]} / {r["grype_vulns"]}', "Общие": r["both"], "Только OSV": r["only_osv"], "Только Grype": r["only_grype"], "Примечание": r["comment"]} for r in project_rows]
-    emit_md(out / "02-project-summary.md", "2. Покрытие и результаты по 30 проектам", "Числа относятся к *уникальным связкам пакет+версия+advisory*, не к доказанным ошибкам. `ok` = отчёт пригоден, даже если найдены уязвимости.", list(summary[0]) if summary else ["Проект"], summary)
-    disp = [{"Проект": r["project"], "Компонент": r["package"] + "@" + r["version"], "Уязвимость": r["vulnerability_id"], "Найдено": r["presence"], "Оговорка": r["note"]} for r in difference_rows]
-    emit_md(out / "03-scanner-differences.md", "3. Расхождения OSV и Grype", "Включены все наблюдения инструментов, даже не попавшие в эталон. `Только OSV`/`Только Grype` НЕ эквивалентно ложноположительности второй стороны.", ["Проект", "Компонент", "Уязвимость", "Найдено", "Оговорка"], disp)
-    m = [{"Показатель": r["metric"], "Значение": r["value"], "Примечание": r["note"]} for r in metric_rows]
-    emit_md(out / "04-benchmark-metrics.md", "4. Сводные метрики эксперимента", "Нельзя считать полноту/precision по 30 проектам, пока независимый Ground Truth не проверен. Данные со сканеров не превращаются в эталон автоматически.", ["Показатель", "Значение", "Примечание"], m)
-
-    # Backward-compatible outputs used by existing README and downstream consumers.
-    (out / "sca-comparison.csv").write_bytes((out / "01-reference-comparison.csv").read_bytes())
-    (out / "sca-comparison.md").write_bytes((out / "01-reference-comparison.md").read_bytes())
     (out / "evidence-index.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Projects: {counts['total']}; valid paired scans: {counts['complete']}; verified rows: {counts['reference_rows']}; discrepancies: {len(difference_rows)}")
 
